@@ -1,0 +1,459 @@
+{
+ "spec": "sidon-probe/0.1",
+ "question": "一个常见的启发式（贪心），在验证免费的富矿上，能不能通过阳性对照与平凡解对照",
+ "seed": 20260811,
+ "n_range": [
+  6,
+  30
+ ],
+ "positive_control": {
+  "definition": "阳性对照 = 穷举算出的已知最优。搜索器连它都找不到，它报的任何「新纪录」都不可信",
+  "recovered": 15,
+  "total": 25,
+  "rate": 0.6
+ },
+ "trivial_baseline": {
+  "definition": "平凡解 = 随机重启贪心 300 次（不是随机取子集——那是稻草人）",
+  "greedy_wins": 0,
+  "ties": 15,
+  "greedy_loses": 10
+ },
+ "rows": [
+  {
+   "n": 6,
+   "exact": 3,
+   "exact_set": [
+    1,
+    2,
+    4
+   ],
+   "greedy": 3,
+   "greedy_valid": true,
+   "random": 3,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 7,
+   "exact": 4,
+   "exact_set": [
+    1,
+    2,
+    5,
+    7
+   ],
+   "greedy": 3,
+   "greedy_valid": true,
+   "random": 4,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 8,
+   "exact": 4,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8
+   ],
+   "greedy": 4,
+   "greedy_valid": true,
+   "random": 4,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 9,
+   "exact": 4,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8
+   ],
+   "greedy": 4,
+   "greedy_valid": true,
+   "random": 4,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 10,
+   "exact": 4,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8
+   ],
+   "greedy": 4,
+   "greedy_valid": true,
+   "random": 4,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 11,
+   "exact": 4,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8
+   ],
+   "greedy": 4,
+   "greedy_valid": true,
+   "random": 4,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 12,
+   "exact": 5,
+   "exact_set": [
+    1,
+    2,
+    5,
+    10,
+    12
+   ],
+   "greedy": 4,
+   "greedy_valid": true,
+   "random": 5,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 13,
+   "exact": 5,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13
+   ],
+   "greedy": 5,
+   "greedy_valid": true,
+   "random": 5,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 14,
+   "exact": 5,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13
+   ],
+   "greedy": 5,
+   "greedy_valid": true,
+   "random": 5,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 15,
+   "exact": 5,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13
+   ],
+   "greedy": 5,
+   "greedy_valid": true,
+   "random": 5,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 16,
+   "exact": 5,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13
+   ],
+   "greedy": 5,
+   "greedy_valid": true,
+   "random": 5,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 17,
+   "exact": 5,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13
+   ],
+   "greedy": 5,
+   "greedy_valid": true,
+   "random": 5,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 18,
+   "exact": 6,
+   "exact_set": [
+    1,
+    2,
+    5,
+    11,
+    13,
+    18
+   ],
+   "greedy": 5,
+   "greedy_valid": true,
+   "random": 6,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 19,
+   "exact": 6,
+   "exact_set": [
+    1,
+    2,
+    4,
+    9,
+    13,
+    19
+   ],
+   "greedy": 5,
+   "greedy_valid": true,
+   "random": 6,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 20,
+   "exact": 6,
+   "exact_set": [
+    1,
+    2,
+    4,
+    9,
+    13,
+    19
+   ],
+   "greedy": 5,
+   "greedy_valid": true,
+   "random": 6,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 21,
+   "exact": 6,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    21
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 6,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 22,
+   "exact": 6,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    21
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 6,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 23,
+   "exact": 6,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    21
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 6,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 24,
+   "exact": 6,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    21
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 6,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 25,
+   "exact": 6,
+   "exact_set": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    21
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 6,
+   "random_valid": true,
+   "greedy_recovers_optimum": true,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 26,
+   "exact": 7,
+   "exact_set": [
+    1,
+    2,
+    5,
+    11,
+    19,
+    24,
+    26
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 7,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 27,
+   "exact": 7,
+   "exact_set": [
+    1,
+    2,
+    5,
+    11,
+    19,
+    24,
+    26
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 7,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 28,
+   "exact": 7,
+   "exact_set": [
+    1,
+    2,
+    4,
+    9,
+    18,
+    22,
+    28
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 7,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 29,
+   "exact": 7,
+   "exact_set": [
+    1,
+    2,
+    4,
+    9,
+    13,
+    23,
+    29
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 7,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  },
+  {
+   "n": 30,
+   "exact": 7,
+   "exact_set": [
+    1,
+    2,
+    4,
+    9,
+    13,
+    23,
+    29
+   ],
+   "greedy": 6,
+   "greedy_valid": true,
+   "random": 7,
+   "random_valid": true,
+   "greedy_recovers_optimum": false,
+   "greedy_beats_random": false
+  }
+ ]
+}

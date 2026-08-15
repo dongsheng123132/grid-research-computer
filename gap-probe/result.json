@@ -1,0 +1,534 @@
+{
+  "palette": [
+    "Fe",
+    "Co",
+    "Ni",
+    "Mn",
+    "Cr",
+    "Ti",
+    "V",
+    "Al",
+    "Cu",
+    "Zn",
+    "Mg",
+    "Sn"
+  ],
+  "queried": {
+    "binaries": 66,
+    "ternaries": 220
+  },
+  "coverage": {
+    "attempted": 286,
+    "ok": 286,
+    "failed": 0,
+    "cached": 0
+  },
+  "verdict": {
+    "holes": 50,
+    "ternaryAlreadyFilled": 63,
+    "rejectedBecauseAnEdgeIsAlsoEmpty": 107,
+    "unresolvedDueToQueryFailure": 0
+  },
+  "holes": [
+    {
+      "system": "Fe-Ni-Sn",
+      "edges": {
+        "Fe-Ni": 5,
+        "Fe-Sn": 5,
+        "Ni-Sn": 11
+      },
+      "edgeMin": 5,
+      "edgeSum": 21
+    },
+    {
+      "system": "Fe-Cr-Ti",
+      "edges": {
+        "Fe-Cr": 6,
+        "Fe-Ti": 5,
+        "Cr-Ti": 5
+      },
+      "edgeMin": 5,
+      "edgeSum": 16
+    },
+    {
+      "system": "Fe-Ni-Cr",
+      "edges": {
+        "Fe-Ni": 5,
+        "Fe-Cr": 6,
+        "Ni-Cr": 4
+      },
+      "edgeMin": 4,
+      "edgeSum": 15
+    },
+    {
+      "system": "Ni-Mn-Zn",
+      "edges": {
+        "Ni-Mn": 3,
+        "Ni-Zn": 7,
+        "Mn-Zn": 11
+      },
+      "edgeMin": 3,
+      "edgeSum": 21
+    },
+    {
+      "system": "Ni-Mn-Ti",
+      "edges": {
+        "Ni-Mn": 3,
+        "Ni-Ti": 14,
+        "Mn-Ti": 3
+      },
+      "edgeMin": 3,
+      "edgeSum": 20
+    },
+    {
+      "system": "Fe-Mn-Zn",
+      "edges": {
+        "Fe-Mn": 3,
+        "Fe-Zn": 5,
+        "Mn-Zn": 11
+      },
+      "edgeMin": 3,
+      "edgeSum": 19
+    },
+    {
+      "system": "Co-Ti-Zn",
+      "edges": {
+        "Co-Ti": 4,
+        "Co-Zn": 10,
+        "Ti-Zn": 3
+      },
+      "edgeMin": 3,
+      "edgeSum": 17
+    },
+    {
+      "system": "Mn-Ti-Zn",
+      "edges": {
+        "Mn-Ti": 3,
+        "Mn-Zn": 11,
+        "Ti-Zn": 3
+      },
+      "edgeMin": 3,
+      "edgeSum": 17
+    },
+    {
+      "system": "Mn-Ti-Al",
+      "edges": {
+        "Mn-Ti": 3,
+        "Mn-Al": 7,
+        "Ti-Al": 6
+      },
+      "edgeMin": 3,
+      "edgeSum": 16
+    },
+    {
+      "system": "Fe-Mn-Sn",
+      "edges": {
+        "Fe-Mn": 3,
+        "Fe-Sn": 5,
+        "Mn-Sn": 5
+      },
+      "edgeMin": 3,
+      "edgeSum": 13
+    },
+    {
+      "system": "Fe-Ti-Zn",
+      "edges": {
+        "Fe-Ti": 5,
+        "Fe-Zn": 5,
+        "Ti-Zn": 3
+      },
+      "edgeMin": 3,
+      "edgeSum": 13
+    },
+    {
+      "system": "Co-Cr-Ti",
+      "edges": {
+        "Co-Cr": 3,
+        "Co-Ti": 4,
+        "Cr-Ti": 5
+      },
+      "edgeMin": 3,
+      "edgeSum": 12
+    },
+    {
+      "system": "Co-Cr-Al",
+      "edges": {
+        "Co-Cr": 3,
+        "Co-Al": 3,
+        "Cr-Al": 6
+      },
+      "edgeMin": 3,
+      "edgeSum": 12
+    },
+    {
+      "system": "Mn-Ti-Sn",
+      "edges": {
+        "Mn-Ti": 3,
+        "Mn-Sn": 5,
+        "Ti-Sn": 4
+      },
+      "edgeMin": 3,
+      "edgeSum": 12
+    },
+    {
+      "system": "Fe-Mn-Ti",
+      "edges": {
+        "Fe-Mn": 3,
+        "Fe-Ti": 5,
+        "Mn-Ti": 3
+      },
+      "edgeMin": 3,
+      "edgeSum": 11
+    },
+    {
+      "system": "Co-Ti-V",
+      "edges": {
+        "Co-Ti": 4,
+        "Co-V": 3,
+        "Ti-V": 4
+      },
+      "edgeMin": 3,
+      "edgeSum": 11
+    },
+    {
+      "system": "Ti-V-Sn",
+      "edges": {
+        "Ti-V": 4,
+        "Ti-Sn": 4,
+        "V-Sn": 3
+      },
+      "edgeMin": 3,
+      "edgeSum": 11
+    },
+    {
+      "system": "Fe-Cu-Sn",
+      "edges": {
+        "Fe-Cu": 2,
+        "Fe-Sn": 5,
+        "Cu-Sn": 12
+      },
+      "edgeMin": 2,
+      "edgeSum": 19
+    },
+    {
+      "system": "Fe-Cu-Zn",
+      "edges": {
+        "Fe-Cu": 2,
+        "Fe-Zn": 5,
+        "Cu-Zn": 11
+      },
+      "edgeMin": 2,
+      "edgeSum": 18
+    },
+    {
+      "system": "Ni-V-Zn",
+      "edges": {
+        "Ni-V": 9,
+        "Ni-Zn": 7,
+        "V-Zn": 2
+      },
+      "edgeMin": 2,
+      "edgeSum": 18
+    },
+    {
+      "system": "Fe-Co-Zn",
+      "edges": {
+        "Fe-Co": 2,
+        "Fe-Zn": 5,
+        "Co-Zn": 10
+      },
+      "edgeMin": 2,
+      "edgeSum": 17
+    },
+    {
+      "system": "Fe-Co-Al",
+      "edges": {
+        "Fe-Co": 2,
+        "Fe-Al": 10,
+        "Co-Al": 3
+      },
+      "edgeMin": 2,
+      "edgeSum": 15
+    },
+    {
+      "system": "Co-V-Zn",
+      "edges": {
+        "Co-V": 3,
+        "Co-Zn": 10,
+        "V-Zn": 2
+      },
+      "edgeMin": 2,
+      "edgeSum": 15
+    },
+    {
+      "system": "Fe-Co-Cr",
+      "edges": {
+        "Fe-Co": 2,
+        "Fe-Cr": 6,
+        "Co-Cr": 3
+      },
+      "edgeMin": 2,
+      "edgeSum": 11
+    },
+    {
+      "system": "Fe-Co-Ti",
+      "edges": {
+        "Fe-Co": 2,
+        "Fe-Ti": 5,
+        "Co-Ti": 4
+      },
+      "edgeMin": 2,
+      "edgeSum": 11
+    },
+    {
+      "system": "Fe-V-Zn",
+      "edges": {
+        "Fe-V": 3,
+        "Fe-Zn": 5,
+        "V-Zn": 2
+      },
+      "edgeMin": 2,
+      "edgeSum": 10
+    },
+    {
+      "system": "Ti-V-Zn",
+      "edges": {
+        "Ti-V": 4,
+        "Ti-Zn": 3,
+        "V-Zn": 2
+      },
+      "edgeMin": 2,
+      "edgeSum": 9
+    },
+    {
+      "system": "Cu-Zn-Sn",
+      "edges": {
+        "Cu-Zn": 11,
+        "Cu-Sn": 12,
+        "Zn-Sn": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 24
+    },
+    {
+      "system": "Ni-Cr-Sn",
+      "edges": {
+        "Ni-Cr": 4,
+        "Ni-Sn": 11,
+        "Cr-Sn": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 16
+    },
+    {
+      "system": "Fe-V-Al",
+      "edges": {
+        "Fe-V": 3,
+        "Fe-Al": 10,
+        "V-Al": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 14
+    },
+    {
+      "system": "Mn-V-Zn",
+      "edges": {
+        "Mn-V": 1,
+        "Mn-Zn": 11,
+        "V-Zn": 2
+      },
+      "edgeMin": 1,
+      "edgeSum": 14
+    },
+    {
+      "system": "Ni-Mn-V",
+      "edges": {
+        "Ni-Mn": 3,
+        "Ni-V": 9,
+        "Mn-V": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 13
+    },
+    {
+      "system": "Fe-Cr-Sn",
+      "edges": {
+        "Fe-Cr": 6,
+        "Fe-Sn": 5,
+        "Cr-Sn": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 12
+    },
+    {
+      "system": "Zn-Mg-Sn",
+      "edges": {
+        "Zn-Mg": 8,
+        "Zn-Sn": 1,
+        "Mg-Sn": 3
+      },
+      "edgeMin": 1,
+      "edgeSum": 12
+    },
+    {
+      "system": "Fe-Zn-Sn",
+      "edges": {
+        "Fe-Zn": 5,
+        "Fe-Sn": 5,
+        "Zn-Sn": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 11
+    },
+    {
+      "system": "Co-Cr-Sn",
+      "edges": {
+        "Co-Cr": 3,
+        "Co-Sn": 7,
+        "Cr-Sn": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 11
+    },
+    {
+      "system": "Ni-V-Al",
+      "edges": {
+        "Ni-V": 9,
+        "Ni-Al": 1,
+        "V-Al": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 11
+    },
+    {
+      "system": "Ti-V-Al",
+      "edges": {
+        "Ti-V": 4,
+        "Ti-Al": 6,
+        "V-Al": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 11
+    },
+    {
+      "system": "Cr-Ti-Sn",
+      "edges": {
+        "Cr-Ti": 5,
+        "Cr-Sn": 1,
+        "Ti-Sn": 4
+      },
+      "edgeMin": 1,
+      "edgeSum": 10
+    },
+    {
+      "system": "Mn-V-Al",
+      "edges": {
+        "Mn-V": 1,
+        "Mn-Al": 7,
+        "V-Al": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 9
+    },
+    {
+      "system": "Mn-V-Sn",
+      "edges": {
+        "Mn-V": 1,
+        "Mn-Sn": 5,
+        "V-Sn": 3
+      },
+      "edgeMin": 1,
+      "edgeSum": 9
+    },
+    {
+      "system": "Fe-Ni-Cu",
+      "edges": {
+        "Fe-Ni": 5,
+        "Fe-Cu": 2,
+        "Ni-Cu": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 8
+    },
+    {
+      "system": "Co-Ni-Cr",
+      "edges": {
+        "Co-Ni": 1,
+        "Co-Cr": 3,
+        "Ni-Cr": 4
+      },
+      "edgeMin": 1,
+      "edgeSum": 8
+    },
+    {
+      "system": "Ti-Zn-Sn",
+      "edges": {
+        "Ti-Zn": 3,
+        "Ti-Sn": 4,
+        "Zn-Sn": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 8
+    },
+    {
+      "system": "Fe-Mn-V",
+      "edges": {
+        "Fe-Mn": 3,
+        "Fe-V": 3,
+        "Mn-V": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 7
+    },
+    {
+      "system": "Co-V-Al",
+      "edges": {
+        "Co-V": 3,
+        "Co-Al": 3,
+        "V-Al": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 7
+    },
+    {
+      "system": "Co-Al-Mg",
+      "edges": {
+        "Co-Al": 3,
+        "Co-Mg": 1,
+        "Al-Mg": 3
+      },
+      "edgeMin": 1,
+      "edgeSum": 7
+    },
+    {
+      "system": "Ni-Al-Mg",
+      "edges": {
+        "Ni-Al": 1,
+        "Ni-Mg": 2,
+        "Al-Mg": 3
+      },
+      "edgeMin": 1,
+      "edgeSum": 6
+    },
+    {
+      "system": "V-Zn-Sn",
+      "edges": {
+        "V-Zn": 2,
+        "V-Sn": 3,
+        "Zn-Sn": 1
+      },
+      "edgeMin": 1,
+      "edgeSum": 6
+    },
+    {
+      "system": "Ni-Al-Cu",
+      "edges": {
+        "Ni-Al": 1,
+        "Ni-Cu": 1,
+        "Al-Cu": 2
+      },
+      "edgeMin": 1,
+      "edgeSum": 4
+    }
+  ]
+}

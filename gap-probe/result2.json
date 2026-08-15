@@ -1,0 +1,415 @@
+{
+  "stage": "complete",
+  "theta": 0.995,
+  "cations": [
+    "Li",
+    "Na",
+    "Mg",
+    "Ca",
+    "Sr",
+    "Ba",
+    "Ti",
+    "V",
+    "Mn",
+    "Fe",
+    "Co",
+    "Ni",
+    "Cu",
+    "Zn",
+    "Al",
+    "Y"
+  ],
+  "thetas": [
+    0.995,
+    0.99,
+    0.95,
+    0.9,
+    0.8,
+    0.7
+  ],
+  "calibration": {
+    "positives": [
+      {
+        "sys": "Ba-Ti-O",
+        "why": "BaTiO₃ 钛酸钡，铁电陶瓷的教科书物质",
+        "atTheta": 22
+      },
+      {
+        "sys": "Sr-Ti-O",
+        "why": "SrTiO₃ 钛酸锶，氧化物电子学最常用衬底",
+        "atTheta": 5
+      },
+      {
+        "sys": "Li-Co-O",
+        "why": "LiCoO₂ 钴酸锂，锂电池正极",
+        "atTheta": 22
+      },
+      {
+        "sys": "Zn-Fe-O",
+        "why": "ZnFe₂O₄ 锌铁尖晶石",
+        "atTheta": 12
+      },
+      {
+        "sys": "La-Al-O",
+        "why": "LaAlO₃，LAO/STO 界面二维电子气",
+        "atTheta": 5
+      },
+      {
+        "sys": "Mg-Al-O",
+        "why": "MgAl₂O₄ 尖晶石本尊",
+        "atTheta": 37
+      },
+      {
+        "sys": "Ca-Ti-O",
+        "why": "CaTiO₃ 钙钛矿本尊（perovskite 一词的来源）",
+        "atTheta": 3
+      },
+      {
+        "sys": "Na-Nb-O",
+        "why": "NaNbO₃ 无铅压电",
+        "atTheta": 12
+      },
+      {
+        "sys": "Li-Mn-O",
+        "why": "LiMn₂O₄ 锰酸锂正极",
+        "atTheta": 120
+      },
+      {
+        "sys": "Y-Al-O",
+        "why": "YAG/YAlO₃ 激光晶体",
+        "atTheta": 5
+      }
+    ],
+    "negatives": [
+      {
+        "sys": "He-Ti-O",
+        "atTheta": 0
+      },
+      {
+        "sys": "Ne-Fe-O",
+        "atTheta": 0
+      },
+      {
+        "sys": "Ar-Al-O",
+        "atTheta": 0
+      }
+    ]
+  },
+  "coverage": {
+    "ok": 116,
+    "failed": 4,
+    "edgesAssumedNotQueried": 16
+  },
+  "verdict": {
+    "holes": 26,
+    "filled": 90,
+    "edgeEmpty": 0,
+    "unresolved": 4
+  },
+  "binaryOxide": {
+    "Li": 1,
+    "Na": 1,
+    "Mg": 1,
+    "Ca": 1,
+    "Sr": 1,
+    "Ba": 1,
+    "Ti": 1,
+    "V": 1,
+    "Mn": 1,
+    "Fe": 1,
+    "Co": 1,
+    "Ni": 1,
+    "Cu": 1,
+    "Zn": 1,
+    "Al": 1,
+    "Y": 1
+  },
+  "holes": [
+    {
+      "system": "Li-Na-O",
+      "edges": {
+        "Li-O": 1,
+        "Na-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 567,
+      "bestFraction": 90.3,
+      "bestFormula": "- Li2 Na21 O200 U24 -"
+    },
+    {
+      "system": "Li-Mg-O",
+      "edges": {
+        "Li-O": 1,
+        "Mg-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 403,
+      "bestFraction": 91.7,
+      "bestFormula": "- Li3 Mg2 Nb O6 -"
+    },
+    {
+      "system": "Li-Ca-O",
+      "edges": {
+        "Li-O": 1,
+        "Ca-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 307,
+      "bestFraction": 90.9,
+      "bestFormula": "- Ca3.15 Ir Li0.85 O6 -"
+    },
+    {
+      "system": "Li-Sr-O",
+      "edges": {
+        "Li-O": 1,
+        "Sr-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 65,
+      "bestFraction": 90.9,
+      "bestFormula": "- Ir Li O6 Sr3 -"
+    },
+    {
+      "system": "Li-Ba-O",
+      "edges": {
+        "Li-O": 1,
+        "Ba-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 98,
+      "bestFraction": 93.8,
+      "bestFormula": "- Ba4 Cu Li O10 -"
+    },
+    {
+      "system": "Na-Mg-O",
+      "edges": {
+        "Na-O": 1,
+        "Mg-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 1475,
+      "bestFraction": 87.5,
+      "bestFormula": "- Mg Na2 O4 Si -"
+    },
+    {
+      "system": "Na-Sr-O",
+      "edges": {
+        "Na-O": 1,
+        "Sr-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 308,
+      "bestFraction": 90.9,
+      "bestFormula": "- Na O6 Ru Sr3 -"
+    },
+    {
+      "system": "Na-Ba-O",
+      "edges": {
+        "Na-O": 1,
+        "Ba-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 380,
+      "bestFraction": 92.9,
+      "bestFormula": "- Au Ba4 Na O8 -"
+    },
+    {
+      "system": "Mg-Ca-O",
+      "edges": {
+        "Mg-O": 1,
+        "Ca-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 1763,
+      "bestFraction": 90.9,
+      "bestFormula": "- Ca3.34 Ir Mg0.66 O6 -"
+    },
+    {
+      "system": "Mg-Sr-O",
+      "edges": {
+        "Mg-O": 1,
+        "Sr-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 148,
+      "bestFraction": 90.9,
+      "bestFormula": "- Mg O6 Pt Sr3 -"
+    },
+    {
+      "system": "Mg-Ba-O",
+      "edges": {
+        "Mg-O": 1,
+        "Ba-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 260,
+      "bestFraction": 90,
+      "bestFormula": "- Ba2 Mg O6 U -"
+    },
+    {
+      "system": "Mg-Ni-O",
+      "edges": {
+        "Mg-O": 1,
+        "Ni-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 257,
+      "bestFraction": 89.7,
+      "bestFormula": "- Ge3 Mg5.467 Ni4.533 O16 -"
+    },
+    {
+      "system": "Mg-Zn-O",
+      "edges": {
+        "Mg-O": 1,
+        "Zn-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 477,
+      "bestFraction": 94.7,
+      "bestFormula": "- Mg2 Mn O14 Zn2 -"
+    },
+    {
+      "system": "Mg-Y-O",
+      "edges": {
+        "Mg-O": 1,
+        "Y-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 40,
+      "bestFraction": 96.7,
+      "bestFormula": "- Ca0.33 Mg O6 Y2.67 -"
+    },
+    {
+      "system": "Ca-Sr-O",
+      "edges": {
+        "Ca-O": 1,
+        "Sr-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 612,
+      "bestFraction": 97.1,
+      "bestFormula": "- Bi Ca3 O22 Sr8 -"
+    },
+    {
+      "system": "Ca-Ba-O",
+      "edges": {
+        "Ca-O": 1,
+        "Ba-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 503,
+      "bestFraction": 90,
+      "bestFormula": "- Ba2 Ca O6 W -"
+    },
+    {
+      "system": "Ca-Ni-O",
+      "edges": {
+        "Ca-O": 1,
+        "Ni-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 82,
+      "bestFraction": 90.9,
+      "bestFormula": "- Ca3.75 Ir Ni0.25 O6 -"
+    },
+    {
+      "system": "Ca-Zn-O",
+      "edges": {
+        "Ca-O": 1,
+        "Zn-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 270,
+      "bestFraction": 90.9,
+      "bestFormula": "- Ca3.5 Ir O6 Zn0.5 -"
+    },
+    {
+      "system": "Ca-Y-O",
+      "edges": {
+        "Ca-O": 1,
+        "Y-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 269,
+      "bestFraction": 95.2,
+      "bestFormula": "- Ba Ca2 O12 Y6 -"
+    },
+    {
+      "system": "Sr-Ba-O",
+      "edges": {
+        "Sr-O": 1,
+        "Ba-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 401,
+      "bestFraction": 90,
+      "bestFormula": "- Ba2 Ir O6 Sr -"
+    },
+    {
+      "system": "Co-Ni-O",
+      "edges": {
+        "Co-O": 1,
+        "Ni-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 215,
+      "bestFraction": 92.5,
+      "bestFormula": "- Co0.1545 Fe0.1545 Li0.08 Ni0.721 O2 -"
+    },
+    {
+      "system": "Co-Y-O",
+      "edges": {
+        "Co-O": 1,
+        "Y-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 87,
+      "bestFraction": 93.5,
+      "bestFormula": "- Co0.675 O3 Pt0.325 Y -"
+    },
+    {
+      "system": "Ni-Cu-O",
+      "edges": {
+        "Ni-O": 1,
+        "Cu-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 236,
+      "bestFraction": 91.7,
+      "bestFormula": "- Cu3 Ni2 O6 Sb -"
+    },
+    {
+      "system": "Ni-Y-O",
+      "edges": {
+        "Ni-O": 1,
+        "Y-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 56,
+      "bestFraction": 88.9,
+      "bestFormula": "- Ba Ni O5 Y2 -"
+    },
+    {
+      "system": "Cu-Zn-O",
+      "edges": {
+        "Cu-O": 1,
+        "Zn-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 256,
+      "bestFraction": 90,
+      "bestFormula": "- Cu5 O18 Te3 Zn4 -"
+    },
+    {
+      "system": "Zn-Y-O",
+      "edges": {
+        "Zn-O": 1,
+        "Y-O": 1
+      },
+      "edgeMin": 1,
+      "entriesSuperset": 33,
+      "bestFraction": 92,
+      "bestFormula": "- Ba2 O13 Y2 Zn8 -"
+    }
+  ]
+}

@@ -1,0 +1,1404 @@
+{
+  "coverage": [
+    {
+      "phrase": "absent from the ICSD",
+      "hits": 7,
+      "taken": 7
+    },
+    {
+      "phrase": "not present in the ICSD",
+      "hits": 63,
+      "taken": 25
+    },
+    {
+      "phrase": "not in the ICSD",
+      "hits": 24731,
+      "taken": 25
+    },
+    {
+      "phrase": "no ICSD entry",
+      "hits": 217,
+      "taken": 25
+    },
+    {
+      "phrase": "not reported in the ICSD",
+      "hits": 168,
+      "taken": 25
+    },
+    {
+      "phrase": "absent from the Materials Project",
+      "hits": 5,
+      "taken": 5
+    },
+    {
+      "phrase": "not been synthesized",
+      "hits": 259884,
+      "taken": 25
+    },
+    {
+      "phrase": "hitherto unreported",
+      "hits": 6136,
+      "taken": 25
+    },
+    {
+      "phrase": "not yet been reported experimentally",
+      "hits": 75,
+      "taken": 25
+    }
+  ],
+  "works": [
+    {
+      "doi": "10.1039/d1ee00442e",
+      "year": 2021,
+      "title": "Charting lattice thermal conductivity for inorganic crystals and discovering rare earth chalcogenides for thermoelectrics",
+      "phrases": [
+        "absent from the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1038/s41524-023-01114-4",
+      "year": 2023,
+      "title": "Predicting the synthesizability of crystalline inorganic materials from the data of known material compositions",
+      "phrases": [
+        "absent from the ICSD",
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1038/s41524-023-01193-3",
+      "year": 2024,
+      "title": "Candidate ferroelectrics via ab initio high-throughput screening of polar materials",
+      "phrases": [
+        "absent from the ICSD"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2006.11712",
+      "year": 2020,
+      "title": "Charting Lattice Thermal Conductivity of Inorganic Crystals",
+      "phrases": [
+        "absent from the ICSD"
+      ]
+    },
+    {
+      "doi": "10.21203/rs.3.rs-2574875/v1",
+      "year": 2023,
+      "title": "Predicting the Synthesizability of Crystalline Inorganic Materials from the Data of Known Material Compositions",
+      "phrases": [
+        "absent from the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "title": "Efficient Exploratory Synthesis of Quaternary Cesium Chlorides Guided by In Silico Predictions",
+      "phrases": [
+        "absent from the ICSD"
+      ]
+    },
+    {
+      "doi": "10.3390/cryst10040298",
+      "year": 2020,
+      "title": "Complex Disorder in Type-I Clathrates: Synthesis and Structural Characterization of A8GaxSn46−x (A = Rb, Cs; 6.9 &lt; x &lt; 7.5)",
+      "phrases": [
+        "absent from the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1007/978-3-642-04759-6_2",
+      "year": 2009,
+      "title": "Data Bases, the Base for Data Mining",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1107/s160057671900997x",
+      "year": 2019,
+      "title": "Recent developments in the Inorganic Crystal Structure Database: theoretical crystal structure data and related features",
+      "phrases": [
+        "not present in the ICSD",
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1107/s205225251700714x",
+      "year": 2017,
+      "title": "Classification of crystal structure using a convolutional neural network",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1107/s0108767307038081",
+      "year": 2007,
+      "title": "The introduction of structure types into the Inorganic Crystal Structure Database ICSD",
+      "phrases": [
+        "not present in the ICSD",
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevx.3.031002",
+      "year": 2013,
+      "title": "Two-Dimensional Materials from Data Filtering and<i>Ab Initio</i>Calculations",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevb.85.155208",
+      "year": 2012,
+      "title": "Accuracy of density functional theory in predicting formation energies of ternary oxides from binary oxides and its implication on phase stability",
+      "phrases": [
+        "not present in the ICSD",
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1038/s41524-020-00428-x",
+      "year": 2020,
+      "title": "High-throughput computational screening for two-dimensional magnetic materials based on experimental databases of three-dimensional compounds",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1038/s41467-019-13749-3",
+      "year": 2020,
+      "title": "A deep-learning technique for phase identification in multiphase inorganic compounds using synthetic XRD powder patterns",
+      "phrases": [
+        "not present in the ICSD",
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.chemmater.5b04013",
+      "year": 2015,
+      "title": "Computational and Experimental Investigations of Na-Ion Conduction in Cubic Na<sub>3</sub>PSe<sub>4</sub>",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1557/jmr.2016.80",
+      "year": 2016,
+      "title": "New opportunities for materials informatics: Resources and data mining techniques for uncovering hidden relationships",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1007/s12028-019-00777-6",
+      "year": 2019,
+      "title": "What Should a Clinician Do When Spreading Depolarizations are Observed in a Patient?",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.sleep.2021.10.023",
+      "year": 2021,
+      "title": "Sleep-wake misperception. A comprehensive analysis of a large sleep lab cohort",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1590/s1516-14392011005000035",
+      "year": 2011,
+      "title": "Effect of different precursors in the chemical synthesis of ZnO nanocrystals",
+      "phrases": [
+        "not present in the ICSD",
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1038/srep43179",
+      "year": 2017,
+      "title": "High-throughput search of ternary chalcogenides for p-type transparent electrodes",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.5935/1984-0063.20190080",
+      "year": 2019,
+      "title": "Nightmare frequency and nightmare distress: Socio-demographic and personality factors",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1002/advs.202206772",
+      "year": 2023,
+      "title": "High‐Throughput Design of Magnetocaloric Materials for Energy Applications: MM´X alloys",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1038/s41524-021-00536-2",
+      "year": 2021,
+      "title": "Analogical discovery of disordered perovskite oxides by crystal structure information hidden in unsupervised material fingerprints",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1021/jacs.1c13544",
+      "year": 2022,
+      "title": "Stable CsPbBr<sub>3</sub> Nanoclusters Feature a Disk-like Shape and a Distorted Orthorhombic Structure",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.mtadv.2020.100094",
+      "year": 2020,
+      "title": "Ca14AlBi11—a new Zintl phase from earth-abundant elements with a great potential for thermoelectric energy conversion",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.3390/met9060627",
+      "year": 2019,
+      "title": "Optimization of Quenching and Tempering Parameters for the Precipitation of M7C3 and MC Secondary Carbides and the Removal of the Austenite Retained in Vanadis 10 Tool Steel",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1002/lpor.202501047",
+      "year": 2025,
+      "title": "Multi–Mode Anti–Counterfeiting Using Pr <sup>3+</sup> , Ce <sup>3+</sup> and Er <sup>3+</sup> Codoped Mg <sub>3</sub> Y <sub>2</sub> Ge <sub>3</sub> O <sub>12</sub> Phosphor with Spatial and Temporal Luminescence Properties",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1038/s41597-023-02721-y",
+      "year": 2023,
+      "title": "3DSC - a dataset of superconductors including crystal structures",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1007/s10967-018-5757-9",
+      "year": 2018,
+      "title": "An overview of eight- and nine-coordinate N-donor solvated lanthanoid(III) and actinoid(III) ions",
+      "phrases": [
+        "not present in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1378/chest.14-0970",
+      "year": 2014,
+      "title": "International Classification of Sleep Disorders-Third Edition",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1107/s0108768102006948",
+      "year": 2002,
+      "title": "New developments in the Inorganic Crystal Structure Database (ICSD): accessibility in support of materials research and design",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1080/08893110410001664882",
+      "year": 2004,
+      "title": "The Inorganic Crystal Structure Database (ICSD)—Present and Future",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1038/npjcompumats.2015.10",
+      "year": 2015,
+      "title": "The Open Quantum Materials Database (OQMD): assessing the accuracy of DFT formation energies",
+      "phrases": [
+        "not in the ICSD",
+        "no ICSD entry",
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1192/bjp.171.4.382",
+      "year": 1997,
+      "title": "DSM–IV and ICSD–90 insomnia symptoms and sleep dissatisfaction",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.sleep.2009.07.008",
+      "year": 2009,
+      "title": "Epidemiological and clinical relevance of insomnia diagnosis algorithms according to the DSM-IV and the International Classification of Sleep Disorders (ICSD)",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1039/b409722j",
+      "year": 2004,
+      "title": "Interpenetrating metal–organic and inorganic 3D networks: a computer-aided systematic investigation. Part I. Analysis of the Cambridge structural database",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.jneumeth.2005.12.005",
+      "year": 2006,
+      "title": "Current-source density estimation based on inversion of electrostatic forward solution: Effects of finite extent of neuronal activity and conductivity discontinuities",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.jssc.2005.05.029",
+      "year": 2005,
+      "title": "Interpenetrating metal-organic and inorganic 3D networks: a computer-aided systematic investigation. Part II [1]. Analysis of the Inorganic Crystal Structure Database (ICSD)",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.resconrec.2004.06.002",
+      "year": 2004,
+      "title": "A model for integrated assessment of sustainable development",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1001/archgenpsychiatry.2011.64",
+      "year": 2011,
+      "title": "Testing the Reliability and Validity of DSM-IV-TR and ICSD-2 Insomnia Diagnoses",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.biopsych.2010.10.023",
+      "year": 2011,
+      "title": "Prevalence and Perceived Health Associated with Insomnia Based on DSM-IV-TR; International Statistical Classification of Diseases and Related Health Problems, Tenth Revision; and Research Diagnostic Criteria/International Classification of Sleep Disorders, Second Edition Criteria: Results from the America Insomnia Survey",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/s0921-3449(04)00120-x",
+      "year": 2005,
+      "title": "A model for integrated assessment of sustainable development",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.sleep.2014.10.018",
+      "year": 2015,
+      "title": "Cross-cultural and comparative epidemiology of insomnia: the Diagnostic and Statistical Manual (DSM), International Classification of Diseases (ICD) and International Classification of Sleep Disorders (ICSD)",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1212/wnl.58.12.1826",
+      "year": 2002,
+      "title": "Prevalence of narcolepsy symptomatology and diagnosis in the European general population",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1093/sleep/17.7.630",
+      "year": 1994,
+      "title": "Clinical Diagnoses in 216 Insomnia Patients Using the International Classification of Sleep Disorders (ICSD), DSM-IV and ICD-10 Categories: A Report From the APA/NIMH DSM-IV Field Trial",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1378/chest.119.1.53",
+      "year": 2001,
+      "title": "Risk Factors for Sleep Bruxism in the General Population",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1107/s0021889800007202",
+      "year": 2000,
+      "title": "<i>TOPOS</i>3.2: a new version of the program package for multipurpose crystal-chemical analysis",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/s0005-7967(02)00023-2",
+      "year": 2003,
+      "title": "Quantitative criteria for insomnia",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1080/03007995.2016.1208643",
+      "year": 2016,
+      "title": "The ICSD-3 and DSM-5 guidelines for diagnosing narcolepsy: clinical relevance and practicality",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevb.65.104104",
+      "year": 2002,
+      "title": "Symmetry-general least-squares extraction of elastic data for strained materials from<i>ab initio</i>calculations of stress",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.5664/jcsm.1918",
+      "year": 2012,
+      "title": "Insomnia and its Symptoms in Adolescents: Comparing DSM-IV and ICSD-II Diagnostic Criteria",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1093/sleep/24.8.920",
+      "year": 2001,
+      "title": "Comparability of Sleep Disorders Diagnoses Using <i>DSM-IV</i> and <i>ICSD</i> Classifications with Adolescents",
+      "phrases": [
+        "not in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevb.109.165139",
+      "year": 2024,
+      "title": "Filling-enforced obstructed atomic insulators",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1063/1.3432459",
+      "year": 2010,
+      "title": "Framework-Type Determination for Zeolite Structures in the Inorganic Crystal Structure Database",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1002/aisy.202300140",
+      "year": 2023,
+      "title": "A Deep Learning Approach to Powder X‐Ray Diffraction Pattern Analysis: Addressing Generalizability and Perturbation Issues Simultaneously",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2106.10276",
+      "year": 2021,
+      "title": "Filling-Enforced Obstructed Atomic Insulators",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1126/sciadv.aaq0148",
+      "year": 2018,
+      "title": "Thermodynamic limit for synthesis of metastable inorganic materials",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1007/s00269-020-01087-6",
+      "year": 2020,
+      "title": "Variation of physical properties across the mineralogical system",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1038/srep06367",
+      "year": 2014,
+      "title": "On-the-fly machine-learning for high-throughput experiments: search for rare-earth-free permanent magnets",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1107/s0021889810030256",
+      "year": 2010,
+      "title": "<i>Jmol</i>– a paradigm shift in crystallographic visualization",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-018-35934-y",
+      "year": 2018,
+      "title": "ElemNet: Deep Learning the Chemistry of Materials From Only Elemental Composition",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1038/s41467-019-13214-1",
+      "year": 2019,
+      "title": "Unsupervised discovery of solid-state lithium ion conductors",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.chemmater.4c00643",
+      "year": 2024,
+      "title": "Artificial Intelligence Driving Materials Discovery? Perspective on the Article: Scaling Deep Learning for Materials Discovery",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1021/cm301402g",
+      "year": 2012,
+      "title": "The Phase of Iron Catalyst Nanoparticles during Carbon Nanotube Growth",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1021/acsami.2c03837",
+      "year": 2022,
+      "title": "Tuneable Phase, Morphology, and Performance of Bismuth Oxyhalide Photocatalysts <i>via</i> Microwave-Assisted Synthesis",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1039/d0ra00769b",
+      "year": 2020,
+      "title": "Identification of preferentially exposed crystal facets by X-ray diffraction",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1038/s41524-020-00391-7",
+      "year": 2020,
+      "title": "Identifying candidate hosts for quantum defects via data mining",
+      "phrases": [
+        "no ICSD entry",
+        "absent from the Materials Project"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-020-77474-4",
+      "year": 2020,
+      "title": "Symmetry prediction and knowledge discovery from X-ray diffraction patterns using an interpretable machine learning approach",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.6084/m9.figshare.14192291.v4",
+      "year": 2021,
+      "title": "Dataset Master thesis Hebnes 2021",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.6084/m9.figshare.14192291.v5",
+      "year": 2021,
+      "title": "Datasets Master thesis Hebnes 2021",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.6084/m9.figshare.14192291.v7",
+      "year": 2021,
+      "title": "Datasets Master thesis Hebnes 2021",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.6084/m9.figshare.14192291.v6",
+      "year": 2021,
+      "title": "Datasets Master thesis Hebnes 2021",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.6084/m9.figshare.14192291",
+      "year": 2021,
+      "title": "Datasets Master thesis Hebnes 2021",
+      "phrases": [
+        "no ICSD entry"
+      ]
+    },
+    {
+      "doi": "10.1016/j.mseb.2011.04.015",
+      "year": 2011,
+      "title": "Influence of substrate bias voltage on the microstructure and residual stress of CrN films deposited by medium frequency magnetron sputtering",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.chemmater.8b01618",
+      "year": 2018,
+      "title": "High-Throughput Screening of Magnetic Antiperovskites",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1107/s1600576725003000",
+      "year": 2025,
+      "title": "Classification and statistical analysis of structural disorder in crystalline materials",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1002/zaac.201200076",
+      "year": 2012,
+      "title": "On the Crystal Chemistry of Alkali Metal Oxocobaltates",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1080/27660400.2022.2126739",
+      "year": 2022,
+      "title": "Modeling interfaces of fluorite-structure compounds using slab charge distribution",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1038/nmat2837",
+      "year": 2010,
+      "title": "High proton conduction in grain-boundary-free yttrium-doped barium zirconate films grown by pulsed laser deposition",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1093/sleep/32.6.753",
+      "year": 2009,
+      "title": "Idiopathic Hypersomnia with and without Long Sleep Time: A Controlled Series of 75 Patients",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.chemmater.7b02013",
+      "year": 2017,
+      "title": "Computational Study of Halide Perovskite-Derived A<sub>2</sub>BX<sub>6</sub> Inorganic Compounds: Chemical Trends in Electronic Structure and Structural Stability",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.chemmater.9b00116",
+      "year": 2019,
+      "title": "High-throughput Computational Study of Halide Double Perovskite Inorganic Compounds",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.progsolidstchem.2009.11.003",
+      "year": 2009,
+      "title": "Perovskite-related oxynitrides – Recent developments in synthesis, characterisation and investigations of physical properties",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1103/prxenergy.3.011002",
+      "year": 2024,
+      "title": "Challenges in High-Throughput Inorganic Materials Prediction and Autonomous Synthesis",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.chemmater.8b03228",
+      "year": 2018,
+      "title": "Stoichiometric Layered Potassium Transition Metal Oxide for Rechargeable Potassium Batteries",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1039/d0sc00594k",
+      "year": 2020,
+      "title": "Machine-enabled inverse design of inorganic solid materials: promises and challenges",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1038/s41467-019-10030-5",
+      "year": 2019,
+      "title": "Network analysis of synthesizable materials discovery",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1176/appi.pn.2014.8b20",
+      "year": 2014,
+      "title": "Manual Updates Sleep Disorder Diagnoses",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1039/d0mh00197j",
+      "year": 2020,
+      "title": "Computational discovery of promising new n-type dopable ABX Zintl thermoelectric materials",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1002/adfm.202108532",
+      "year": 2021,
+      "title": "Accelerated Discovery and Design of Ultralow Lattice Thermal Conductivity Materials Using Chemical Bonding Principles",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1039/c7tc01623a",
+      "year": 2017,
+      "title": "SnO as a potential oxide thermoelectric candidate",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1007/s12028-019-00776-7",
+      "year": 2019,
+      "title": "Which Spreading Depolarizations Are Deleterious To Brain Tissue?",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1063/1.4908158",
+      "year": 2015,
+      "title": "Bulk crystal growth and electronic characterization of the 3D Dirac semimetal Na3Bi",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevb.100.035132",
+      "year": 2019,
+      "title": "Rationalizing accurate structure prediction in the meta-GGA SCAN functional",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.1016/j.matpr.2018.12.033",
+      "year": 2019,
+      "title": "Synthesis and Impedance studies of potassium bismuth tri phosphate electrolyte",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.26434/chemrxiv.15003677/v1",
+      "year": 2026,
+      "title": "AQ-GNoME: an Aqueous Stability Augmentation of the GNoME Database",
+      "phrases": [
+        "absent from the Materials Project"
+      ]
+    },
+    {
+      "doi": "10.1039/d6dd00153j",
+      "year": 2026,
+      "title": "Uncertainty-aware active learning reveals reliability limits in lead-free halide perovskite screening",
+      "phrases": [
+        "absent from the Materials Project"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2501.02144",
+      "year": 2025,
+      "title": "Establishing baselines for generative discovery of inorganic crystals",
+      "phrases": [
+        "absent from the Materials Project"
+      ]
+    },
+    {
+      "doi": "10.1016/0003-9861(59)90090-6",
+      "year": 1959,
+      "title": "Tissue sulfhydryl groups",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1016/s0021-9258(19)83641-4",
+      "year": 1985,
+      "title": "A new generation of Ca2+ indicators with greatly improved fluorescence properties.",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1038/natrevmats.2016.98",
+      "year": 2017,
+      "title": "2D metal carbides and nitrides (MXenes) for energy storage",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1021/ja974025i",
+      "year": 1998,
+      "title": "Nonionic Triblock and Star Diblock Copolymer and Oligomeric Surfactant Syntheses of Highly Ordered, Hydrothermally Stable, Mesoporous Silica Structures",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1038/347354a0",
+      "year": 1990,
+      "title": "Solid C60: a new form of carbon",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1073/pnas.0602439103",
+      "year": 2006,
+      "title": "Exceptional chemical and thermal stability of zeolitic imidazolate frameworks",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1002/adma.200501576",
+      "year": 2006,
+      "title": "Recent Progress in the Synthesis of Porous Carbon Materials",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1002/adma.200390087",
+      "year": 2003,
+      "title": "One‐Dimensional Nanostructures: Synthesis, Characterization, and Applications",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1088/0953-8984/16/25/r01",
+      "year": 2004,
+      "title": "Zinc oxide nanostructures: growth, properties and applications",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1021/jp000114x",
+      "year": 2000,
+      "title": "Why Are There so Few Magnetic Ferroelectrics?",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1021/ic951325x",
+      "year": 1996,
+      "title": "Hydrophobic, Highly Conductive Ambient-Temperature Molten Salts",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1021/ja026501x",
+      "year": 2002,
+      "title": "Size-Controlled Synthesis of Magnetite Nanoparticles",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.chemmater.7b02847",
+      "year": 2017,
+      "title": "Guidelines for Synthesis and Processing of Two-Dimensional Titanium Carbide (Ti<sub>3</sub>C<sub>2</sub>T<sub><i>x</i></sub> MXene)",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1039/b207789b",
+      "year": 2002,
+      "title": "Chemical synthesis of magnetic nanoparticles",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1002/1521-4095(20020816)14:16<1120::aid-adma1120>3.0.co;2-9",
+      "year": 2002,
+      "title": "Nanocomposite Hydrogels: A Unique Organic–Inorganic Network Structure with Extraordinary Mechanical, Optical, and Swelling/De-swelling Properties",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1021/ja405735d",
+      "year": 2013,
+      "title": "New Two-Dimensional Niobium and Vanadium Carbides as Promising Materials for Li-Ion Batteries",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1002/anie.200603148",
+      "year": 2007,
+      "title": "Synthesis of Monodisperse Spherical Nanocrystals",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1126/science.276.5317.1395",
+      "year": 1997,
+      "title": "Tin-Based Amorphous Oxide: A High-Capacity Lithium-Ion-Storage Material",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1038/nmat1251",
+      "year": 2004,
+      "title": "Ultra-large-scale syntheses of monodisperse nanocrystals",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1021/nn1008897",
+      "year": 2010,
+      "title": "Water-Dispersible Magnetite-Reduced Graphene Oxide Composites for Arsenic Removal",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1021/jp991673a",
+      "year": 1999,
+      "title": "Synthesis of Highly Ordered Carbon Molecular Sieves via Template-Mediated Structural Transformation",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1126/science.272.5266.1325",
+      "year": 1996,
+      "title": "Filled Skutterudite Antimonides: A New Class of Thermoelectric Materials",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1021/ja8096256",
+      "year": 2009,
+      "title": "A Crystalline Imine-Linked 3-D Porous Covalent Organic Framework",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1002/chem.200802097",
+      "year": 2009,
+      "title": "Chemical and Structural Properties of Carbonaceous Products Obtained by Hydrothermal Carbonization of Saccharides",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1002/adfm.200390013",
+      "year": 2003,
+      "title": "Novel Nanostructures of Functional Oxides Synthesized by Thermal Evaporation",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1046/j.1365-2559.2000.00891.x",
+      "year": 2000,
+      "title": "Malignant angiomyolipoma of the liver: a hitherto unreported variant",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1136/bmj.1.4185.427",
+      "year": 1941,
+      "title": "Crush Injuries with Impairment of Renal Function",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1038/nature07872",
+      "year": 2009,
+      "title": "Longitudinal unzipping of carbon nanotubes to form graphene nanoribbons",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1440-1827.1968.tb00048.x",
+      "year": 1968,
+      "title": "A HITHERTO UNREPORTED VASCULAR TUMOR OF THE KIDNEY: A PROPOSAL OF ‘JUXTAGLOMERULAR CELL TUMOR’",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/s0034-5288(18)32817-0",
+      "year": 1979,
+      "title": "A hitherto unreported paramyxovirus of turkeys",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.3127/ajis.v4i1.379",
+      "year": 1996,
+      "title": "A Partial Test and Development of Delone and Mclean's Model of IS Success",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/pro.4519",
+      "year": 2022,
+      "title": "DALI shines a light on remote homologs: One hundred discoveries",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/0009-8981(74)90133-8",
+      "year": 1974,
+      "title": "A simple direct assay for cyclic amp in plasma and other biological samples using an improved competitive protein binding technique",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1365-2559.2006.02427.x",
+      "year": 2006,
+      "title": "Invasive growth of hepatic angiomyolipoma; a hitherto unreported ominous histological feature",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1023/a:1008380208045",
+      "year": 2000,
+      "title": "Gemcitabine-induced atrial fibrillation: A hitherto unreported manifestation of drug toxicity",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/s0168-8278(02)00297-0",
+      "year": 2002,
+      "title": "Changing international trends in mortality rates for liver, biliary and pancreatic tumours",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1046/j.1365-2559.1996.d01-514.x",
+      "year": 1996,
+      "title": "<b>Small cell carcinoma of the liver: a hitherto unreported variant of hepatocellular carcinoma</b>",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1038/nmat814",
+      "year": 2003,
+      "title": "Fully reversible, dislocation-based compressive deformation of Ti3SiC2 to 1 GPa",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1179/030634575790445143",
+      "year": 1975,
+      "title": "The Precipitation of δ′ (Al<sub>3</sub>Li) in Dilute Aluminium–Lithium Alloys",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/s0021-9258(20)70807-0",
+      "year": 1933,
+      "title": "ISOLATION AND IDENTIFICATION OF SOME HITHERTO UNREPORTED FATTY ACIDS IN BUTTER FAT",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1097/pgp.0b013e31817eb796",
+      "year": 2008,
+      "title": "Large Endocervical Polyp With Cartilaginous and Osseous Metaplasia: A Hitherto Unreported Entity",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.2337/diab.29.8.665",
+      "year": 1980,
+      "title": "Insulin-like Effect of Zinc on Adipocytes",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/s0272-6386(86)80052-x",
+      "year": 1986,
+      "title": "Nephrotic Syndrome, Progressive Irreversible Renal Failure, and Glomerular “Collapse”: A New Clinicopathologic Entity?",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1177/004728757801600302",
+      "year": 1978,
+      "title": "A New Approach to Image Analysis Through Multidimensional Scaling",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1128/aem.70.5.2989-3004.2004",
+      "year": 2004,
+      "title": "Survival and Dormancy of<i>Mycobacterium avium</i>subsp.<i>paratuberculosis</i>in theEnvironment",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevlett.101.136406",
+      "year": 2008,
+      "title": "Two Pressure-Induced Transitions in TiOCl: Mott Insulator to Anisotropic Metal",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1088/1367-2630/11/2/025004",
+      "year": 2009,
+      "title": "The delicate electronic and magnetic structure of the LaFePnO system (Pn = pnicogen)",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1007/s10853-020-04526-5",
+      "year": 2020,
+      "title": "Theoretical investigation on the surface and morphological properties of lead nickelate multiferroics: vacancy dependency",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1016/s0020-1693(00)89081-7",
+      "year": 1985,
+      "title": "Sulfur-nitrogen rings: Relative stabilities and structures",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1016/0002-9149(92)91346-6",
+      "year": 1992,
+      "title": "Use of intravenous diltiazem in patients with acute coronary artery disease",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1109/icems56177.2022.9983182",
+      "year": 2022,
+      "title": "Reduction of Stator Vibration Acceleration Using One-Axis Actively Positioned Single-Drive Bearingless Motor",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1007/s13762-020-02819-5",
+      "year": 2020,
+      "title": "Selectively enriched mixed sulfate-reducing bacteria for acrylamide biodegradation",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1161/01.cir.81.1.281",
+      "year": 1990,
+      "title": "Correlation between in vivo transmembrane action potential durations and activation-recovery intervals from electrograms. Effects of interventions that alter repolarization time.",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1007/978-3-662-25613-8_5",
+      "year": 1962,
+      "title": "Urological Ultrasonography",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1007/s10450-026-00688-x",
+      "year": 2026,
+      "title": "Selective CO2 capture from industrial emissions and biogas using MUF-16: a computational study on competitive adsorption from gas mixtures",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1007/978-3-642-66464-9_2",
+      "year": 1977,
+      "title": "Urological Ultrasonography",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1063/1.477230",
+      "year": 1998,
+      "title": "Monte Carlo simulations of a simple model for the electrocatalytic CO oxidation on platinum",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1038/s41586-018-0788-5",
+      "year": 2018,
+      "title": "Electric-field-tuned topological phase transition in ultrathin Na3Bi",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2511.13075",
+      "year": 2025,
+      "title": "Signatures of magnetism in zigzag graphene nanoribbon embedded in h-BN lattice",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.0810.0376",
+      "year": 2008,
+      "title": "The Delicate Electronic and Magnetic Structure of the LaOFePn System (Pn = pnictogen)",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1364/ol.32.000662",
+      "year": 2007,
+      "title": "Control and removal of modulational instabilities in low-dispersion photonic crystal fiber cavities",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1523/jneurosci.18-15-05908.1998",
+      "year": 1998,
+      "title": "Contrast-Invariant Orientation Tuning in Cat Visual Cortex: Thalamocortical Input Tuning and Correlation-Based Intracortical Connectivity",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1016/j.apsusc.2026.166938",
+      "year": 2026,
+      "title": "Structural evolution of γ-antimonene nanoribbons on Ag(110)",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevx.9.031010",
+      "year": 2019,
+      "title": "Type-III and Tilted Dirac Cones Emerging from Flat Bands in Photonic Orbital Graphene",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1016/j.snb.2016.04.031",
+      "year": 2016,
+      "title": "An ordered mesoporous carbon modified electrochemical sensor for solid-phase microextraction and determination of triclosan in environmental samples",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1088/1361-665x/aa81a0",
+      "year": 2017,
+      "title": "Effect of reduced graphene oxide on the energy harvesting performance of P(VDF-TrFE)-BaTiO <sub>3</sub> nanocomposite devices",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1016/j.seppur.2007.12.002",
+      "year": 2008,
+      "title": "Exploring Torlon/P84 co-polyamide-imide blended hollow fibers and their chemical cross-linking modifications for pervaporation dehydration of isopropanol",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1088/1367-2630/15/3/033036",
+      "year": 2013,
+      "title": "Two-photon spectra of quantum emitters",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.3144/expresspolymlett.2009.32",
+      "year": 2009,
+      "title": "Zinc chelates as new activators for sulphur vulcanization of acrylonitrile-butadiene elastomer",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "papers": [
+    {
+      "doi": "10.1039/d1ee00442e",
+      "year": 2021,
+      "access": "fulltext-html (arXiv 2006.11712 ar5iv) + PDF 交叉验证",
+      "asserts_absence": "yes",
+      "absence_quote": "The shaded entries are new materials suggested by machine learning, which are absent from ICSD and will be discussed later.",
+      "absence_location": "Section II（Table 1 caption 前正文）；另见 Section III：'B4C3 is absent from ICSD' 与 'CsTlI3 ... is also absent from the ICSD and confirmed by our DFT calculations (Tab. 1)'",
+      "discloses_limitation": "no",
+      "disclosure_quote": null,
+      "named": "yes",
+      "compounds": [
+        { "formula": "Cs2BiAgCl6", "table_or_section": "Table 1", "note": "unshaded（screened from ICSD，不在 absent 主张内）" },
+        { "formula": "CsTlF3", "table_or_section": "Table 1", "note": "unshaded" },
+        { "formula": "CsTlI3", "table_or_section": "Table 1", "note": "shaded = absent from ICSD（正文点名：DFT 确认）" },
+        { "formula": "Tl3VSe4", "table_or_section": "Table 1", "note": "unshaded" },
+        { "formula": "CsPbI3", "table_or_section": "Table 1", "note": "unshaded" },
+        { "formula": "Be2C", "table_or_section": "Table 1", "note": "unshaded" },
+        { "formula": "C3N4", "table_or_section": "Table 1", "note": "shaded = absent from ICSD" },
+        { "formula": "BP", "table_or_section": "Table 1", "note": "unshaded" },
+        { "formula": "BAs", "table_or_section": "Table 1", "note": "unshaded" },
+        { "formula": "BN", "table_or_section": "Table 1", "note": "unshaded" },
+        { "formula": "Diamond", "table_or_section": "Table 1", "note": "unshaded" },
+        { "formula": "B4C3", "table_or_section": "Section III 正文", "note": "正文点名 'B4C3 is absent from ICSD'（不在 Table 1）" }
+      ],
+      "notes": "shaded/unshaded 通过 arXiv PDF 的 fill 矩形（pymupdf get_drawings）逐行判定：仅 CsTlI3（y≈609）与 C3N4（y≈650）两行有背景色。Table 1 共 11 行已全抄。论文未对『数据库缺席≠未合成』作任何主动披露。"
+    },
+    {
+      "doi": "10.1038/s41524-023-01114-4",
+      "year": 2023,
+      "access": "fulltext-html (Nature gold OA)",
+      "asserts_absence": "yes",
+      "absence_quote": "It is important to note that some of these artificially-generated materials could be synthesizable, but are absent from the ICSD database or have yet to be synthesized.",
+      "absence_location": "Introduction（Synthesizability Dataset 描述段）；Methods（Synthesizability dataset 段重复：'We emphasize that some of these artificially generated materials could be synthesizable, but are absent from the ICSD database or have yet to be synthesized.'）",
+      "discloses_limitation": "yes",
+      "disclosure_quote": "Definitively labeling a material as unsynthesizable is potentially problematic since the ongoing development of synthetic methodologies may enable the synthesis of previously unsynthesizable materials. ... It is important to note that some of these artificially-generated materials could be synthesizable, but are absent from the ICSD database or have yet to be synthesized.",
+      "named": "no",
+      "compounds": [],
+      "notes": "主张对象是 Synthesizability Dataset 中人工生成的『未合成』负样本（正例 53,594 个配方，负例按 1–20 倍系数采样生成），论文未在正文列出任何具体配方清单——这正是『不点名的预测不可证伪』的实例。正文无任何具名化学式（Table 1 为模型超参数表）。该论文的 absent-from-ICSD 表述本身是训练数据免责声明，属诚实端。"
+    },
+    {
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "access": "fulltext-html (PMC11528441 BioC XML)",
+      "asserts_absence": "yes",
+      "absence_quote": "In this work, we selected the compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets.",
+      "absence_location": "Introduction（INTRO 段 1：'either unexplored (absent from the ICSD and no obvious mentions in the literature) or underexplored ... not deposited to ICSD'）+ Methods/Results（target selection 段）",
+      "discloses_limitation": "yes",
+      "disclosure_quote": "Nevertheless, literature has gaps in digitization and is ever-evolving, and there could be compounds not registered in the ICSD; therefore, we further perform a manual search to see if or to what extent the targets were reported experimentally outside the ICSD. We found mentions of certain compositions such as Cs2NaDyCl6 (as an elpasolite) and Cs2LiCrCl6 (as a 2L-type perovskite) and their lattice parameters in reports from decades ago ... We found that Cs2LiRuCl6 single crystal with partially ordered cation arrangement was reported recently, but an ICSD entry was not currently available to us.",
+      "named": "yes",
+      "compounds": [
+        { "formula": "Cs2LiRhCl6", "table_or_section": "Table 1", "note": "ICSD=N" },
+        { "formula": "Cs2LiIrCl6", "table_or_section": "Table 1", "note": "ICSD=N" },
+        { "formula": "Cs3KCdCl6", "table_or_section": "Table 1", "note": "ICSD=N" },
+        { "formula": "Cs2NaDyCl6", "table_or_section": "Table 1", "note": "ICSD=N；文献列 Fmm（正文披露：几十年前 elpasolite 报道）" },
+        { "formula": "Cs3NaCdCl6", "table_or_section": "Table 1", "note": "ICSD=N" },
+        { "formula": "Cs2LiCrCl6", "table_or_section": "Table 1", "note": "ICSD=N；文献列 Pm1（正文披露：几十年前 2L 型钙钛矿报道）" },
+        { "formula": "Cs2KDyCl6", "table_or_section": "Table 1", "note": "ICSD=N；文献列 P21" },
+        { "formula": "Cs3KSnCl6", "table_or_section": "Table 1", "note": "ICSD=N" },
+        { "formula": "CsK2TlCl6", "table_or_section": "Table 1", "note": "ICSD=N" },
+        { "formula": "Cs2LiTiCl6", "table_or_section": "Table 1", "note": "ICSD=N" },
+        { "formula": "Cs2LiVCl6", "table_or_section": "Table 1", "note": "ICSD=N；文献列 Pm1" },
+        { "formula": "Cs2LiRuCl6", "table_or_section": "Table 1", "note": "ICSD=N；文献列 P6322（正文披露：近期有单晶报道但无 ICSD 条目）" },
+        { "formula": "Cs2LiFeCl6", "table_or_section": "Table 1", "note": "ICSD=N" }
+      ],
+      "notes": "Table 1『Quaternary Cs-Cl Targets Explored in the Present Study』共 13 行，ICSD 列全为 N，已全抄。该文是诚实端标杆：明确承认 ICSD 收录有缺口（digitization gaps）、并主动做 literature manual search 核实，发现 Cs2NaDyCl6/Cs2LiCrCl6 数十年前已有报道。"
+    },
+    {
+      "doi": "10.3390/cryst10040298",
+      "year": 2020,
+      "access": "fulltext-html (MDPI 原站被 Akamai 挡，经 Wayback Machine 2025-01-20 存档取得全文)",
+      "asserts_absence": "yes",
+      "absence_quote": "Structural data for type-I clathrates Rb8Ga8Sn38 and Cs8Ga8Sn38 have been reported more than two decades ago; however, for inexplicable reasons, they are not retrievable from the ICSD database.",
+      "absence_location": "3. Results and Discussion（与文献结构对比段）；另见 1. Introduction：'Some structural data on Rb8Ga8Sn38 and Cs8Ga8Sn38 phases have been already reported by Kröner, von Schnering, and Nesper in 1998, but ICSD records are missed'",
+      "discloses_limitation": "yes",
+      "disclosure_quote": "Structural data for type-I clathrates Rb8Ga8Sn38 and Cs8Ga8Sn38 have been reported more than two decades ago; however, for inexplicable reasons, they are not retrievable from the ICSD database. ... although the crystallographic analyses in the prior publications are from single-crystal XRD work and appear to be done with care.",
+      "named": "yes",
+      "compounds": [
+        { "formula": "Rb8Ga8Sn38", "table_or_section": "Introduction + Results and Discussion 正文", "note": "1998 年 Kröner/von Schnering/Nesper 已报道，ICSD 无记录" },
+        { "formula": "Cs8Ga8Sn38", "table_or_section": "Introduction + Results and Discussion 正文", "note": "同上" },
+        { "formula": "A8Ga8Sn38", "table_or_section": "Results and Discussion 正文", "note": "泛指（A=Rb,Cs），另一篇已发表的结构工作亦 absent from ICSD" }
+      ],
+      "notes": "本论文不在表格中列清单，缺席主张是正文直接点名，已全抄。它是『数据库缺席≠未合成』最直接的实证：这些化合物 20 多年前已报道且是单晶 XRD 精修，ICSD 却查不到——论文把缺席归因于 ICSD 收录缺失（for inexplicable reasons），而非化合物不存在。"
+    }
+  ],
+  "coverage": {
+    "notes": "四篇均取得全文正文级证据：1) EES 2021 用 arXiv 2006.11712（任务指定），ar5iv HTML + arXiv PDF 交叉验证 Table 1 的 shading（pymupdf fill 矩形判定 shaded 行）；2) npj Comput. Mater. 2023 用 Nature gold OA HTML 全文；3) JACS 2024 用 PMC11528441 BioC XML（ACS 官网 Cloudflare 质询拦截 curl 与浏览器，PMC 为同一出版版全文）；4) Crystals 2020 用 Wayback Machine 存档（MDPI 原站 Akamai 拒绝 curl 与浏览器访问，存档页为完整全文 HTML）。未取得：论文 4 的 MDPI 在线补充材料（XLSX 结构数据，不影响本文三项审计结论）；论文 1 的 RSC 正式排版版（任务指定用 arXiv 版）。所有 absence_quote 与 disclosure_quote 均为原文摘录，未改写。化学式全部来自表格 XML/HTML 逐行提取或正文直接点名，无凭记忆补写。"
+  }
+}

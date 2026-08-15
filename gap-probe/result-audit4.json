@@ -1,0 +1,240 @@
+{
+  "tally": {
+    "10.1039/d1ee00442e": {
+      "PRIOR": 1,
+      "SINCE": 0,
+      "UNKNOWN": 2,
+      "UNRESOLVED": 0
+    },
+    "10.1021/jacs.4c10294": {
+      "PRIOR": 0,
+      "SINCE": 0,
+      "UNKNOWN": 13,
+      "UNRESOLVED": 0
+    },
+    "10.3390/cryst10040298": {
+      "PRIOR": 0,
+      "SINCE": 0,
+      "UNKNOWN": 3,
+      "UNRESOLVED": 0
+    }
+  },
+  "compounds": [
+    {
+      "formula": "CsTlI3",
+      "table_or_section": "Table 1",
+      "note": "shaded = absent from ICSD（正文点名：DFT 确认）",
+      "doi": "10.1039/d1ee00442e",
+      "year": 2021,
+      "discloses": "no",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "C3N4",
+      "table_or_section": "Table 1",
+      "note": "shaded = absent from ICSD",
+      "doi": "10.1039/d1ee00442e",
+      "year": 2021,
+      "discloses": "no",
+      "cls": "PRIOR",
+      "earliest": 2003,
+      "refs": [
+        {
+          "cod": "1534042",
+          "year": 2003,
+          "doi": null,
+          "journal": "Journal of Solid State Chemistry"
+        }
+      ]
+    },
+    {
+      "formula": "B4C3",
+      "table_or_section": "Section III 正文",
+      "note": "正文点名 'B4C3 is absent from ICSD'（不在 Table 1）",
+      "doi": "10.1039/d1ee00442e",
+      "year": 2021,
+      "discloses": "no",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs2LiRhCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs2LiIrCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs3KCdCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs2NaDyCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N；文献列 Fmm（正文披露：几十年前 elpasolite 报道）",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs3NaCdCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs2LiCrCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N；文献列 Pm1（正文披露：几十年前 2L 型钙钛矿报道）",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs2KDyCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N；文献列 P21",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs3KSnCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "CsK2TlCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs2LiTiCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs2LiVCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N；文献列 Pm1",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs2LiRuCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N；文献列 P6322（正文披露：近期有单晶报道但无 ICSD 条目）",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs2LiFeCl6",
+      "table_or_section": "Table 1",
+      "note": "ICSD=N",
+      "doi": "10.1021/jacs.4c10294",
+      "year": 2024,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Rb8Ga8Sn38",
+      "table_or_section": "Introduction + Results and Discussion 正文",
+      "note": "1998 年 Kröner/von Schnering/Nesper 已报道，ICSD 无记录",
+      "doi": "10.3390/cryst10040298",
+      "year": 2020,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "Cs8Ga8Sn38",
+      "table_or_section": "Introduction + Results and Discussion 正文",
+      "note": "同上",
+      "doi": "10.3390/cryst10040298",
+      "year": 2020,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    },
+    {
+      "formula": "A8Ga8Sn38",
+      "table_or_section": "Results and Discussion 正文",
+      "note": "泛指（A=Rb,Cs），另一篇已发表的结构工作亦 absent from ICSD",
+      "doi": "10.3390/cryst10040298",
+      "year": 2020,
+      "discloses": "yes",
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "refs": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "spec": "gap-probe/priority-v2/1",
+  "question": "在 OpenAlex 中明确声称 the first crystal structure of、且主学科为 Chemistry 或 Materials Science 的论文里，标题可无歧义抽出无机化学式的声明，有多少已被论文发表年前的 COD 实验结构记录推翻？",
+  "population": {
+    "source": "OpenAlex works API",
+    "search": "the first crystal structure of",
+    "discipline_filter": "primary_topic.field.id in {16 Chemistry, 25 Materials Science}",
+    "coverage": "用 cursor 遍历该过滤检索的全部返回记录，不按相关性截断",
+    "literal_gate": "规范化后的 title 或 abstract 必须字面包含完整短语",
+    "deduplicate": "按 OpenAlex work id 去重"
+  },
+  "formula_gate": {
+    "location": "只从标题抽取，正文或摘要中的式子不纳入",
+    "syntax": "token 必须由合法元素符号和可选整数下标完整组成，含至少两个不同元素，且含数字或至少三个元素段",
+    "ambiguity": "标题恰好抽出一个合格 token 才纳入，多于一个或没有均排除",
+    "blacklist": [
+      "UP1",
+      "NS5",
+      "HIV1",
+      "SARS2",
+      "COVID19",
+      "RNA1",
+      "DNA1",
+      "ATP1",
+      "NAD1",
+      "FAD1",
+      "AP1",
+      "SP1",
+      "VP1"
+    ],
+    "biomedical_title_exclusion": "标题含 protein/domain/virus/RNA/DNA/receptor/enzyme/antibody/peptide 等生物医学标志词则排除，即使 OpenAlex 主学科误分",
+    "historical_failures": "UP1 和 NS5 必须被反向用例拒绝"
+  },
+  "classify": {
+    "PRIOR_CANDIDATE": "COD 最早带年份记录 < 论文 publication_year",
+    "SINCE_OR_SAME_YEAR": "COD 最早年份 >= 论文年份",
+    "UNKNOWN": "COD 成功返回空集；这是 COD 中未知，不等于不存在",
+    "UNRESOLVED": "COD/OpenAlex 查询在三次重试后失败；不得并入 UNKNOWN",
+    "manual_gate": "PRIOR_CANDIDATE 必须逐条复核论文主张、化学式同一性与 COD 最早记录元数据，复核通过后才可报告 PRIOR"
+  },
+  "controls": {
+    "positive": [
+      "BaTiO3",
+      "LiCoO2",
+      "MgAl2O4",
+      "SrTiO3",
+      "CaTiO3",
+      "ZnFe2O4"
+    ],
+    "negative": [
+      "Zq2Xy3O7",
+      "Qw1Er2Ty3",
+      "Xx3Yy4Zz5"
+    ],
+    "extractor_positive": [
+      "BaTiO3",
+      "Na3HfF7",
+      "LiCoO2"
+    ],
+    "extractor_negative": [
+      "UP1",
+      "NS5",
+      "HIV1"
+    ]
+  },
+  "void_if": [
+    "任一 COD 或抽取器对照失败",
+    "OpenAlex 过滤总体没有被 cursor 完整遍历",
+    "UNRESOLVED 占纳入子集超过 30%",
+    "最终纳入且完成 COD 分类的唯一声明少于 10 条"
+  ],
+  "reporting": [
+    "同时报告 OpenAlex 过滤总体、字面核实数、标题唯一化学式数、各排除原因和四类判定数",
+    "UNKNOWN 必须标成弱结果，不得解释成未曾制备",
+    "若作废仍保存结果与失败原因，不得改规则补跑；下一轮须新建预注册"
+  ]
+}

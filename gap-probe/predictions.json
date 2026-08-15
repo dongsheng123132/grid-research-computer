@@ -1,0 +1,2104 @@
+{
+  "coverage": {
+    "papers_examined": 37,
+    "fulltext_read": 16,
+    "abstract_only": 13,
+    "paywalled_no_formulas": 8,
+    "papers_with_named_formulas": 14,
+    "papers_without_named_formulas": 15,
+    "notes": "基于 .goai/litsearch-result.md 的 37 篇清单；全文实际通读 16 篇（14 篇点名化学式 + sun2016/ward2016 等未点名），13 篇仅摘要级，8 篇因付费墙/反爬拿不到正文（清单如下）。未点名清单：\n- kirklin2015 (OQMD 2015, 10.1038/npjcompumats.2015.10): 3,231 个预测稳定化合物未在 ICSD，正文只报数量，未点名化学式\n- saal2013 (OQMD 2013, 10.1007/s11837-013-0755-4): 同 OQMD 管线，未点名\n- meredig2014 (10.1103/PhysRevB.89.094104): 预测 4,500 个新稳定三元化合物，正文未点名（且全文仅摘要级）\n- closedloop_hem2026_npj (10.1038/s41524-026-02092-z): 只报 31,009/352,092 等数字，未点名具体组成\n- sun2016 (10.1126/sciadv.1600225): 数据库覆盖率论文，未点名预测化合物\n- ward2016_npj (10.1038/npjcompumats.2016.28): ML 框架论文，未点名\n- curtarolo2012 (AFLOW, 10.1016/j.commatsci.2012.02.005): HT 框架描述，未点名\n- commmat2021 (10.1038/s43246-021-00219-x): 仅 MoS2 多晶型讨论，未点名新化合物\n- closedloop_hem2025_rs / heformula2024 / 高熵相关: 只报数字或方法学，未点名\n- aluminozeo2019 (10.1021/acs.jpclett.9b00136): 点名 JU-60/JU-61 为框架代号，非化学式\n- erionite (10.1021/acs.chemmater.9b01229): 点名 ERI/OFF 为拓扑代号，非化学式\n- jensen2019_zeolite (10.1021/acscentsci.9b00193): 沸石合成文献挖掘，未点名新化合物\n- gaultois2013 (10.1021/cm400893e): 热电数据评审，未点名预测\n- zakutayev2018 (10.1038/sdata.2018.53): 实验数据库论文，未点名\n- mc3d2026 (10.1039/d5dd00415b): 数据库论文，未点名\n- diffusion2026 (10.1038/s41467-026-70035-9): 关键词命中但非该步骤，未点名\n- bridge2026 (arXiv:2602.00756): 方法学论文（数据库对齐），未点名\n- stability2026 (10.21203/rs.3.rs-9507801/v1): 理论论文，未点名\n- matbench2020 / prm2023: 基准/不确定性比较论文，未点名\n- grazulis2011 / century2026 / zagorac2019 / belsky2002 / jain2013: ICSD/COD 数据库论文或观点文章，未点名\n付费墙拿不到正文（化学式表大概率在正文里）：\n- balachandran2018 (10.1103/PhysRevMaterials.2.043802): APS 正文付费墙；OSTI 抓取为 404 壳，全文未拿到\n- sendek2017 (10.1039/c6ee02697d): RSC 付费墙，OpenAlex/Unpaywall 均无 OA\n- meredig2014 (10.1103/PhysRevB.89.094104): APS 只下到 HTML 壳（见 NO_NAMED 备注）\n- fullheusler2016 (10.1021/acs.chemmater.6b02724): ACS 付费墙，txt 仅 18 字节壳\n- heuslerq (10.1021/acs.chemmater.3c01323): ACS 付费墙，抓取返回 JINA-ERR HTTPError\n- zeosynth (10.26434/chemrxiv.7770758.v1): ChemRxiv 反爬，全文未取到\n- kpc2007 (10.1021/ic070254m): ACS 付费墙\n- uninodal (10.1021/ja037334j): ACS 付费墙"
+  },
+  "predictions": [
+    {
+      "formula": "ScPtBi",
+      "elements": [
+        "Sc",
+        "Pt",
+        "Bi"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "TiPdSn",
+      "elements": [
+        "Ti",
+        "Pd",
+        "Sn"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ZrNiPb",
+      "elements": [
+        "Zr",
+        "Ni",
+        "Pb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ZrPdPb",
+      "elements": [
+        "Zr",
+        "Pd",
+        "Pb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ZrPtPb",
+      "elements": [
+        "Zr",
+        "Pt",
+        "Pb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfNiPb",
+      "elements": [
+        "Hf",
+        "Ni",
+        "Pb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfPdPb",
+      "elements": [
+        "Hf",
+        "Pd",
+        "Pb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfPtPb",
+      "elements": [
+        "Hf",
+        "Pt",
+        "Pb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ScRhTe",
+      "elements": [
+        "Sc",
+        "Rh",
+        "Te"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "TiIrAs",
+      "elements": [
+        "Ti",
+        "Ir",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "TiIrSb",
+      "elements": [
+        "Ti",
+        "Ir",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ZrRhBi",
+      "elements": [
+        "Zr",
+        "Rh",
+        "Bi"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ZrIrAs",
+      "elements": [
+        "Zr",
+        "Ir",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ZrIrSb",
+      "elements": [
+        "Zr",
+        "Ir",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ZrIrBi",
+      "elements": [
+        "Zr",
+        "Ir",
+        "Bi"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfRhBi",
+      "elements": [
+        "Hf",
+        "Rh",
+        "Bi"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfIrAs",
+      "elements": [
+        "Hf",
+        "Ir",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfIrSb",
+      "elements": [
+        "Hf",
+        "Ir",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfIrBi",
+      "elements": [
+        "Hf",
+        "Ir",
+        "Bi"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "TaCoSn",
+      "elements": [
+        "Ta",
+        "Co",
+        "Sn"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "TaRhSn",
+      "elements": [
+        "Ta",
+        "Rh",
+        "Sn"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "TaIrGe",
+      "elements": [
+        "Ta",
+        "Ir",
+        "Ge"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "TaIrSn",
+      "elements": [
+        "Ta",
+        "Ir",
+        "Sn"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX semiconductors or semimetals (Table 1)",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "MgPdTe",
+      "elements": [
+        "Mg",
+        "Pd",
+        "Te"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "AlNiP",
+      "elements": [
+        "Al",
+        "Ni",
+        "P"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "AlNiAs",
+      "elements": [
+        "Al",
+        "Ni",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "AlNiSb",
+      "elements": [
+        "Al",
+        "Ni",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "GaNiSb",
+      "elements": [
+        "Ga",
+        "Ni",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "InNiSb",
+      "elements": [
+        "In",
+        "Ni",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "InPdSb",
+      "elements": [
+        "In",
+        "Pd",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "GaPtSb",
+      "elements": [
+        "Ga",
+        "Pt",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "InPtSb",
+      "elements": [
+        "In",
+        "Pt",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ScNiAs",
+      "elements": [
+        "Sc",
+        "Ni",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ScPdP",
+      "elements": [
+        "Sc",
+        "Pd",
+        "P"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ScPdAs",
+      "elements": [
+        "Sc",
+        "Pd",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "YNiAs",
+      "elements": [
+        "Y",
+        "Ni",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "YPdAs",
+      "elements": [
+        "Y",
+        "Pd",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "LaPtAs",
+      "elements": [
+        "La",
+        "Pt",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "TiRhP",
+      "elements": [
+        "Ti",
+        "Rh",
+        "P"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "TiIrP",
+      "elements": [
+        "Ti",
+        "Ir",
+        "P"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfRhP",
+      "elements": [
+        "Hf",
+        "Rh",
+        "P"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfRhAs",
+      "elements": [
+        "Hf",
+        "Rh",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "VRhSi",
+      "elements": [
+        "V",
+        "Rh",
+        "Si"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "VRhGe",
+      "elements": [
+        "V",
+        "Rh",
+        "Ge"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "VIrSi",
+      "elements": [
+        "V",
+        "Ir",
+        "Si"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "VIrGe",
+      "elements": [
+        "V",
+        "Ir",
+        "Ge"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "YPdP",
+      "elements": [
+        "Y",
+        "Pd",
+        "P"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "LaNiAs",
+      "elements": [
+        "La",
+        "Ni",
+        "As"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "GaNiBi",
+      "elements": [
+        "Ga",
+        "Ni",
+        "Bi"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "AlIrSe",
+      "elements": [
+        "Al",
+        "Ir",
+        "Se"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "LaNiN",
+      "elements": [
+        "La",
+        "Ni",
+        "N"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "GaIrTe",
+      "elements": [
+        "Ga",
+        "Ir",
+        "Te"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "HfIrP",
+      "elements": [
+        "Hf",
+        "Ir",
+        "P"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "AlPtSb",
+      "elements": [
+        "Al",
+        "Pt",
+        "Sb"
+      ],
+      "year": 2015,
+      "claim": "the predicted stable ABX metals distributed in 8 structure types (Table 1 caption lists)",
+      "page_or_section": "Table 1 caption (structure-type lists; metals in Tables S1/S2/S19)",
+      "source_doi": "10.1038/nchem.2207"
+    },
+    {
+      "formula": "ErNiBi",
+      "elements": [
+        "Er",
+        "Ni",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "TmPtBi",
+      "elements": [
+        "Tm",
+        "Pt",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "ErPdBi",
+      "elements": [
+        "Er",
+        "Pd",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "MnRuSb",
+      "elements": [
+        "Mn",
+        "Ru",
+        "Sb"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "TbPtBi",
+      "elements": [
+        "Tb",
+        "Pt",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "TbPdBi",
+      "elements": [
+        "Tb",
+        "Pd",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "TmPdBi",
+      "elements": [
+        "Tm",
+        "Pd",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "EuPdBi",
+      "elements": [
+        "Eu",
+        "Pd",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "MnFeSb",
+      "elements": [
+        "Mn",
+        "Fe",
+        "Sb"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "LuPtBi",
+      "elements": [
+        "Lu",
+        "Pt",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "YPtBi",
+      "elements": [
+        "Y",
+        "Pt",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "EuPtBi",
+      "elements": [
+        "Eu",
+        "Pt",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "TiRhSb",
+      "elements": [
+        "Ti",
+        "Rh",
+        "Sb"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "ScPdBi",
+      "elements": [
+        "Sc",
+        "Pd",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "MnTeRh",
+      "elements": [
+        "Mn",
+        "Te",
+        "Rh"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "HfCoBi",
+      "elements": [
+        "Hf",
+        "Co",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "LuPdBi",
+      "elements": [
+        "Lu",
+        "Pd",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "MnAgSb",
+      "elements": [
+        "Mn",
+        "Ag",
+        "Sb"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "TiPtSb",
+      "elements": [
+        "Ti",
+        "Pt",
+        "Sb"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "TmAuPb",
+      "elements": [
+        "Tm",
+        "Au",
+        "Pb"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "VRhSb",
+      "elements": [
+        "V",
+        "Rh",
+        "Sb"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "MnRuTe",
+      "elements": [
+        "Mn",
+        "Ru",
+        "Te"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "ZrIrBi",
+      "elements": [
+        "Zr",
+        "Ir",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "MnTePt",
+      "elements": [
+        "Mn",
+        "Te",
+        "Pt"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "ScPtBi",
+      "elements": [
+        "Sc",
+        "Pt",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "PmPdBi",
+      "elements": [
+        "Pm",
+        "Pd",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "ZrPdBi",
+      "elements": [
+        "Zr",
+        "Pd",
+        "Bi"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "MnRhSn",
+      "elements": [
+        "Mn",
+        "Rh",
+        "Sn"
+      ],
+      "year": 2017,
+      "claim": "None of these compounds is contained in the ICSD data set we used for the training",
+      "page_or_section": "Table 2",
+      "source_arxiv": "1706.00192"
+    },
+    {
+      "formula": "Ti(SO4)2",
+      "elements": [
+        "Ti",
+        "S",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "NbCl2O",
+      "elements": [
+        "Nb",
+        "Cl",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "RbHgSbTe3",
+      "elements": [
+        "Rb",
+        "Hg",
+        "Sb",
+        "Te"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "NaHSeO4",
+      "elements": [
+        "Na",
+        "H",
+        "Se",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "K4Ba2SnBi4",
+      "elements": [
+        "K",
+        "Ba",
+        "Sn",
+        "Bi"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "Li2MgGeO4",
+      "elements": [
+        "Li",
+        "Mg",
+        "Ge",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "SrGaSiH",
+      "elements": [
+        "Sr",
+        "Ga",
+        "Si",
+        "H"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "ClF5",
+      "elements": [
+        "Cl",
+        "F"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "K4Ba2SnSb4",
+      "elements": [
+        "K",
+        "Ba",
+        "Sn",
+        "Sb"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "LiAlS2",
+      "elements": [
+        "Li",
+        "Al",
+        "S"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "Na3HfF7",
+      "elements": [
+        "Na",
+        "Hf",
+        "F"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "GaClO",
+      "elements": [
+        "Ga",
+        "Cl",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "K4Ba2SnAs4",
+      "elements": [
+        "K",
+        "Ba",
+        "Sn",
+        "As"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "KLiZn3O4",
+      "elements": [
+        "K",
+        "Li",
+        "Zn",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "Li2ZnGeS4",
+      "elements": [
+        "Li",
+        "Zn",
+        "Ge",
+        "S"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "Al2CdBr8",
+      "elements": [
+        "Al",
+        "Cd",
+        "Br"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3"
+    },
+    {
+      "formula": "LiInF3",
+      "elements": [
+        "Li",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001"
+    },
+    {
+      "formula": "NaInF3",
+      "elements": [
+        "Na",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001"
+    },
+    {
+      "formula": "KInF3",
+      "elements": [
+        "K",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001"
+    },
+    {
+      "formula": "RbInF3",
+      "elements": [
+        "Rb",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001"
+    },
+    {
+      "formula": "CsInF3",
+      "elements": [
+        "Cs",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001"
+    },
+    {
+      "formula": "LiInCl3",
+      "elements": [
+        "Li",
+        "In",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001"
+    },
+    {
+      "formula": "KInCl3",
+      "elements": [
+        "K",
+        "In",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001"
+    },
+    {
+      "formula": "RbInCl3",
+      "elements": [
+        "Rb",
+        "In",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001"
+    },
+    {
+      "formula": "CsInCl3",
+      "elements": [
+        "Cs",
+        "In",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001"
+    },
+    {
+      "formula": "Cs2LiRhCl6",
+      "elements": [
+        "Cs",
+        "Li",
+        "Rh",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs2LiIrCl6",
+      "elements": [
+        "Cs",
+        "Li",
+        "Ir",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs3KCdCl6",
+      "elements": [
+        "Cs",
+        "K",
+        "Cd",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs2NaDyCl6",
+      "elements": [
+        "Cs",
+        "Na",
+        "Dy",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs3NaCdCl6",
+      "elements": [
+        "Cs",
+        "Na",
+        "Cd",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs2LiCrCl6",
+      "elements": [
+        "Cs",
+        "Li",
+        "Cr",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs2KDyCl6",
+      "elements": [
+        "Cs",
+        "K",
+        "Dy",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs3KSnCl6",
+      "elements": [
+        "Cs",
+        "K",
+        "Sn",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "CsK2TlCl6",
+      "elements": [
+        "Cs",
+        "K",
+        "Tl",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs2LiTiCl6",
+      "elements": [
+        "Cs",
+        "Li",
+        "Ti",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs2LiVCl6",
+      "elements": [
+        "Cs",
+        "Li",
+        "V",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs2LiRuCl6",
+      "elements": [
+        "Cs",
+        "Li",
+        "Ru",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "Cs2LiFeCl6",
+      "elements": [
+        "Cs",
+        "Li",
+        "Fe",
+        "Cl"
+      ],
+      "year": 2024,
+      "claim": "compounds that did not have a matching ICSD entry (by composition) at the time of the work as targets",
+      "page_or_section": "Table 1",
+      "source_doi": "10.1021/jacs.4c10294"
+    },
+    {
+      "formula": "AlPt",
+      "elements": [
+        "Al",
+        "Pt"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "AuBa",
+      "elements": [
+        "Au",
+        "Ba"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "AuLi",
+      "elements": [
+        "Au",
+        "Li"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "AuRb",
+      "elements": [
+        "Au",
+        "Rb"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "LiPt",
+      "elements": [
+        "Li",
+        "Pt"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "LuPt",
+      "elements": [
+        "Lu",
+        "Pt"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "AuCa",
+      "elements": [
+        "Au",
+        "Ca"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "AuCs",
+      "elements": [
+        "Au",
+        "Cs"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "AuK",
+      "elements": [
+        "Au",
+        "K"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "AuSr",
+      "elements": [
+        "Au",
+        "Sr"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "BaPt",
+      "elements": [
+        "Ba",
+        "Pt"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "PtSc",
+      "elements": [
+        "Pt",
+        "Sc"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "PtSr",
+      "elements": [
+        "Pt",
+        "Sr"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "PtY",
+      "elements": [
+        "Pt",
+        "Y"
+      ],
+      "year": 2021,
+      "claim": "We identify only six BHC and 13 BSQ structures as dynamically stable (BHC/BSQ lists, Sec. III)",
+      "page_or_section": "Sec. III (energetic stability and dynamical stability)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "AlCu",
+      "elements": [
+        "Al",
+        "Cu"
+      ],
+      "year": 2021,
+      "claim": "AlCu in the Bh structure is dynamically stable, while such a structure has not yet been synthesized",
+      "page_or_section": "Fig. 4 (phonon dispersion, BHC AlCu)",
+      "source_doi": "10.1103/PhysRevB.103.L121403"
+    },
+    {
+      "formula": "Zn2SbN3",
+      "elements": [
+        "Zn",
+        "Sb",
+        "N"
+      ],
+      "year": 2019,
+      "claim": "Seven new Zn- and Mg-based ternary nitrides, with structures predicted by unconstrained structure search, experimentally realized",
+      "page_or_section": "Fig. 2a",
+      "source_doi": "10.1038/s41563-019-0396-2"
+    },
+    {
+      "formula": "Zn3WN4",
+      "elements": [
+        "Zn",
+        "W",
+        "N"
+      ],
+      "year": 2019,
+      "claim": "Seven new Zn- and Mg-based ternary nitrides, with structures predicted by unconstrained structure search, experimentally realized",
+      "page_or_section": "Fig. 2a",
+      "source_doi": "10.1038/s41563-019-0396-2"
+    },
+    {
+      "formula": "Zn3MoN4",
+      "elements": [
+        "Zn",
+        "Mo",
+        "N"
+      ],
+      "year": 2019,
+      "claim": "Seven new Zn- and Mg-based ternary nitrides, with structures predicted by unconstrained structure search, experimentally realized",
+      "page_or_section": "Fig. 2a",
+      "source_doi": "10.1038/s41563-019-0396-2"
+    },
+    {
+      "formula": "Mg2NbN3",
+      "elements": [
+        "Mg",
+        "Nb",
+        "N"
+      ],
+      "year": 2019,
+      "claim": "Seven new Zn- and Mg-based ternary nitrides, with structures predicted by unconstrained structure search, experimentally realized",
+      "page_or_section": "Fig. 2a",
+      "source_doi": "10.1038/s41563-019-0396-2"
+    },
+    {
+      "formula": "MgHfN2",
+      "elements": [
+        "Mg",
+        "Hf",
+        "N"
+      ],
+      "year": 2019,
+      "claim": "Seven new Zn- and Mg-based ternary nitrides, with structures predicted by unconstrained structure search, experimentally realized",
+      "page_or_section": "Fig. 2a",
+      "source_doi": "10.1038/s41563-019-0396-2"
+    },
+    {
+      "formula": "MgZrN2",
+      "elements": [
+        "Mg",
+        "Zr",
+        "N"
+      ],
+      "year": 2019,
+      "claim": "Seven new Zn- and Mg-based ternary nitrides, with structures predicted by unconstrained structure search, experimentally realized",
+      "page_or_section": "Fig. 2a",
+      "source_doi": "10.1038/s41563-019-0396-2"
+    },
+    {
+      "formula": "MgTiN2",
+      "elements": [
+        "Mg",
+        "Ti",
+        "N"
+      ],
+      "year": 2019,
+      "claim": "Seven new Zn- and Mg-based ternary nitrides, with structures predicted by unconstrained structure search, experimentally realized",
+      "page_or_section": "Fig. 2a",
+      "source_doi": "10.1038/s41563-019-0396-2"
+    },
+    {
+      "formula": "Ba2PdO3",
+      "elements": [
+        "Ba",
+        "Pd",
+        "O"
+      ],
+      "year": 2018,
+      "claim": "We successfully find two new oxide systems that achieve the targeted band structure",
+      "page_or_section": "Results (inverse band structure design)",
+      "source_doi": "10.1021/acs.chemmater.7b04496"
+    },
+    {
+      "formula": "La4PdO7",
+      "elements": [
+        "La",
+        "Pd",
+        "O"
+      ],
+      "year": 2018,
+      "claim": "We successfully find two new oxide systems that achieve the targeted band structure",
+      "page_or_section": "Results (inverse band structure design)",
+      "source_doi": "10.1021/acs.chemmater.7b04496"
+    },
+    {
+      "formula": "Cu2AgBiPbS4",
+      "elements": [
+        "Cu",
+        "Ag",
+        "Bi",
+        "Pb",
+        "S"
+      ],
+      "year": 2020,
+      "claim": "we explicitly compute the lattice dynamical properties of two of the compounds, both achieve ultralow lattice thermal conductivity (amorphous limit)",
+      "page_or_section": "Abstract",
+      "source_doi": "10.1021/acs.jpclett.0c01077"
+    },
+    {
+      "formula": "MnTl2As2S5",
+      "elements": [
+        "Mn",
+        "Tl",
+        "As",
+        "S"
+      ],
+      "year": 2020,
+      "claim": "we explicitly compute the lattice dynamical properties of two of the compounds, both achieve ultralow lattice thermal conductivity (amorphous limit)",
+      "page_or_section": "Abstract",
+      "source_doi": "10.1021/acs.jpclett.0c01077"
+    },
+    {
+      "formula": "Pt2FeNi",
+      "elements": [
+        "Pt",
+        "Fe",
+        "Ni"
+      ],
+      "year": 2019,
+      "claim": "The most promising candidates identified here are Pt2FeNi, Pt2FeCu, and W2FeB2",
+      "page_or_section": "Abstract",
+      "source_arxiv": "1910.00548"
+    },
+    {
+      "formula": "Pt2FeCu",
+      "elements": [
+        "Pt",
+        "Fe",
+        "Cu"
+      ],
+      "year": 2019,
+      "claim": "The most promising candidates identified here are Pt2FeNi, Pt2FeCu, and W2FeB2",
+      "page_or_section": "Abstract",
+      "source_arxiv": "1910.00548"
+    },
+    {
+      "formula": "W2FeB2",
+      "elements": [
+        "W",
+        "Fe",
+        "B"
+      ],
+      "year": 2019,
+      "claim": "The most promising candidates identified here are Pt2FeNi, Pt2FeCu, and W2FeB2",
+      "page_or_section": "Abstract",
+      "source_arxiv": "1910.00548"
+    },
+    {
+      "formula": "Cs2AgSbBr6",
+      "elements": [
+        "Cs",
+        "Ag",
+        "Sb",
+        "Br"
+      ],
+      "year": 2023,
+      "claim": "materials with a negative tag (no ICSD ID) in the MP database confirmed to be synthesizable or stable in DFT",
+      "page_or_section": "Fig. 4",
+      "source_doi": "10.1021/acsomega.2c04856"
+    },
+    {
+      "formula": "BaHfO3",
+      "elements": [
+        "Ba",
+        "Hf",
+        "O"
+      ],
+      "year": 2023,
+      "claim": "materials with a negative tag (no ICSD ID) in the MP database confirmed to be synthesizable or stable in DFT",
+      "page_or_section": "Fig. 4",
+      "source_doi": "10.1021/acsomega.2c04856"
+    },
+    {
+      "formula": "Cs2InAgCl6",
+      "elements": [
+        "Cs",
+        "In",
+        "Ag",
+        "Cl"
+      ],
+      "year": 2023,
+      "claim": "materials with a negative tag (no ICSD ID) in the MP database confirmed to be synthesizable or stable in DFT",
+      "page_or_section": "Fig. 4",
+      "source_doi": "10.1021/acsomega.2c04856"
+    },
+    {
+      "formula": "LaMoN3",
+      "elements": [
+        "La",
+        "Mo",
+        "N"
+      ],
+      "year": 2023,
+      "claim": "materials with a negative tag (no ICSD ID) in the MP database confirmed to be synthesizable or stable in DFT",
+      "page_or_section": "Fig. 4",
+      "source_doi": "10.1021/acsomega.2c04856"
+    },
+    {
+      "formula": "Li4CO4",
+      "elements": [
+        "Li",
+        "C",
+        "O"
+      ],
+      "year": 2026,
+      "claim": "the most promising materials identified as candidates for solid-state electrolytes (listed in Table 3)",
+      "page_or_section": "Table 3 (Sec. 3.2.4 Fast Li-ion conductors)",
+      "source_doi": "10.1039/d5ee07336g"
+    },
+    {
+      "formula": "LiCsI2",
+      "elements": [
+        "Li",
+        "Cs",
+        "I"
+      ],
+      "year": 2026,
+      "claim": "the most promising materials identified as candidates for solid-state electrolytes (listed in Table 3)",
+      "page_or_section": "Table 3 (Sec. 3.2.4 Fast Li-ion conductors)",
+      "source_doi": "10.1039/d5ee07336g"
+    },
+    {
+      "formula": "Li3CsBr4",
+      "elements": [
+        "Li",
+        "Cs",
+        "Br"
+      ],
+      "year": 2026,
+      "claim": "the most promising materials identified as candidates for solid-state electrolytes (listed in Table 3)",
+      "page_or_section": "Table 3 (Sec. 3.2.4 Fast Li-ion conductors)",
+      "source_doi": "10.1039/d5ee07336g"
+    },
+    {
+      "formula": "Li3Cs2Br5",
+      "elements": [
+        "Li",
+        "Cs",
+        "Br"
+      ],
+      "year": 2026,
+      "claim": "the most promising materials identified as candidates for solid-state electrolytes (listed in Table 3)",
+      "page_or_section": "Table 3 (Sec. 3.2.4 Fast Li-ion conductors)",
+      "source_doi": "10.1039/d5ee07336g"
+    },
+    {
+      "formula": "Li7NbO6",
+      "elements": [
+        "Li",
+        "Nb",
+        "O"
+      ],
+      "year": 2026,
+      "claim": "the most promising materials identified as candidates for solid-state electrolytes (listed in Table 3)",
+      "page_or_section": "Table 3 (Sec. 3.2.4 Fast Li-ion conductors)",
+      "source_doi": "10.1039/d5ee07336g"
+    },
+    {
+      "formula": "Li3Cs2I5",
+      "elements": [
+        "Li",
+        "Cs",
+        "I"
+      ],
+      "year": 2026,
+      "claim": "the most promising materials identified as candidates for solid-state electrolytes (listed in Table 3)",
+      "page_or_section": "Table 3 (Sec. 3.2.4 Fast Li-ion conductors)",
+      "source_doi": "10.1039/d5ee07336g"
+    },
+    {
+      "formula": "LiCs3Cl4",
+      "elements": [
+        "Li",
+        "Cs",
+        "Cl"
+      ],
+      "year": 2026,
+      "claim": "the most promising materials identified as candidates for solid-state electrolytes (listed in Table 3)",
+      "page_or_section": "Table 3 (Sec. 3.2.4 Fast Li-ion conductors)",
+      "source_doi": "10.1039/d5ee07336g"
+    },
+    {
+      "formula": "Li4Mo3O8",
+      "elements": [
+        "Li",
+        "Mo",
+        "O"
+      ],
+      "year": 2026,
+      "claim": "the most promising materials identified as candidates for solid-state electrolytes (listed in Table 3)",
+      "page_or_section": "Table 3 (Sec. 3.2.4 Fast Li-ion conductors)",
+      "source_doi": "10.1039/d5ee07336g"
+    },
+    {
+      "formula": "Li5NaN2",
+      "elements": [
+        "Li",
+        "Na",
+        "N"
+      ],
+      "year": 2026,
+      "claim": "the most promising materials identified as candidates for solid-state electrolytes (listed in Table 3)",
+      "page_or_section": "Table 3 (Sec. 3.2.4 Fast Li-ion conductors)",
+      "source_doi": "10.1039/d5ee07336g"
+    },
+    {
+      "formula": "Cs2AgSbI6",
+      "elements": [
+        "Cs",
+        "Ag",
+        "Sb",
+        "I"
+      ],
+      "year": 2019,
+      "claim": "the 40 A2BB'X6 new compounds ... all other compounds have not been synthesized to our knowledge",
+      "page_or_section": "Results (band structures, Fig. 4)",
+      "source_doi": "10.1021/acs.chemmater.9b00116"
+    },
+    {
+      "formula": "Cs2AuScI6",
+      "elements": [
+        "Cs",
+        "Au",
+        "Sc",
+        "I"
+      ],
+      "year": 2019,
+      "claim": "the 40 A2BB'X6 new compounds ... all other compounds have not been synthesized to our knowledge",
+      "page_or_section": "Results (band structures, Fig. 4)",
+      "source_doi": "10.1021/acs.chemmater.9b00116"
+    },
+    {
+      "formula": "Rb2InInBr6",
+      "elements": [
+        "Rb",
+        "In",
+        "In",
+        "Br"
+      ],
+      "year": 2019,
+      "claim": "the 40 A2BB'X6 new compounds ... all other compounds have not been synthesized to our knowledge",
+      "page_or_section": "Results (band structures, Fig. 4)",
+      "source_doi": "10.1021/acs.chemmater.9b00116"
+    },
+    {
+      "formula": "Rb2CuScCl6",
+      "elements": [
+        "Rb",
+        "Cu",
+        "Sc",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "the 40 A2BB'X6 new compounds ... all other compounds have not been synthesized to our knowledge",
+      "page_or_section": "Results (band structures, Fig. 4)",
+      "source_doi": "10.1021/acs.chemmater.9b00116"
+    },
+    {
+      "formula": "CdSnSb2",
+      "elements": [
+        "Cd",
+        "Sn",
+        "Sb"
+      ],
+      "year": 2019,
+      "claim": "predicted TE materials ... are promising TE materials (p-type/n-type ABX2 lists, Fig. 4c,d)",
+      "page_or_section": "Results (Fig. 4c,d)",
+      "source_doi": "10.1021/acsami.9b01196"
+    },
+    {
+      "formula": "AgInS2",
+      "elements": [
+        "Ag",
+        "In",
+        "S"
+      ],
+      "year": 2019,
+      "claim": "predicted TE materials ... are promising TE materials (p-type/n-type ABX2 lists, Fig. 4c,d)",
+      "page_or_section": "Results (Fig. 4c,d)",
+      "source_doi": "10.1021/acsami.9b01196"
+    },
+    {
+      "formula": "AgGaSe2",
+      "elements": [
+        "Ag",
+        "Ga",
+        "Se"
+      ],
+      "year": 2019,
+      "claim": "predicted TE materials ... are promising TE materials (p-type/n-type ABX2 lists, Fig. 4c,d)",
+      "page_or_section": "Results (Fig. 4c,d)",
+      "source_doi": "10.1021/acsami.9b01196"
+    },
+    {
+      "formula": "ZnCdTe2",
+      "elements": [
+        "Zn",
+        "Cd",
+        "Te"
+      ],
+      "year": 2019,
+      "claim": "predicted TE materials ... are promising TE materials (p-type/n-type ABX2 lists, Fig. 4c,d)",
+      "page_or_section": "Results (Fig. 4c,d)",
+      "source_doi": "10.1021/acsami.9b01196"
+    },
+    {
+      "formula": "LiInTe2",
+      "elements": [
+        "Li",
+        "In",
+        "Te"
+      ],
+      "year": 2019,
+      "claim": "predicted TE materials ... are promising TE materials (p-type/n-type ABX2 lists, Fig. 4c,d)",
+      "page_or_section": "Results (Fig. 4c,d)",
+      "source_doi": "10.1021/acsami.9b01196"
+    },
+    {
+      "formula": "AgInSe2",
+      "elements": [
+        "Ag",
+        "In",
+        "Se"
+      ],
+      "year": 2019,
+      "claim": "predicted TE materials ... are promising TE materials (p-type/n-type ABX2 lists, Fig. 4c,d)",
+      "page_or_section": "Results (Fig. 4c,d)",
+      "source_doi": "10.1021/acsami.9b01196"
+    },
+    {
+      "formula": "ZnSnSb2",
+      "elements": [
+        "Zn",
+        "Sn",
+        "Sb"
+      ],
+      "year": 2019,
+      "claim": "predicted TE materials ... are promising TE materials (p-type/n-type ABX2 lists, Fig. 4c,d)",
+      "page_or_section": "Results (Fig. 4c,d)",
+      "source_doi": "10.1021/acsami.9b01196"
+    }
+  ]
+}

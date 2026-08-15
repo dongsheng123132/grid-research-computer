@@ -1,0 +1,251 @@
+{
+  "paper": "10.1038/s41524-023-01193-3",
+  "paperYear": 2024,
+  "table": "Table 2",
+  "rows": [
+    {
+      "formula": "Ti(SO4)2",
+      "LP": "High",
+      "R": 0,
+      "S": 19,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "NbCl2O",
+      "LP": "Low",
+      "R": 0,
+      "S": 1,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "RbHgSbTe3",
+      "LP": "Low",
+      "R": 0,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "NaHSeO4",
+      "LP": "Medium",
+      "R": 0,
+      "S": 1,
+      "cls": "PRIOR",
+      "earliest": 1999,
+      "n": 1,
+      "refs": [
+        {
+          "cod": "1522305",
+          "year": 1999,
+          "doi": null,
+          "journal": "Kristallografiya"
+        }
+      ]
+    },
+    {
+      "formula": "BaTi(IO3)6",
+      "LP": "Medium",
+      "R": 0,
+      "S": 0,
+      "cls": "PRIOR",
+      "earliest": 2005,
+      "n": 2,
+      "refs": [
+        {
+          "cod": "4308965",
+          "year": 2005,
+          "doi": "10.1021/ic048428c",
+          "journal": "Inorganic Chemistry"
+        },
+        {
+          "cod": "7704589",
+          "year": 2020,
+          "doi": "10.1039/d0dt00593b",
+          "journal": "Dalton transactions (Cambridge, En"
+        }
+      ]
+    },
+    {
+      "formula": "K4Ba2SnBi4",
+      "LP": "Low",
+      "R": 0,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "Li2MgGeO4",
+      "LP": "Medium",
+      "R": 0,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "SrGaSiH",
+      "LP": "Low",
+      "R": 0,
+      "S": 0,
+      "cls": "PRIOR",
+      "earliest": 2008,
+      "n": 1,
+      "refs": [
+        {
+          "cod": "4124020",
+          "year": 2008,
+          "doi": null,
+          "journal": "Journal of the American Chemical Society"
+        }
+      ]
+    },
+    {
+      "formula": "ClF5",
+      "LP": "High",
+      "R": 0,
+      "S": 2,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "K4Ba2SnSb4",
+      "LP": "Low",
+      "R": 0,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "LiAlS2",
+      "LP": "Medium",
+      "R": 1,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "Na3HfF7",
+      "LP": "Medium",
+      "R": 0,
+      "S": 0,
+      "cls": "PRIOR",
+      "earliest": 1959,
+      "n": 1,
+      "refs": [
+        {
+          "cod": "2310862",
+          "year": 1959,
+          "doi": null,
+          "journal": "Acta Crystallographica (1,1948-23,1967)"
+        }
+      ]
+    },
+    {
+      "formula": "GaClO",
+      "LP": "High",
+      "R": 0,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "Ca11AlSb9",
+      "LP": "Low",
+      "R": 0,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "K4Ba2SnAs4",
+      "LP": "Low",
+      "R": 0,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "KLiZn3O4",
+      "LP": "Low",
+      "R": 0,
+      "S": 0,
+      "cls": "PRIOR",
+      "earliest": 1988,
+      "n": 1,
+      "refs": [
+        {
+          "cod": "1530099",
+          "year": 1988,
+          "doi": null,
+          "journal": "Journal of Solid State Chemistry"
+        }
+      ]
+    },
+    {
+      "formula": "Li2ZnGeS4",
+      "LP": "Medium",
+      "R": 0,
+      "S": 0,
+      "cls": "PRIOR",
+      "earliest": 2019,
+      "n": 2,
+      "refs": [
+        {
+          "cod": "7049174",
+          "year": 2019,
+          "doi": "10.1039/c9dt00269c",
+          "journal": "Dalton transactions (Cambridge, England "
+        },
+        {
+          "cod": "4003667",
+          "year": 2020,
+          "doi": "10.1021/acs.chemmater.0c02929",
+          "journal": "Chemistry of Materials"
+        }
+      ]
+    },
+    {
+      "formula": "Al2CdBr8",
+      "LP": "Low",
+      "R": 0,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    },
+    {
+      "formula": "Cd(GaCl4)2",
+      "LP": "Low",
+      "R": 0,
+      "S": 0,
+      "cls": "UNKNOWN",
+      "earliest": null,
+      "n": 0,
+      "refs": []
+    }
+  ]
+}

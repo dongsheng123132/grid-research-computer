@@ -1,0 +1,1046 @@
+[
+ {
+  "a": "Li",
+  "b": "Na",
+  "sys": "Li-Na-O",
+  "observed": false,
+  "dq": 0,
+  "ratio": 1.3421052631578947,
+  "note": "Li1+(0.76) / Na1+(1.02)"
+ },
+ {
+  "a": "Li",
+  "b": "Mg",
+  "sys": "Li-Mg-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.0555555555555556,
+  "note": "Li1+(0.76) / Mg2+(0.72)"
+ },
+ {
+  "a": "Li",
+  "b": "Ca",
+  "sys": "Li-Ca-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.3157894736842106,
+  "note": "Li1+(0.76) / Ca2+(1)"
+ },
+ {
+  "a": "Li",
+  "b": "Sr",
+  "sys": "Li-Sr-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.5526315789473684,
+  "note": "Li1+(0.76) / Sr2+(1.18)"
+ },
+ {
+  "a": "Li",
+  "b": "Ba",
+  "sys": "Li-Ba-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.7763157894736843,
+  "note": "Li1+(0.76) / Ba2+(1.35)"
+ },
+ {
+  "a": "Li",
+  "b": "Ti",
+  "sys": "Li-Ti-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.256198347107438,
+  "note": "Li1+(0.76) / Ti4+(0.605)"
+ },
+ {
+  "a": "Li",
+  "b": "V",
+  "sys": "Li-V-O",
+  "observed": true,
+  "dq": 4,
+  "ratio": 1.4074074074074074,
+  "note": "Li1+(0.76) / V5+(0.54)"
+ },
+ {
+  "a": "Li",
+  "b": "Mn",
+  "sys": "Li-Mn-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.4339622641509433,
+  "note": "Li1+(0.76) / Mn4+(0.53)"
+ },
+ {
+  "a": "Li",
+  "b": "Fe",
+  "sys": "Li-Fe-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.1782945736434107,
+  "note": "Li1+(0.76) / Fe3+(0.645)"
+ },
+ {
+  "a": "Li",
+  "b": "Co",
+  "sys": "Li-Co-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.2459016393442623,
+  "note": "Li1+(0.76) / Co3+(0.61)"
+ },
+ {
+  "a": "Li",
+  "b": "Ni",
+  "sys": "Li-Ni-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.2666666666666668,
+  "note": "Li1+(0.76) / Ni3+(0.6)"
+ },
+ {
+  "a": "Li",
+  "b": "Cu",
+  "sys": "Li-Cu-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.0410958904109588,
+  "note": "Li1+(0.76) / Cu2+(0.73)"
+ },
+ {
+  "a": "Li",
+  "b": "Zn",
+  "sys": "Li-Zn-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.027027027027027,
+  "note": "Li1+(0.76) / Zn2+(0.74)"
+ },
+ {
+  "a": "Li",
+  "b": "Al",
+  "sys": "Li-Al-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.4205607476635513,
+  "note": "Li1+(0.76) / Al3+(0.535)"
+ },
+ {
+  "a": "Li",
+  "b": "Y",
+  "sys": "Li-Y-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.1842105263157894,
+  "note": "Li1+(0.76) / Y3+(0.9)"
+ },
+ {
+  "a": "Na",
+  "b": "Mg",
+  "sys": "Na-Mg-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.4166666666666667,
+  "note": "Na1+(1.02) / Mg2+(0.72)"
+ },
+ {
+  "a": "Na",
+  "b": "Sr",
+  "sys": "Na-Sr-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.156862745098039,
+  "note": "Na1+(1.02) / Sr2+(1.18)"
+ },
+ {
+  "a": "Na",
+  "b": "Ba",
+  "sys": "Na-Ba-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.3235294117647058,
+  "note": "Na1+(1.02) / Ba2+(1.35)"
+ },
+ {
+  "a": "Na",
+  "b": "Ti",
+  "sys": "Na-Ti-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.6859504132231407,
+  "note": "Na1+(1.02) / Ti4+(0.605)"
+ },
+ {
+  "a": "Na",
+  "b": "V",
+  "sys": "Na-V-O",
+  "observed": true,
+  "dq": 4,
+  "ratio": 1.8888888888888888,
+  "note": "Na1+(1.02) / V5+(0.54)"
+ },
+ {
+  "a": "Na",
+  "b": "Mn",
+  "sys": "Na-Mn-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.9245283018867925,
+  "note": "Na1+(1.02) / Mn4+(0.53)"
+ },
+ {
+  "a": "Na",
+  "b": "Fe",
+  "sys": "Na-Fe-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.5813953488372092,
+  "note": "Na1+(1.02) / Fe3+(0.645)"
+ },
+ {
+  "a": "Na",
+  "b": "Co",
+  "sys": "Na-Co-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.6721311475409837,
+  "note": "Na1+(1.02) / Co3+(0.61)"
+ },
+ {
+  "a": "Na",
+  "b": "Ni",
+  "sys": "Na-Ni-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.7000000000000002,
+  "note": "Na1+(1.02) / Ni3+(0.6)"
+ },
+ {
+  "a": "Na",
+  "b": "Cu",
+  "sys": "Na-Cu-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.3972602739726028,
+  "note": "Na1+(1.02) / Cu2+(0.73)"
+ },
+ {
+  "a": "Na",
+  "b": "Zn",
+  "sys": "Na-Zn-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.3783783783783785,
+  "note": "Na1+(1.02) / Zn2+(0.74)"
+ },
+ {
+  "a": "Na",
+  "b": "Al",
+  "sys": "Na-Al-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.9065420560747663,
+  "note": "Na1+(1.02) / Al3+(0.535)"
+ },
+ {
+  "a": "Na",
+  "b": "Y",
+  "sys": "Na-Y-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.1333333333333333,
+  "note": "Na1+(1.02) / Y3+(0.9)"
+ },
+ {
+  "a": "Mg",
+  "b": "Ca",
+  "sys": "Mg-Ca-O",
+  "observed": false,
+  "dq": 0,
+  "ratio": 1.3888888888888888,
+  "note": "Mg2+(0.72) / Ca2+(1)"
+ },
+ {
+  "a": "Mg",
+  "b": "Sr",
+  "sys": "Mg-Sr-O",
+  "observed": false,
+  "dq": 0,
+  "ratio": 1.6388888888888888,
+  "note": "Mg2+(0.72) / Sr2+(1.18)"
+ },
+ {
+  "a": "Mg",
+  "b": "Ba",
+  "sys": "Mg-Ba-O",
+  "observed": false,
+  "dq": 0,
+  "ratio": 1.8750000000000002,
+  "note": "Mg2+(0.72) / Ba2+(1.35)"
+ },
+ {
+  "a": "Mg",
+  "b": "Ti",
+  "sys": "Mg-Ti-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.1944444444444444,
+  "note": "Mg2+(0.72) / Ti2+(0.86)"
+ },
+ {
+  "a": "Mg",
+  "b": "V",
+  "sys": "Mg-V-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.3333333333333333,
+  "note": "Mg2+(0.72) / V5+(0.54)"
+ },
+ {
+  "a": "Mg",
+  "b": "Mn",
+  "sys": "Mg-Mn-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.3584905660377358,
+  "note": "Mg2+(0.72) / Mn4+(0.53)"
+ },
+ {
+  "a": "Mg",
+  "b": "Fe",
+  "sys": "Mg-Fe-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.1162790697674418,
+  "note": "Mg2+(0.72) / Fe3+(0.645)"
+ },
+ {
+  "a": "Mg",
+  "b": "Co",
+  "sys": "Mg-Co-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.180327868852459,
+  "note": "Mg2+(0.72) / Co3+(0.61)"
+ },
+ {
+  "a": "Mg",
+  "b": "Ni",
+  "sys": "Mg-Ni-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.2,
+  "note": "Mg2+(0.72) / Ni3+(0.6)"
+ },
+ {
+  "a": "Mg",
+  "b": "Cu",
+  "sys": "Mg-Cu-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.0694444444444444,
+  "note": "Mg2+(0.72) / Cu1+(0.77)"
+ },
+ {
+  "a": "Mg",
+  "b": "Zn",
+  "sys": "Mg-Zn-O",
+  "observed": false,
+  "dq": 0,
+  "ratio": 1.027777777777778,
+  "note": "Mg2+(0.72) / Zn2+(0.74)"
+ },
+ {
+  "a": "Mg",
+  "b": "Al",
+  "sys": "Mg-Al-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.3457943925233644,
+  "note": "Mg2+(0.72) / Al3+(0.535)"
+ },
+ {
+  "a": "Mg",
+  "b": "Y",
+  "sys": "Mg-Y-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.25,
+  "note": "Mg2+(0.72) / Y3+(0.9)"
+ },
+ {
+  "a": "Ca",
+  "b": "Sr",
+  "sys": "Ca-Sr-O",
+  "observed": false,
+  "dq": 0,
+  "ratio": 1.18,
+  "note": "Ca2+(1) / Sr2+(1.18)"
+ },
+ {
+  "a": "Ca",
+  "b": "Ba",
+  "sys": "Ca-Ba-O",
+  "observed": false,
+  "dq": 0,
+  "ratio": 1.35,
+  "note": "Ca2+(1) / Ba2+(1.35)"
+ },
+ {
+  "a": "Ca",
+  "b": "Ti",
+  "sys": "Ca-Ti-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.6528925619834711,
+  "note": "Ca2+(1) / Ti4+(0.605)"
+ },
+ {
+  "a": "Ca",
+  "b": "V",
+  "sys": "Ca-V-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.8518518518518516,
+  "note": "Ca2+(1) / V5+(0.54)"
+ },
+ {
+  "a": "Ca",
+  "b": "Mn",
+  "sys": "Ca-Mn-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.8867924528301885,
+  "note": "Ca2+(1) / Mn4+(0.53)"
+ },
+ {
+  "a": "Ca",
+  "b": "Fe",
+  "sys": "Ca-Fe-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.5503875968992247,
+  "note": "Ca2+(1) / Fe3+(0.645)"
+ },
+ {
+  "a": "Ca",
+  "b": "Co",
+  "sys": "Ca-Co-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.639344262295082,
+  "note": "Ca2+(1) / Co3+(0.61)"
+ },
+ {
+  "a": "Ca",
+  "b": "Ni",
+  "sys": "Ca-Ni-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.6666666666666667,
+  "note": "Ca2+(1) / Ni3+(0.6)"
+ },
+ {
+  "a": "Ca",
+  "b": "Cu",
+  "sys": "Ca-Cu-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.36986301369863,
+  "note": "Ca2+(1) / Cu2+(0.73)"
+ },
+ {
+  "a": "Ca",
+  "b": "Zn",
+  "sys": "Ca-Zn-O",
+  "observed": false,
+  "dq": 0,
+  "ratio": 1.3513513513513513,
+  "note": "Ca2+(1) / Zn2+(0.74)"
+ },
+ {
+  "a": "Ca",
+  "b": "Y",
+  "sys": "Ca-Y-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.1111111111111112,
+  "note": "Ca2+(1) / Y3+(0.9)"
+ },
+ {
+  "a": "Sr",
+  "b": "Ba",
+  "sys": "Sr-Ba-O",
+  "observed": false,
+  "dq": 0,
+  "ratio": 1.1440677966101696,
+  "note": "Sr2+(1.18) / Ba2+(1.35)"
+ },
+ {
+  "a": "Sr",
+  "b": "Ti",
+  "sys": "Sr-Ti-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.9504132231404958,
+  "note": "Sr2+(1.18) / Ti4+(0.605)"
+ },
+ {
+  "a": "Sr",
+  "b": "V",
+  "sys": "Sr-V-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 2.185185185185185,
+  "note": "Sr2+(1.18) / V5+(0.54)"
+ },
+ {
+  "a": "Sr",
+  "b": "Mn",
+  "sys": "Sr-Mn-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 2.2264150943396226,
+  "note": "Sr2+(1.18) / Mn4+(0.53)"
+ },
+ {
+  "a": "Sr",
+  "b": "Fe",
+  "sys": "Sr-Fe-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.8294573643410852,
+  "note": "Sr2+(1.18) / Fe3+(0.645)"
+ },
+ {
+  "a": "Sr",
+  "b": "Co",
+  "sys": "Sr-Co-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.9344262295081966,
+  "note": "Sr2+(1.18) / Co3+(0.61)"
+ },
+ {
+  "a": "Sr",
+  "b": "Ni",
+  "sys": "Sr-Ni-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.9666666666666666,
+  "note": "Sr2+(1.18) / Ni3+(0.6)"
+ },
+ {
+  "a": "Sr",
+  "b": "Cu",
+  "sys": "Sr-Cu-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.6164383561643836,
+  "note": "Sr2+(1.18) / Cu2+(0.73)"
+ },
+ {
+  "a": "Sr",
+  "b": "Zn",
+  "sys": "Sr-Zn-O",
+  "observed": true,
+  "dq": 0,
+  "ratio": 1.5945945945945945,
+  "note": "Sr2+(1.18) / Zn2+(0.74)"
+ },
+ {
+  "a": "Sr",
+  "b": "Al",
+  "sys": "Sr-Al-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 2.205607476635514,
+  "note": "Sr2+(1.18) / Al3+(0.535)"
+ },
+ {
+  "a": "Sr",
+  "b": "Y",
+  "sys": "Sr-Y-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.3111111111111111,
+  "note": "Sr2+(1.18) / Y3+(0.9)"
+ },
+ {
+  "a": "Ba",
+  "b": "Ti",
+  "sys": "Ba-Ti-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 2.231404958677686,
+  "note": "Ba2+(1.35) / Ti4+(0.605)"
+ },
+ {
+  "a": "Ba",
+  "b": "V",
+  "sys": "Ba-V-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 2.5,
+  "note": "Ba2+(1.35) / V5+(0.54)"
+ },
+ {
+  "a": "Ba",
+  "b": "Mn",
+  "sys": "Ba-Mn-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 2.547169811320755,
+  "note": "Ba2+(1.35) / Mn4+(0.53)"
+ },
+ {
+  "a": "Ba",
+  "b": "Fe",
+  "sys": "Ba-Fe-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 2.0930232558139537,
+  "note": "Ba2+(1.35) / Fe3+(0.645)"
+ },
+ {
+  "a": "Ba",
+  "b": "Co",
+  "sys": "Ba-Co-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 2.2131147540983607,
+  "note": "Ba2+(1.35) / Co3+(0.61)"
+ },
+ {
+  "a": "Ba",
+  "b": "Ni",
+  "sys": "Ba-Ni-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 2.2500000000000004,
+  "note": "Ba2+(1.35) / Ni3+(0.6)"
+ },
+ {
+  "a": "Ba",
+  "b": "Cu",
+  "sys": "Ba-Cu-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.8493150684931507,
+  "note": "Ba2+(1.35) / Cu2+(0.73)"
+ },
+ {
+  "a": "Ba",
+  "b": "Zn",
+  "sys": "Ba-Zn-O",
+  "observed": true,
+  "dq": 0,
+  "ratio": 1.8243243243243246,
+  "note": "Ba2+(1.35) / Zn2+(0.74)"
+ },
+ {
+  "a": "Ba",
+  "b": "Al",
+  "sys": "Ba-Al-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 2.5233644859813085,
+  "note": "Ba2+(1.35) / Al3+(0.535)"
+ },
+ {
+  "a": "Ba",
+  "b": "Y",
+  "sys": "Ba-Y-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.5,
+  "note": "Ba2+(1.35) / Y3+(0.9)"
+ },
+ {
+  "a": "Ti",
+  "b": "V",
+  "sys": "Ti-V-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.5925925925925926,
+  "note": "Ti2+(0.86) / V5+(0.54)"
+ },
+ {
+  "a": "Ti",
+  "b": "Mn",
+  "sys": "Ti-Mn-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.6226415094339621,
+  "note": "Ti2+(0.86) / Mn4+(0.53)"
+ },
+ {
+  "a": "Ti",
+  "b": "Co",
+  "sys": "Ti-Co-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.4098360655737705,
+  "note": "Ti2+(0.86) / Co3+(0.61)"
+ },
+ {
+  "a": "Ti",
+  "b": "Ni",
+  "sys": "Ti-Ni-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.4333333333333333,
+  "note": "Ti2+(0.86) / Ni3+(0.6)"
+ },
+ {
+  "a": "Ti",
+  "b": "Cu",
+  "sys": "Ti-Cu-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.2727272727272727,
+  "note": "Ti4+(0.605) / Cu1+(0.77)"
+ },
+ {
+  "a": "Ti",
+  "b": "Zn",
+  "sys": "Ti-Zn-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.2231404958677685,
+  "note": "Ti4+(0.605) / Zn2+(0.74)"
+ },
+ {
+  "a": "Ti",
+  "b": "Al",
+  "sys": "Ti-Al-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.6074766355140186,
+  "note": "Ti2+(0.86) / Al3+(0.535)"
+ },
+ {
+  "a": "Ti",
+  "b": "Y",
+  "sys": "Ti-Y-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.4876033057851241,
+  "note": "Ti4+(0.605) / Y3+(0.9)"
+ },
+ {
+  "a": "V",
+  "b": "Mn",
+  "sys": "V-Mn-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.5370370370370368,
+  "note": "V5+(0.54) / Mn2+(0.83)"
+ },
+ {
+  "a": "V",
+  "b": "Fe",
+  "sys": "V-Fe-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.4444444444444444,
+  "note": "V5+(0.54) / Fe2+(0.78)"
+ },
+ {
+  "a": "V",
+  "b": "Co",
+  "sys": "V-Co-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.3796296296296295,
+  "note": "V5+(0.54) / Co2+(0.745)"
+ },
+ {
+  "a": "V",
+  "b": "Ni",
+  "sys": "V-Ni-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.3166666666666669,
+  "note": "V2+(0.79) / Ni3+(0.6)"
+ },
+ {
+  "a": "V",
+  "b": "Cu",
+  "sys": "V-Cu-O",
+  "observed": true,
+  "dq": 4,
+  "ratio": 1.4259259259259258,
+  "note": "V5+(0.54) / Cu1+(0.77)"
+ },
+ {
+  "a": "V",
+  "b": "Zn",
+  "sys": "V-Zn-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.3703703703703702,
+  "note": "V5+(0.54) / Zn2+(0.74)"
+ },
+ {
+  "a": "V",
+  "b": "Al",
+  "sys": "V-Al-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.4766355140186915,
+  "note": "V2+(0.79) / Al3+(0.535)"
+ },
+ {
+  "a": "V",
+  "b": "Y",
+  "sys": "V-Y-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.6666666666666665,
+  "note": "V5+(0.54) / Y3+(0.9)"
+ },
+ {
+  "a": "Mn",
+  "b": "Fe",
+  "sys": "Mn-Fe-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.471698113207547,
+  "note": "Mn4+(0.53) / Fe2+(0.78)"
+ },
+ {
+  "a": "Mn",
+  "b": "Co",
+  "sys": "Mn-Co-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.4056603773584906,
+  "note": "Mn4+(0.53) / Co2+(0.745)"
+ },
+ {
+  "a": "Mn",
+  "b": "Ni",
+  "sys": "Mn-Ni-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.3833333333333333,
+  "note": "Mn2+(0.83) / Ni3+(0.6)"
+ },
+ {
+  "a": "Mn",
+  "b": "Cu",
+  "sys": "Mn-Cu-O",
+  "observed": true,
+  "dq": 3,
+  "ratio": 1.4528301886792452,
+  "note": "Mn4+(0.53) / Cu1+(0.77)"
+ },
+ {
+  "a": "Mn",
+  "b": "Zn",
+  "sys": "Mn-Zn-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.3962264150943395,
+  "note": "Mn4+(0.53) / Zn2+(0.74)"
+ },
+ {
+  "a": "Mn",
+  "b": "Al",
+  "sys": "Mn-Al-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.5514018691588782,
+  "note": "Mn2+(0.83) / Al3+(0.535)"
+ },
+ {
+  "a": "Mn",
+  "b": "Y",
+  "sys": "Mn-Y-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.6981132075471699,
+  "note": "Mn4+(0.53) / Y3+(0.9)"
+ },
+ {
+  "a": "Fe",
+  "b": "Co",
+  "sys": "Fe-Co-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.278688524590164,
+  "note": "Fe2+(0.78) / Co3+(0.61)"
+ },
+ {
+  "a": "Fe",
+  "b": "Ni",
+  "sys": "Fe-Ni-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.3,
+  "note": "Fe2+(0.78) / Ni3+(0.6)"
+ },
+ {
+  "a": "Fe",
+  "b": "Cu",
+  "sys": "Fe-Cu-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.193798449612403,
+  "note": "Fe3+(0.645) / Cu1+(0.77)"
+ },
+ {
+  "a": "Fe",
+  "b": "Zn",
+  "sys": "Fe-Zn-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.1472868217054264,
+  "note": "Fe3+(0.645) / Zn2+(0.74)"
+ },
+ {
+  "a": "Fe",
+  "b": "Y",
+  "sys": "Fe-Y-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.3953488372093024,
+  "note": "Fe3+(0.645) / Y3+(0.9)"
+ },
+ {
+  "a": "Co",
+  "b": "Ni",
+  "sys": "Co-Ni-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.2416666666666667,
+  "note": "Co2+(0.745) / Ni3+(0.6)"
+ },
+ {
+  "a": "Co",
+  "b": "Cu",
+  "sys": "Co-Cu-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.2622950819672132,
+  "note": "Co3+(0.61) / Cu1+(0.77)"
+ },
+ {
+  "a": "Co",
+  "b": "Zn",
+  "sys": "Co-Zn-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.2131147540983607,
+  "note": "Co3+(0.61) / Zn2+(0.74)"
+ },
+ {
+  "a": "Co",
+  "b": "Al",
+  "sys": "Co-Al-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.3925233644859811,
+  "note": "Co2+(0.745) / Al3+(0.535)"
+ },
+ {
+  "a": "Co",
+  "b": "Y",
+  "sys": "Co-Y-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.4754098360655739,
+  "note": "Co3+(0.61) / Y3+(0.9)"
+ },
+ {
+  "a": "Ni",
+  "b": "Cu",
+  "sys": "Ni-Cu-O",
+  "observed": false,
+  "dq": 2,
+  "ratio": 1.2833333333333334,
+  "note": "Ni3+(0.6) / Cu1+(0.77)"
+ },
+ {
+  "a": "Ni",
+  "b": "Zn",
+  "sys": "Ni-Zn-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.2333333333333334,
+  "note": "Ni3+(0.6) / Zn2+(0.74)"
+ },
+ {
+  "a": "Ni",
+  "b": "Al",
+  "sys": "Ni-Al-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.2897196261682242,
+  "note": "Ni2+(0.69) / Al3+(0.535)"
+ },
+ {
+  "a": "Ni",
+  "b": "Y",
+  "sys": "Ni-Y-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.5,
+  "note": "Ni3+(0.6) / Y3+(0.9)"
+ },
+ {
+  "a": "Cu",
+  "b": "Zn",
+  "sys": "Cu-Zn-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.0405405405405406,
+  "note": "Cu1+(0.77) / Zn2+(0.74)"
+ },
+ {
+  "a": "Cu",
+  "b": "Al",
+  "sys": "Cu-Al-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.439252336448598,
+  "note": "Cu1+(0.77) / Al3+(0.535)"
+ },
+ {
+  "a": "Cu",
+  "b": "Y",
+  "sys": "Cu-Y-O",
+  "observed": true,
+  "dq": 2,
+  "ratio": 1.2328767123287672,
+  "note": "Cu2+(0.73) / Y3+(0.9)"
+ },
+ {
+  "a": "Zn",
+  "b": "Al",
+  "sys": "Zn-Al-O",
+  "observed": true,
+  "dq": 1,
+  "ratio": 1.3831775700934579,
+  "note": "Zn2+(0.74) / Al3+(0.535)"
+ },
+ {
+  "a": "Zn",
+  "b": "Y",
+  "sys": "Zn-Y-O",
+  "observed": false,
+  "dq": 1,
+  "ratio": 1.2162162162162162,
+  "note": "Zn2+(0.74) / Y3+(0.9)"
+ },
+ {
+  "a": "Al",
+  "b": "Y",
+  "sys": "Al-Y-O",
+  "observed": true,
+  "dq": 0,
+  "ratio": 1.6822429906542056,
+  "note": "Al3+(0.535) / Y3+(0.9)"
+ }
+]

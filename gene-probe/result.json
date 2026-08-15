@@ -1,0 +1,382 @@
+{
+ "spec": "gene-probe/0.1",
+ "prereg_sha": "5952726f6ca827e8f2eb0a62f950d6f77364fdf7fcb8cbf7af621a3e1e8e011a",
+ "source": "mygene.info (HGNC/NCBI)",
+ "counts": {
+  "exact_hit": 6,
+  "alias_only": 22,
+  "fuzzy_only": 21,
+  "unresolved": 2,
+  "error": 0
+ },
+ "false_empty_rate": 0.7857142857142857,
+ "denominator_note": "分母只含 exact_hit + alias_only；fuzzy_only / unresolved / error 不进分母",
+ "reverse": {
+  "R2_fabricated": [
+   "ZZQX9:unresolved",
+   "FAKEGENE7:unresolved"
+  ],
+  "R2_ok": true,
+  "R3_TP53": "exact_hit"
+ },
+ "failures": [],
+ "rows": [
+  {
+   "sym": "MLL",
+   "verdict": "fuzzy_only",
+   "official": "MLLT1",
+   "name": "MLLT1 super elongation complex subunit",
+   "alias_count": 3
+  },
+  {
+   "sym": "MLL2",
+   "verdict": "alias_only",
+   "official": "KMT2D",
+   "name": "lysine methyltransferase 2D",
+   "alias_count": 9
+  },
+  {
+   "sym": "MLL3",
+   "verdict": "fuzzy_only",
+   "official": "MED10",
+   "name": "mediator complex subunit 10",
+   "alias_count": 3
+  },
+  {
+   "sym": "HER2",
+   "verdict": "alias_only",
+   "official": "ERBB2",
+   "name": "erb-b2 receptor tyrosine kinase 2",
+   "alias_count": 13
+  },
+  {
+   "sym": "NEU",
+   "verdict": "fuzzy_only",
+   "official": "HUNK",
+   "name": "hormonally up-regulated Neu-associated kinase",
+   "alias_count": 0
+  },
+  {
+   "sym": "C-MYC",
+   "verdict": "fuzzy_only",
+   "official": "ODC1-DT",
+   "name": "ODC1 divergent transcript",
+   "alias_count": 1
+  },
+  {
+   "sym": "K-RAS",
+   "verdict": "alias_only",
+   "official": "KRAS",
+   "name": "KRas proto-oncogene, GTPase",
+   "alias_count": 20
+  },
+  {
+   "sym": "N-RAS",
+   "verdict": "fuzzy_only",
+   "official": "RASSF10",
+   "name": "Ras association domain family member 10",
+   "alias_count": 0
+  },
+  {
+   "sym": "p16",
+   "verdict": "fuzzy_only",
+   "official": "ARPC5",
+   "name": "actin related protein 2/3 complex subunit 5",
+   "alias_count": 4
+  },
+  {
+   "sym": "p21",
+   "verdict": "fuzzy_only",
+   "official": "RPP21",
+   "name": "ribonuclease P subunit p21",
+   "alias_count": 2
+  },
+  {
+   "sym": "p53",
+   "verdict": "fuzzy_only",
+   "official": "PURPL",
+   "name": "p53 upregulated regulator of p53 levels",
+   "alias_count": 1
+  },
+  {
+   "sym": "Rb",
+   "verdict": "alias_only",
+   "official": "RB1",
+   "name": "RB transcriptional corepressor 1",
+   "alias_count": 7
+  },
+  {
+   "sym": "BCL-2",
+   "verdict": "fuzzy_only",
+   "official": "BAD",
+   "name": "BCL2 associated agonist of cell death",
+   "alias_count": 2
+  },
+  {
+   "sym": "ABL",
+   "verdict": "fuzzy_only",
+   "official": "ABI2",
+   "name": "abl interactor 2",
+   "alias_count": 9
+  },
+  {
+   "sym": "FAM134B",
+   "verdict": "alias_only",
+   "official": "RETREG1",
+   "name": "reticulophagy regulator 1",
+   "alias_count": 3
+  },
+  {
+   "sym": "C11orf30",
+   "verdict": "alias_only",
+   "official": "EMSY",
+   "name": "EMSY transcriptional repressor, BRCA2 interacting",
+   "alias_count": 2
+  },
+  {
+   "sym": "CD11B",
+   "verdict": "alias_only",
+   "official": "ITGAM",
+   "name": "integrin subunit alpha M",
+   "alias_count": 7
+  },
+  {
+   "sym": "CD11A",
+   "verdict": "alias_only",
+   "official": "ITGAL",
+   "name": "integrin subunit alpha L",
+   "alias_count": 5
+  },
+  {
+   "sym": "CD18",
+   "verdict": "alias_only",
+   "official": "ITGB2",
+   "name": "integrin subunit beta 2",
+   "alias_count": 7
+  },
+  {
+   "sym": "CD25",
+   "verdict": "fuzzy_only",
+   "official": "TNFRSF18",
+   "name": "TNF receptor superfamily member 18",
+   "alias_count": 5
+  },
+  {
+   "sym": "CD31",
+   "verdict": "alias_only",
+   "official": "PECAM1",
+   "name": "platelet and endothelial cell adhesion molecule 1",
+   "alias_count": 6
+  },
+  {
+   "sym": "CD62L",
+   "verdict": "alias_only",
+   "official": "SELL",
+   "name": "selectin L",
+   "alias_count": 9
+  },
+  {
+   "sym": "CD95",
+   "verdict": "fuzzy_only",
+   "official": "FASLG",
+   "name": "Fas ligand",
+   "alias_count": 9
+  },
+  {
+   "sym": "CD117",
+   "verdict": "alias_only",
+   "official": "KIT",
+   "name": "KIT proto-oncogene, receptor tyrosine kinase",
+   "alias_count": 5
+  },
+  {
+   "sym": "SEPT1",
+   "verdict": "alias_only",
+   "official": "SEPTIN1",
+   "name": "septin 1",
+   "alias_count": 6
+  },
+  {
+   "sym": "SEPT2",
+   "verdict": "alias_only",
+   "official": "SEPTIN6",
+   "name": "septin 6",
+   "alias_count": 4
+  },
+  {
+   "sym": "SEPT9",
+   "verdict": "alias_only",
+   "official": "SEPTIN9",
+   "name": "septin 9",
+   "alias_count": 7
+  },
+  {
+   "sym": "SEPT11",
+   "verdict": "alias_only",
+   "official": "SEPTIN11",
+   "name": "septin 11",
+   "alias_count": 2
+  },
+  {
+   "sym": "MARCH1",
+   "verdict": "alias_only",
+   "official": "MARCHF1",
+   "name": "membrane associated ring-CH-type finger 1",
+   "alias_count": 3
+  },
+  {
+   "sym": "MARCH5",
+   "verdict": "alias_only",
+   "official": "MARCHF5",
+   "name": "membrane associated ring-CH-type finger 5",
+   "alias_count": 4
+  },
+  {
+   "sym": "DEC1",
+   "verdict": "alias_only",
+   "official": "DELEC1",
+   "name": "deleted in esophageal cancer 1",
+   "alias_count": 2
+  },
+  {
+   "sym": "MCP-1",
+   "verdict": "fuzzy_only",
+   "official": "SLC25A33",
+   "name": "solute carrier family 25 member 33",
+   "alias_count": 2
+  },
+  {
+   "sym": "RANTES",
+   "verdict": "fuzzy_only",
+   "official": "CCR1",
+   "name": "C-C motif chemokine receptor 1",
+   "alias_count": 7
+  },
+  {
+   "sym": "IL-8",
+   "verdict": "fuzzy_only",
+   "official": "IL36B",
+   "name": "interleukin 36 beta",
+   "alias_count": 9
+  },
+  {
+   "sym": "SDF-1",
+   "verdict": "fuzzy_only",
+   "official": "SDF2",
+   "name": "stromal cell derived factor 2",
+   "alias_count": 0
+  },
+  {
+   "sym": "VEGF",
+   "verdict": "fuzzy_only",
+   "official": "PROK1",
+   "name": "prokineticin 1",
+   "alias_count": 3
+  },
+  {
+   "sym": "GM-CSF",
+   "verdict": "fuzzy_only",
+   "official": "CSF2RB",
+   "name": "colony stimulating factor 2 receptor subunit beta",
+   "alias_count": 6
+  },
+  {
+   "sym": "OCT4",
+   "verdict": "fuzzy_only",
+   "official": "LOC127405755",
+   "name": "OCT4 hESC enhancer GRCh37_chr6:31123471-31124086",
+   "alias_count": 0
+  },
+  {
+   "sym": "GPR30",
+   "verdict": "alias_only",
+   "official": "GPER1",
+   "name": "G protein-coupled estrogen receptor 1",
+   "alias_count": 11
+  },
+  {
+   "sym": "ICAM-1",
+   "verdict": "fuzzy_only",
+   "official": "ICAM4-AS1",
+   "name": "ICAM4 antisense RNA 1",
+   "alias_count": 2
+  },
+  {
+   "sym": "TNFSF2",
+   "verdict": "alias_only",
+   "official": "TNF",
+   "name": "tumor necrosis factor",
+   "alias_count": 6
+  },
+  {
+   "sym": "CD133",
+   "verdict": "alias_only",
+   "official": "PROM1",
+   "name": "prominin 1",
+   "alias_count": 8
+  },
+  {
+   "sym": "PD-L1",
+   "verdict": "fuzzy_only",
+   "official": "OST4",
+   "name": "oligosaccharyltransferase complex subunit 4, non-catal",
+   "alias_count": 0
+  },
+  {
+   "sym": "TP53",
+   "verdict": "exact_hit",
+   "official": "TP53",
+   "name": "tumor protein p53",
+   "alias_count": 5
+  },
+  {
+   "sym": "BRCA1",
+   "verdict": "exact_hit",
+   "official": "BRCA1",
+   "name": "BRCA1 DNA repair associated",
+   "alias_count": 9
+  },
+  {
+   "sym": "EGFR",
+   "verdict": "exact_hit",
+   "official": "EGFR",
+   "name": "epidermal growth factor receptor",
+   "alias_count": 8
+  },
+  {
+   "sym": "KRAS",
+   "verdict": "exact_hit",
+   "official": "KRAS",
+   "name": "KRas proto-oncogene, GTPase",
+   "alias_count": 20
+  },
+  {
+   "sym": "MYC",
+   "verdict": "exact_hit",
+   "official": "MYC",
+   "name": "MYC proto-oncogene, bHLH transcription factor",
+   "alias_count": 4
+  },
+  {
+   "sym": "PTEN",
+   "verdict": "exact_hit",
+   "official": "PTEN",
+   "name": "phosphatase and tensin homolog",
+   "alias_count": 11
+  },
+  {
+   "sym": "ZZQX9",
+   "verdict": "unresolved",
+   "official": null,
+   "name": "",
+   "alias_count": 0
+  },
+  {
+   "sym": "FAKEGENE7",
+   "verdict": "unresolved",
+   "official": null,
+   "name": "",
+   "alias_count": 0
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+  "question": "论文点名为「数据库中不存在 / 尚未合成」的化合物，在该论文发表之前是否已有已发表的晶体结构？",
+  "source": "Crystallography Open Database (COD)，result.php?formula=<规范式>&format=json",
+  "normalization": "元素按字母序、计数 1 省略、空格分隔；由 normalize() 确定性给出",
+  "classify": {
+    "PRIOR": "COD 中存在该化学式的条目，且其最早 year < 论文 year → 论文声称的「空」为假",
+    "SINCE": "COD 中存在该化学式的条目，但最早 year >= 论文 year → 预测兑现",
+    "UNKNOWN": "COD 中无该化学式条目 → 仍未知",
+    "UNRESOLVED": "查询失败 → **不知道**，不得并入 UNKNOWN"
+  },
+  "asymmetry": "PRIOR 是存在性证据，强；UNKNOWN 是全称否定，弱（COD ≠ ICSD）。只有 PRIOR 一边下结论。",
+  "positiveControls": [
+    "BaTiO3",
+    "LiCoO2",
+    "MgAl2O4",
+    "SrTiO3",
+    "CaTiO3",
+    "ZnFe2O4"
+  ],
+  "positiveControlRule": "这 6 个必须全部返回非空且最早年份 < 2000；任一失败则整轮作废，不产出任何审计结论",
+  "negativeControls": [
+    "Zq2Xy3O7",
+    "Qw1Er2Ty3",
+    "Xx3Yy4Zz5"
+  ],
+  "negativeControlRule": "这 3 个必须全部返回空；任一非空说明查询口径失效，整轮作废",
+  "voidIf": "阳性/阴性对照任一不过；或 UNRESOLVED 比例 > 30%",
+  "reportMustInclude": [
+    "三类计数与 UNRESOLVED 单独计数",
+    "每条 PRIOR 的双向出处（预测论文 DOI + 早于它的结构条目 COD id/年份/DOI）",
+    "化学式抽取自 predictions.json 的覆盖率"
+  ],
+  "note": "同化学式不等于同结构（多晶型）。但论文的主张是「该组分未被报道」，故化学式粒度正是该主张的粒度。"
+}

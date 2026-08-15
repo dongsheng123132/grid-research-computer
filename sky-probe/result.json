@@ -1,0 +1,698 @@
+{
+ "spec": "sky-probe/0.1",
+ "question": "「参考库里恰好这个名字查不到 → 未编目/新发现候选」这个朴素判据，在教科书级天体上的假空率",
+ "controls": 40,
+ "coverage": {
+  "attempted": 98,
+  "ok": 98,
+  "error": 0,
+  "cached": 97
+ },
+ "verdict": {
+  "resolved_exact": 3,
+  "resolved_different": 90,
+  "unresolved": 5
+ },
+ "false_empty_rate": 0.967741935483871,
+ "denominator_note": "分母只含成功解析的查询；unresolved / error 单独计数，不并入",
+ "rows": [
+  {
+   "canonical": "M 44",
+   "alias": "M 44",
+   "main_id": "NGC 2632",
+   "type": "OpC",
+   "probe": "direction",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 15",
+   "alias": "NGC 7078",
+   "main_id": "M 15",
+   "type": "GlC",
+   "probe": "direction",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Sirius",
+   "alias": "HD 48915",
+   "main_id": "* alf CMa",
+   "type": "SB*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Sirius",
+   "alias": "HR 2491",
+   "main_id": "* alf CMa",
+   "type": "SB*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Sirius",
+   "alias": "alf CMa",
+   "main_id": "* alf CMa",
+   "type": "SB*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Sirius",
+   "alias": "Alpha Canis Majoris",
+   "main_id": "* alf CMa",
+   "type": "SB*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Betelgeuse",
+   "alias": "alf Ori",
+   "main_id": "* alf Ori",
+   "type": "s*r",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Betelgeuse",
+   "alias": "HD 39801",
+   "main_id": "* alf Ori",
+   "type": "s*r",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Betelgeuse",
+   "alias": "58 Ori",
+   "main_id": "* alf Ori",
+   "type": "s*r",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Polaris",
+   "alias": "alf UMi",
+   "main_id": "* alf UMi",
+   "type": "cC*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Polaris",
+   "alias": "HD 8890",
+   "main_id": "* alf UMi",
+   "type": "cC*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Polaris",
+   "alias": "HR 424",
+   "main_id": "* alf UMi",
+   "type": "cC*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Vega",
+   "alias": "alf Lyr",
+   "main_id": "* alf Lyr",
+   "type": "dS*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Vega",
+   "alias": "HD 172167",
+   "main_id": "* alf Lyr",
+   "type": "dS*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Vega",
+   "alias": "HR 7001",
+   "main_id": "* alf Lyr",
+   "type": "dS*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Proxima Centauri",
+   "alias": "alf Cen C",
+   "main_id": "NAME Proxima Centauri",
+   "type": "PM*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Proxima Centauri",
+   "alias": "GJ 551",
+   "main_id": "NAME Proxima Centauri",
+   "type": "PM*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Proxima Centauri",
+   "alias": "HIP 70890",
+   "main_id": "NAME Proxima Centauri",
+   "type": "PM*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Barnard's star",
+   "alias": "GJ 699",
+   "main_id": "NAME Barnard's star",
+   "type": "BY*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Barnard's star",
+   "alias": "V2500 Oph",
+   "main_id": "NAME Barnard's star",
+   "type": "BY*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "VY CMa",
+   "alias": "HD 58061",
+   "main_id": "V* VY CMa",
+   "type": "s*r",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "VY CMa",
+   "alias": "IRC -30104",
+   "main_id": "V* ET Pup",
+   "type": "Mi*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Algol",
+   "alias": "bet Per",
+   "main_id": "* bet Per",
+   "type": "SB*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Algol",
+   "alias": "HD 19356",
+   "main_id": "* bet Per",
+   "type": "SB*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Algol",
+   "alias": "26 Per",
+   "main_id": "* bet Per",
+   "type": "SB*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Algol",
+   "alias": "Beta Persei",
+   "main_id": "* bet Per",
+   "type": "SB*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "del Cep",
+   "alias": "HD 213306",
+   "main_id": "* del Cep",
+   "type": "cC*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "del Cep",
+   "alias": "27 Cep",
+   "main_id": "* del Cep",
+   "type": "cC*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "eta Car",
+   "alias": "HD 93308",
+   "main_id": "* eta Car",
+   "type": "s*b",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "eta Car",
+   "alias": "Eta Carinae",
+   "main_id": "* eta Car",
+   "type": "s*b",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 1",
+   "alias": "Crab Nebula",
+   "main_id": "M 1",
+   "type": "SNR",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 1",
+   "alias": "NGC 1952",
+   "main_id": "M 1",
+   "type": "SNR",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 1",
+   "alias": "Taurus A",
+   "main_id": "M 1",
+   "type": "SNR",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 1",
+   "alias": "3C 144",
+   "main_id": "M 1",
+   "type": "SNR",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 42",
+   "alias": "NGC 1976",
+   "main_id": "M 42",
+   "type": "HII",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 42",
+   "alias": "Orion Nebula",
+   "main_id": "M 42",
+   "type": "HII",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 8",
+   "alias": "NGC 6523",
+   "main_id": "NGC 6523",
+   "type": "Cl*",
+   "verdict": "resolved_exact"
+  },
+  {
+   "canonical": "M 8",
+   "alias": "Lagoon Nebula",
+   "main_id": "M 8",
+   "type": "OpC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 57",
+   "alias": "NGC 6720",
+   "main_id": "M 57",
+   "type": "PN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 57",
+   "alias": "Ring Nebula",
+   "main_id": "M 57",
+   "type": "PN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 27",
+   "alias": "NGC 6853",
+   "main_id": "M 27",
+   "type": "PN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 27",
+   "alias": "Dumbbell Nebula",
+   "main_id": "M 27",
+   "type": "PN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 16",
+   "alias": "NGC 6611",
+   "main_id": "M 16",
+   "type": "OpC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 16",
+   "alias": "Eagle Nebula",
+   "main_id": "M 16",
+   "type": "OpC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "IC 434",
+   "alias": "Horsehead Nebula",
+   "main_id": "NAME Horsehead Nebula",
+   "type": "DNe",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "IC 434",
+   "alias": "LBN 954",
+   "main_id": "NGC 2023",
+   "type": "RNe",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "NGC 7293",
+   "alias": "Helix Nebula",
+   "main_id": "NGC 7293",
+   "type": "PN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "NGC 7293",
+   "alias": "Caldwell 63",
+   "verdict": "unresolved"
+  },
+  {
+   "canonical": "Cas A",
+   "alias": "3C 461",
+   "main_id": "NAME Cas A",
+   "type": "SNR",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Cas A",
+   "alias": "Cassiopeia A",
+   "main_id": "NAME Cas A",
+   "type": "SNR",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 31",
+   "alias": "NGC 224",
+   "main_id": "M 31",
+   "type": "AGN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 31",
+   "alias": "Andromeda Galaxy",
+   "main_id": "M 31",
+   "type": "AGN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 33",
+   "alias": "NGC 598",
+   "main_id": "M 33",
+   "type": "GiG",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 33",
+   "alias": "Triangulum Galaxy",
+   "main_id": "M 33",
+   "type": "GiG",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 87",
+   "alias": "NGC 4486",
+   "main_id": "M 87",
+   "type": "AGN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 87",
+   "alias": "Virgo A",
+   "main_id": "M 87",
+   "type": "AGN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 87",
+   "alias": "3C 274",
+   "main_id": "M 87",
+   "type": "AGN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 104",
+   "alias": "NGC 4594",
+   "main_id": "M 104",
+   "type": "LIN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 104",
+   "alias": "Sombrero Galaxy",
+   "main_id": "M 104",
+   "type": "LIN",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 51",
+   "alias": "NGC 5194",
+   "main_id": "M 51",
+   "type": "Sy2",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 51",
+   "alias": "Whirlpool Galaxy",
+   "main_id": "M 51",
+   "type": "Sy2",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 81",
+   "alias": "NGC 3031",
+   "main_id": "M 81",
+   "type": "Sy2",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 81",
+   "alias": "Bode's Galaxy",
+   "main_id": "M 81",
+   "type": "Sy2",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "NGC 253",
+   "alias": "Sculptor Galaxy",
+   "main_id": "NAME Sculptor Dwarf Galaxy",
+   "type": "G",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "NGC 253",
+   "alias": "Silver Coin Galaxy",
+   "verdict": "unresolved"
+  },
+  {
+   "canonical": "NGC 5128",
+   "alias": "Centaurus A",
+   "main_id": "NAME Centaurus A",
+   "type": "BLL",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "NGC 5128",
+   "alias": "Caldwell 77",
+   "verdict": "unresolved"
+  },
+  {
+   "canonical": "M 45",
+   "alias": "Pleiades",
+   "main_id": "Cl Melotte 22",
+   "type": "OpC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 45",
+   "alias": "Mel 22",
+   "main_id": "Cl Melotte 22",
+   "type": "OpC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 45",
+   "alias": "Seven Sisters",
+   "main_id": "Cl Melotte 22",
+   "type": "OpC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 13",
+   "alias": "NGC 6205",
+   "main_id": "M 13",
+   "type": "GlC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 13",
+   "alias": "Hercules Cluster",
+   "main_id": "ACO 2151",
+   "type": "ClG",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 15",
+   "alias": "NGC 7078",
+   "main_id": "M 15",
+   "type": "GlC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "M 15",
+   "alias": "C 169",
+   "verdict": "unresolved"
+  },
+  {
+   "canonical": "M 44",
+   "alias": "NGC 2632",
+   "main_id": "NGC 2632",
+   "type": "OpC",
+   "verdict": "resolved_exact"
+  },
+  {
+   "canonical": "M 44",
+   "alias": "Beehive Cluster",
+   "verdict": "unresolved"
+  },
+  {
+   "canonical": "M 44",
+   "alias": "Praesepe",
+   "main_id": "NGC 2632",
+   "type": "OpC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "NGC 104",
+   "alias": "47 Tuc",
+   "main_id": "NGC 104",
+   "type": "GlC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "NGC 104",
+   "alias": "47 Tucanae",
+   "main_id": "NGC 104",
+   "type": "GlC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "NGC 5139",
+   "alias": "omega Cen",
+   "main_id": "NGC 5139",
+   "type": "GlC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "NGC 5139",
+   "alias": "Omega Centauri",
+   "main_id": "NGC 5139",
+   "type": "GlC",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "3C 273",
+   "alias": "PG 1226+023",
+   "main_id": "3C 273",
+   "type": "BLL",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "3C 273",
+   "alias": "QSO J1229+0203",
+   "main_id": "3C 273",
+   "type": "BLL",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "3C 48",
+   "alias": "QSO J0137+3309",
+   "main_id": "3C 48",
+   "type": "QSO",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "3C 48",
+   "alias": "4C 33.04",
+   "main_id": "4C 33.04",
+   "type": "QSO",
+   "verdict": "resolved_exact"
+  },
+  {
+   "canonical": "PSR B0531+21",
+   "alias": "PSR J0534+2200",
+   "main_id": "V* CM Tau",
+   "type": "Psr",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "PSR B0531+21",
+   "alias": "CM Tau",
+   "main_id": "V* CM Tau",
+   "type": "Psr",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "PSR B0531+21",
+   "alias": "Crab Pulsar",
+   "main_id": "V* CM Tau",
+   "type": "Psr",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Cygnus X-1",
+   "alias": "HDE 226868",
+   "main_id": "HD 226868",
+   "type": "HXB",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Cygnus X-1",
+   "alias": "V1357 Cyg",
+   "main_id": "HD 226868",
+   "type": "HXB",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Cygnus X-1",
+   "alias": "Cyg X-1",
+   "main_id": "HD 226868",
+   "type": "HXB",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Scorpius X-1",
+   "alias": "V818 Sco",
+   "main_id": "V* V818 Sco",
+   "type": "LXB",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "Scorpius X-1",
+   "alias": "Sco X-1",
+   "main_id": "V* V818 Sco",
+   "type": "LXB",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "51 Peg",
+   "alias": "HD 217014",
+   "main_id": "* 51 Peg",
+   "type": "PM*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "51 Peg",
+   "alias": "HR 8729",
+   "main_id": "* 51 Peg",
+   "type": "PM*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "51 Peg",
+   "alias": "HIP 113357",
+   "main_id": "* 51 Peg",
+   "type": "PM*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "HD 209458",
+   "alias": "V376 Peg",
+   "main_id": "HD 209458",
+   "type": "*",
+   "verdict": "resolved_different"
+  },
+  {
+   "canonical": "HD 209458",
+   "alias": "HIP 108859",
+   "main_id": "HD 209458",
+   "type": "*",
+   "verdict": "resolved_different"
+  }
+ ]
+}

@@ -1,0 +1,537 @@
+{
+  "what": "三元氧化物「是否存在有序相」的样本外预测，预测在任何查询之前冻结",
+  "rule": "dq>=1",
+  "ruleText": "存在一组常见氧化态指派使 |q_A − q_B| ≥ 1 → 预测该系统存在有序三元相",
+  "theta": 0.995,
+  "thetaText": "判定「存在」的口径：COD 中目标元素原子分数 ≥ 0.995 的不同化学式数 > 0",
+  "newCations": [
+    "K",
+    "Zr",
+    "Nb",
+    "La",
+    "Cd",
+    "Pb"
+  ],
+  "oldSubset": [
+    "Li",
+    "Na",
+    "Mg",
+    "Ca",
+    "Sr",
+    "Ba",
+    "Ti",
+    "V"
+  ],
+  "oldSubsetRule": "原 16 阳离子按 result2.json 中列出顺序取前 8，未挑选",
+  "cellRule": "新×新 全部 + 新×旧8 全部",
+  "successCriterion": "样本外 McNemar（规律 vs 平凡解「永远回答有」）双侧 p < 0.05 才算规律有预测力；否则判定：该规律在样本外与平凡解不可区分。",
+  "nCells": 63,
+  "predictedFilled": 57,
+  "predictedEmpty": 6,
+  "predictions": [
+    {
+      "sys": "K-Zr-O",
+      "a": "K",
+      "b": "Zr",
+      "dq": 3,
+      "ratio": 1.9167,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-Nb-O",
+      "a": "K",
+      "b": "Nb",
+      "dq": 4,
+      "ratio": 2.1563,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-La-O",
+      "a": "K",
+      "b": "La",
+      "dq": 2,
+      "ratio": 1.3372,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-Cd-O",
+      "a": "K",
+      "b": "Cd",
+      "dq": 1,
+      "ratio": 1.4526,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-Pb-O",
+      "a": "K",
+      "b": "Pb",
+      "dq": 3,
+      "ratio": 1.7806,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-Li-O",
+      "a": "K",
+      "b": "Li",
+      "dq": 0,
+      "ratio": 1.8158,
+      "predict": "空"
+    },
+    {
+      "sys": "K-Na-O",
+      "a": "K",
+      "b": "Na",
+      "dq": 0,
+      "ratio": 1.3529,
+      "predict": "空"
+    },
+    {
+      "sys": "K-Mg-O",
+      "a": "K",
+      "b": "Mg",
+      "dq": 1,
+      "ratio": 1.9167,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-Ca-O",
+      "a": "K",
+      "b": "Ca",
+      "dq": 1,
+      "ratio": 1.38,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-Sr-O",
+      "a": "K",
+      "b": "Sr",
+      "dq": 1,
+      "ratio": 1.1695,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-Ba-O",
+      "a": "K",
+      "b": "Ba",
+      "dq": 1,
+      "ratio": 1.0222,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-Ti-O",
+      "a": "K",
+      "b": "Ti",
+      "dq": 3,
+      "ratio": 2.281,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "K-V-O",
+      "a": "K",
+      "b": "V",
+      "dq": 4,
+      "ratio": 2.5556,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Nb-O",
+      "a": "Zr",
+      "b": "Nb",
+      "dq": 1,
+      "ratio": 1.125,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-La-O",
+      "a": "Zr",
+      "b": "La",
+      "dq": 1,
+      "ratio": 1.4333,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Cd-O",
+      "a": "Zr",
+      "b": "Cd",
+      "dq": 2,
+      "ratio": 1.3194,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Pb-O",
+      "a": "Zr",
+      "b": "Pb",
+      "dq": 2,
+      "ratio": 1.6528,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Li-O",
+      "a": "Zr",
+      "b": "Li",
+      "dq": 3,
+      "ratio": 1.0556,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Na-O",
+      "a": "Zr",
+      "b": "Na",
+      "dq": 3,
+      "ratio": 1.4167,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Mg-O",
+      "a": "Zr",
+      "b": "Mg",
+      "dq": 2,
+      "ratio": 1,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Ca-O",
+      "a": "Zr",
+      "b": "Ca",
+      "dq": 2,
+      "ratio": 1.3889,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Sr-O",
+      "a": "Zr",
+      "b": "Sr",
+      "dq": 2,
+      "ratio": 1.6389,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Ba-O",
+      "a": "Zr",
+      "b": "Ba",
+      "dq": 2,
+      "ratio": 1.875,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-Ti-O",
+      "a": "Zr",
+      "b": "Ti",
+      "dq": 2,
+      "ratio": 1.1944,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Zr-V-O",
+      "a": "Zr",
+      "b": "V",
+      "dq": 2,
+      "ratio": 1.3333,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-La-O",
+      "a": "Nb",
+      "b": "La",
+      "dq": 2,
+      "ratio": 1.6125,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-Cd-O",
+      "a": "Nb",
+      "b": "Cd",
+      "dq": 3,
+      "ratio": 1.4844,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-Pb-O",
+      "a": "Nb",
+      "b": "Pb",
+      "dq": 3,
+      "ratio": 1.8594,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-Li-O",
+      "a": "Nb",
+      "b": "Li",
+      "dq": 4,
+      "ratio": 1.1875,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-Na-O",
+      "a": "Nb",
+      "b": "Na",
+      "dq": 4,
+      "ratio": 1.5938,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-Mg-O",
+      "a": "Nb",
+      "b": "Mg",
+      "dq": 3,
+      "ratio": 1.125,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-Ca-O",
+      "a": "Nb",
+      "b": "Ca",
+      "dq": 3,
+      "ratio": 1.5625,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-Sr-O",
+      "a": "Nb",
+      "b": "Sr",
+      "dq": 3,
+      "ratio": 1.8437,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-Ba-O",
+      "a": "Nb",
+      "b": "Ba",
+      "dq": 3,
+      "ratio": 2.1094,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-Ti-O",
+      "a": "Nb",
+      "b": "Ti",
+      "dq": 3,
+      "ratio": 1.3438,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Nb-V-O",
+      "a": "Nb",
+      "b": "V",
+      "dq": 3,
+      "ratio": 1.3333,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-Cd-O",
+      "a": "La",
+      "b": "Cd",
+      "dq": 1,
+      "ratio": 1.0863,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-Pb-O",
+      "a": "La",
+      "b": "Pb",
+      "dq": 1,
+      "ratio": 1.3316,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-Li-O",
+      "a": "La",
+      "b": "Li",
+      "dq": 2,
+      "ratio": 1.3579,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-Na-O",
+      "a": "La",
+      "b": "Na",
+      "dq": 2,
+      "ratio": 1.0118,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-Mg-O",
+      "a": "La",
+      "b": "Mg",
+      "dq": 1,
+      "ratio": 1.4333,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-Ca-O",
+      "a": "La",
+      "b": "Ca",
+      "dq": 1,
+      "ratio": 1.032,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-Sr-O",
+      "a": "La",
+      "b": "Sr",
+      "dq": 1,
+      "ratio": 1.1434,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-Ba-O",
+      "a": "La",
+      "b": "Ba",
+      "dq": 1,
+      "ratio": 1.3081,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-Ti-O",
+      "a": "La",
+      "b": "Ti",
+      "dq": 1,
+      "ratio": 1.7058,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "La-V-O",
+      "a": "La",
+      "b": "V",
+      "dq": 2,
+      "ratio": 1.9111,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Cd-Pb-O",
+      "a": "Cd",
+      "b": "Pb",
+      "dq": 2,
+      "ratio": 1.2526,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Cd-Li-O",
+      "a": "Cd",
+      "b": "Li",
+      "dq": 1,
+      "ratio": 1.25,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Cd-Na-O",
+      "a": "Cd",
+      "b": "Na",
+      "dq": 1,
+      "ratio": 1.0737,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Cd-Mg-O",
+      "a": "Cd",
+      "b": "Mg",
+      "dq": 0,
+      "ratio": 1.3194,
+      "predict": "空"
+    },
+    {
+      "sys": "Cd-Ca-O",
+      "a": "Cd",
+      "b": "Ca",
+      "dq": 0,
+      "ratio": 1.0526,
+      "predict": "空"
+    },
+    {
+      "sys": "Cd-Sr-O",
+      "a": "Cd",
+      "b": "Sr",
+      "dq": 0,
+      "ratio": 1.2421,
+      "predict": "空"
+    },
+    {
+      "sys": "Cd-Ba-O",
+      "a": "Cd",
+      "b": "Ba",
+      "dq": 0,
+      "ratio": 1.4211,
+      "predict": "空"
+    },
+    {
+      "sys": "Cd-Ti-O",
+      "a": "Cd",
+      "b": "Ti",
+      "dq": 2,
+      "ratio": 1.5702,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Cd-V-O",
+      "a": "Cd",
+      "b": "V",
+      "dq": 3,
+      "ratio": 1.7593,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Pb-Li-O",
+      "a": "Pb",
+      "b": "Li",
+      "dq": 3,
+      "ratio": 1.5658,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Pb-Na-O",
+      "a": "Pb",
+      "b": "Na",
+      "dq": 3,
+      "ratio": 1.3161,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Pb-Mg-O",
+      "a": "Pb",
+      "b": "Mg",
+      "dq": 2,
+      "ratio": 1.6528,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Pb-Ca-O",
+      "a": "Pb",
+      "b": "Ca",
+      "dq": 2,
+      "ratio": 1.2903,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Pb-Sr-O",
+      "a": "Pb",
+      "b": "Sr",
+      "dq": 2,
+      "ratio": 1.5226,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Pb-Ba-O",
+      "a": "Pb",
+      "b": "Ba",
+      "dq": 2,
+      "ratio": 1.7419,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Pb-Ti-O",
+      "a": "Pb",
+      "b": "Ti",
+      "dq": 2,
+      "ratio": 1.9669,
+      "predict": "有序三元相"
+    },
+    {
+      "sys": "Pb-V-O",
+      "a": "Pb",
+      "b": "V",
+      "dq": 3,
+      "ratio": 2.2037,
+      "predict": "有序三元相"
+    }
+  ]
+}

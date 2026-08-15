@@ -1,0 +1,56 @@
+{
+ "spec": "lit-recheck/0.1",
+ "source": "OpenAlex",
+ "purpose": "试图推翻「0 篇量化过数据库缺失的假阴性率」这条承重主张",
+ "caliber_note": "两种口径同时报；同一概念口径差可达 3 万倍（见 demo/trend-probe）",
+ "queries": [
+  {
+   "phrase": "false negative rate database screening materials discovery",
+   "loose": 67019,
+   "phrase_ta": 0,
+   "top": []
+  },
+  {
+   "phrase": "database coverage incompleteness materials informatics",
+   "loose": 12943,
+   "phrase_ta": 0,
+   "top": []
+  },
+  {
+   "phrase": "absence of evidence synthesizability",
+   "loose": 875026,
+   "phrase_ta": 0,
+   "top": []
+  },
+  {
+   "phrase": "unreported compounds validation crystal structure database",
+   "loose": 1515,
+   "phrase_ta": 0,
+   "top": []
+  },
+  {
+   "phrase": "positive control machine learning materials discovery",
+   "loose": 234407,
+   "phrase_ta": 0,
+   "top": []
+  },
+  {
+   "phrase": "positive control benchmark scientific discovery agent",
+   "loose": 45391,
+   "phrase_ta": 0,
+   "top": []
+  },
+  {
+   "phrase": "abstention benchmark language model",
+   "loose": 4302,
+   "phrase_ta": 0,
+   "top": []
+  },
+  {
+   "phrase": "known unknowns evaluation scientific agent",
+   "loose": 337281,
+   "phrase_ta": 0,
+   "top": []
+  }
+ ]
+}

@@ -1,0 +1,644 @@
+{
+  "spec": "gap-probe/priority-v2/result-1",
+  "preregSha": "28a4c90ea121b20cca366f3096e61f371fae23075b814305bc7fdb2a25a6bc66",
+  "runAt": "2026-08-12T18:24:55.525Z",
+  "openalex": {
+    "query": "the first crystal structure of",
+    "filter": "primary_topic.field.id:16|25",
+    "metaCount": 1434,
+    "fetched": 1434,
+    "unique": 1434,
+    "pages": 15,
+    "complete": true
+  },
+  "gates": {
+    "literalVerified": 279,
+    "includedUniqueClaims": 15,
+    "exclusions": {
+      "wrong_field": 0,
+      "not_literal": 1155,
+      "biomedical_title": 36,
+      "no_formula": 224,
+      "ambiguous_formula": 4,
+      "missing_year": 0
+    }
+  },
+  "controlResults": {
+    "positive": {
+      "BaTiO3": {
+        "n": 36,
+        "earliest": 1931,
+        "refs": [
+          {
+            "cod": "5910149",
+            "year": 1931,
+            "doi": null,
+            "journal": "The second edition of Structure of Crystals",
+            "formula": "- Ba O3 Ti -"
+          },
+          {
+            "cod": "1542140",
+            "year": 1947,
+            "doi": null,
+            "journal": "Journal of the Physical Society of Japan",
+            "formula": "- Ba O3 Ti -"
+          },
+          {
+            "cod": "4124842",
+            "year": 1951,
+            "doi": null,
+            "journal": "Journal of the American Chemical Society",
+            "formula": "- Ba O3 Ti -"
+          },
+          {
+            "cod": "1542189",
+            "year": 1957,
+            "doi": null,
+            "journal": "Journal of Applied Physics",
+            "formula": "- Ba O3 Ti -"
+          },
+          {
+            "cod": "9014273",
+            "year": 1957,
+            "doi": "10.1103/PhysRev.105.856",
+            "journal": "Physical Review",
+            "formula": "- Ba O3 Ti -"
+          }
+        ]
+      },
+      "LiCoO2": {
+        "n": 3,
+        "earliest": 1997,
+        "refs": [
+          {
+            "cod": "1550397",
+            "year": 1997,
+            "doi": null,
+            "journal": "Ionics",
+            "formula": "- Co Li O2 -"
+          },
+          {
+            "cod": "1533825",
+            "year": 2003,
+            "doi": null,
+            "journal": "Journal of the Korean Electrochemical Society",
+            "formula": "- Co Li O2 -"
+          },
+          {
+            "cod": "4505482",
+            "year": 2012,
+            "doi": "10.1021/cg201238n",
+            "journal": "Crystal Growth & Design",
+            "formula": "- Co Li O2 -"
+          }
+        ]
+      },
+      "MgAl2O4": {
+        "n": 190,
+        "earliest": 1930,
+        "refs": [
+          {
+            "cod": "1010129",
+            "year": 1930,
+            "doi": null,
+            "journal": "Gazzetta Chimica Italiana",
+            "formula": "- Al2 Mg O4 -"
+          },
+          {
+            "cod": "1540775",
+            "year": 1969,
+            "doi": null,
+            "journal": "Soviet Physics, Crystallography (= Kristallografiya)",
+            "formula": "- Al2 Mg O4 -"
+          },
+          {
+            "cod": "9005767",
+            "year": 1982,
+            "doi": "10.1007/BF00309015",
+            "journal": "Physics and Chemistry of Minerals",
+            "formula": "- Al2 Mg O4 -"
+          },
+          {
+            "cod": "5000120",
+            "year": 1983,
+            "doi": null,
+            "journal": "Kobutsugaku Zasshi (= Journal of the Mineralogical Society of Japan)",
+            "formula": "- Al2 Mg O4 -"
+          },
+          {
+            "cod": "9005807",
+            "year": 1986,
+            "doi": "10.1007/BF00308271",
+            "journal": "Physics and Chemistry of Minerals",
+            "formula": "- Al2 Mg O4 -"
+          }
+        ]
+      },
+      "SrTiO3": {
+        "n": 8,
+        "earliest": 1995,
+        "refs": [
+          {
+            "cod": "2310687",
+            "year": 1995,
+            "doi": "10.1107/S010876739400560X",
+            "journal": "Acta Crystallographica Section A",
+            "formula": "- O3 Sr Ti -"
+          },
+          {
+            "cod": "9006864",
+            "year": 2000,
+            "doi": "10.1007/s002690000103",
+            "journal": "Physics and Chemistry of Minerals",
+            "formula": "- O3 Sr Ti -"
+          },
+          {
+            "cod": "9002806",
+            "year": 2002,
+            "doi": null,
+            "journal": "American Mineralogist",
+            "formula": "- O3 Sr Ti -"
+          },
+          {
+            "cod": "7212245",
+            "year": 2010,
+            "doi": "10.1039/b923281h",
+            "journal": "Physical chemistry chemical physics : PCCP",
+            "formula": "- O3 Sr Ti -"
+          },
+          {
+            "cod": "1512124",
+            "year": 2011,
+            "doi": "10.4236/jmp.2011.211175",
+            "journal": "Journal of Modern Physics",
+            "formula": "- O3 Sr Ti -"
+          }
+        ]
+      },
+      "CaTiO3": {
+        "n": 16,
+        "earliest": 1925,
+        "refs": [
+          {
+            "cod": "1011210",
+            "year": 1925,
+            "doi": null,
+            "journal": "Norsk Geologisk Tidsskrift",
+            "formula": "- Ca O3 Ti -"
+          },
+          {
+            "cod": "1011211",
+            "year": 1925,
+            "doi": null,
+            "journal": "Norsk Geologisk Tidsskrift",
+            "formula": "- Ca O3 Ti -"
+          },
+          {
+            "cod": "1542143",
+            "year": 1943,
+            "doi": null,
+            "journal": "Naturwissenschaften",
+            "formula": "- Ca O3 Ti -"
+          },
+          {
+            "cod": "2310618",
+            "year": 1957,
+            "doi": null,
+            "journal": "Acta Crystallographica (1,1948-23,1967)",
+            "formula": "- Ca O3 Ti -"
+          },
+          {
+            "cod": "2100812",
+            "year": 1992,
+            "doi": "10.1107/S0108768192004592",
+            "journal": "Acta Crystallographica Section B",
+            "formula": "- Ca O3 Ti -"
+          }
+        ]
+      },
+      "ZnFe2O4": {
+        "n": 34,
+        "earliest": 1930,
+        "refs": [
+          {
+            "cod": "1010130",
+            "year": 1930,
+            "doi": null,
+            "journal": "Gazzetta Chimica Italiana",
+            "formula": "- Fe2 O4 Zn -"
+          },
+          {
+            "cod": "9012441",
+            "year": 1947,
+            "doi": "10.1063/1.1746464",
+            "journal": "Journal of Chemical Physics",
+            "formula": "- Fe2 O4 Zn -"
+          },
+          {
+            "cod": "9005102",
+            "year": 1992,
+            "doi": "10.1127/ejm/4/3/0571",
+            "journal": "European Journal of Mineralogy",
+            "formula": "- Fe2 O4 Zn -"
+          },
+          {
+            "cod": "9005103",
+            "year": 1992,
+            "doi": "10.1127/ejm/4/3/0571",
+            "journal": "European Journal of Mineralogy",
+            "formula": "- Fe2 O4 Zn -"
+          },
+          {
+            "cod": "9005104",
+            "year": 1992,
+            "doi": "10.1127/ejm/4/3/0571",
+            "journal": "European Journal of Mineralogy",
+            "formula": "- Fe2 O4 Zn -"
+          }
+        ]
+      }
+    },
+    "negative": {
+      "Zq2Xy3O7": {
+        "n": 0,
+        "earliest": null,
+        "refs": []
+      },
+      "Qw1Er2Ty3": {
+        "n": 0,
+        "earliest": null,
+        "refs": []
+      },
+      "Xx3Yy4Zz5": {
+        "n": 0,
+        "earliest": null,
+        "refs": []
+      }
+    }
+  },
+  "tally": {
+    "PRIOR_CANDIDATE": [
+      {
+        "openalex_id": "https://openalex.org/W223335382",
+        "doi": "10.1023/a:1007199330939",
+        "year": 2001,
+        "title": "Reaction of NiBr2(DME) with 2-pyridinal-methyl-N-2,6-diisopropylphenylimine. The first crystal structure of an α-diimine nickel(II) complex of the NiL2X2 type",
+        "formula": "NiBr2",
+        "primary_topic": {
+          "display_name": "Organometallic Complex Synthesis and Catalysis",
+          "field": "Chemistry",
+          "subfield": "Organic Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 3,
+          "earliest": 1934,
+          "refs": [
+            {
+              "cod": "1010054",
+              "year": 1934,
+              "doi": null,
+              "journal": "Zeitschrift fuer Kristallographie, Kristallgeometrie, Kristallphysik, Kristallch",
+              "formula": "- Br2 Ni -"
+            },
+            {
+              "cod": "9008013",
+              "year": 1934,
+              "doi": null,
+              "journal": "Zeitschrift fur Kristallographie",
+              "formula": "- Br2 Ni -"
+            },
+            {
+              "cod": "9009131",
+              "year": 1963,
+              "doi": null,
+              "journal": "Crystal Structures",
+              "formula": "- Br2 Ni -"
+            }
+          ]
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W2774536495",
+        "doi": "10.3390/cryst7120377",
+        "year": 2017,
+        "title": "Crystallization, Structure Determination and Reticular Twinning in Iron(III) Salicylate: Fe[(HSal)(Sal)(H2O)2]",
+        "formula": "H2O",
+        "primary_topic": {
+          "display_name": "Magnetism in coordination complexes",
+          "field": "Materials Science",
+          "subfield": "Electronic, Optical and Magnetic Materials",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 35,
+          "earliest": 1918,
+          "refs": [
+            {
+              "cod": "1010439",
+              "year": 1918,
+              "doi": "10.1073/pnas.4.7.193",
+              "journal": "Proceedings of the National Academy of Sciences, U.S.A.",
+              "formula": "- H2 O -"
+            },
+            {
+              "cod": "1011023",
+              "year": 1933,
+              "doi": "10.1063/1.1749327",
+              "journal": "Journal of Chemical Physics",
+              "formula": "- H2 O -"
+            },
+            {
+              "cod": "1011024",
+              "year": 1936,
+              "doi": "10.1063/1.1749832",
+              "journal": "Journal of Chemical Physics",
+              "formula": "- H2 O -"
+            },
+            {
+              "cod": "1011063",
+              "year": 1936,
+              "doi": "10.1063/1.1749748",
+              "journal": "The Journal of Chemical Physics",
+              "formula": "- H2 O -"
+            },
+            {
+              "cod": "1541503",
+              "year": 1956,
+              "doi": null,
+              "journal": "Nature (London)",
+              "formula": "- H2 O -"
+            }
+          ]
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W2294653342",
+        "doi": "",
+        "year": 2009,
+        "title": "SYNTHESIS OF STRUCTURAL MODELS OF NON-HEME DIOXYGENASES. MIMICS OF THE 3-His-1-CARBOXYLATE TETRAD",
+        "formula": "NON",
+        "primary_topic": {
+          "display_name": "Metal-Catalyzed Oxygenation Mechanisms",
+          "field": "Chemistry",
+          "subfield": "Inorganic Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 1,
+          "earliest": 1924,
+          "refs": [
+            {
+              "cod": "1010059",
+              "year": 1924,
+              "doi": null,
+              "journal": "Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen",
+              "formula": "- N2 O -"
+            }
+          ]
+        }
+      }
+    ],
+    "SINCE_OR_SAME_YEAR": [
+      {
+        "openalex_id": "https://openalex.org/W1977756947",
+        "doi": "10.1039/dt9920002321",
+        "year": 1992,
+        "title": "Cyclopalladated compounds derived from ferrocenylimines. Crystal strcuture of [Pd{(η <sup>5</sup> -C <sub>5</sub> H <sub>5</sub> )Fe[η <sup>5</sup> -C <sub>5</sub> H <sub>3</sub> CHN(CH <sub>2</sub> ) <sub>2</sub> Ph]}Cl(PEt <sub>3</sub> )]",
+        "formula": "CHN",
+        "primary_topic": {
+          "display_name": "Organometallic Complex Synthesis and Catalysis",
+          "field": "Chemistry",
+          "subfield": "Organic Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 1,
+          "earliest": 2024,
+          "refs": [
+            {
+              "cod": "7249044",
+              "year": 2024,
+              "doi": "10.1039/D4RA02525C",
+              "journal": "RSC Advances",
+              "formula": "- C H N -"
+            }
+          ]
+        }
+      }
+    ],
+    "UNKNOWN": [
+      {
+        "openalex_id": "https://openalex.org/W2059833072",
+        "doi": "10.1039/b007079n",
+        "year": 2001,
+        "title": "The first crystal structure of a one-dimensional chain of linked RuIIRuII units",
+        "formula": "RuIIRuII",
+        "primary_topic": {
+          "display_name": "Magnetism in coordination complexes",
+          "field": "Materials Science",
+          "subfield": "Electronic, Optical and Magnetic Materials",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W1981375627",
+        "doi": "10.1107/s1399004713034925",
+        "year": 2014,
+        "title": "The first crystal structure of NAD-dependent 3-dehydro-2-deoxy-<scp>D</scp>-gluconate dehydrogenase from<i>Thermus thermophilus</i>HB8",
+        "formula": "HB8",
+        "primary_topic": {
+          "display_name": "Enzyme Structure and Function",
+          "field": "Materials Science",
+          "subfield": "Materials Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W4250683136",
+        "doi": "10.26434/chemrxiv.12666296.v1",
+        "year": 2020,
+        "title": "The Structure of PAMAM DAB-dendr(NH2)4 – the First Crystal Structure of a PAMAM-Dendrimer",
+        "formula": "NH2",
+        "primary_topic": {
+          "display_name": "Dendrimers and Hyperbranched Polymers",
+          "field": "Materials Science",
+          "subfield": "Polymers and Plastics",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W1983131361",
+        "doi": "10.1021/ja027469+",
+        "year": 2002,
+        "title": "[Li{CH(Me)P(Ph) <sub>2</sub> (NCO <sub>2</sub> Me)} <sub>2</sub> (THF) <sub>2</sub> ]:  Crystal, Solution, and Calculated Structure of a <i>N</i> -Delocalized Lithium Phosphazene",
+        "formula": "NCO",
+        "primary_topic": {
+          "display_name": "Coordination Chemistry and Organometallics",
+          "field": "Chemistry",
+          "subfield": "Organic Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W2484066416",
+        "doi": "10.1021/acs.inorgchem.6b00719",
+        "year": 2016,
+        "title": "Structural, Spectroscopic, and Photochemical Investigation of an Octahedral NO-Releasing {RuNO}<sup>7</sup> Species",
+        "formula": "RuNO",
+        "primary_topic": {
+          "display_name": "Lanthanide and Transition Metal Complexes",
+          "field": "Materials Science",
+          "subfield": "Materials Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W1993817357",
+        "doi": "10.1111/cbdd.12274",
+        "year": 2013,
+        "title": "The Stereoselectivity of <scp>CYP</scp>2C19 on R‐ and S‐isomers of Proton Pump Inhibitors",
+        "formula": "CYP",
+        "primary_topic": {
+          "display_name": "Synthesis of β-Lactam Compounds",
+          "field": "Chemistry",
+          "subfield": "Organic Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W1650069416",
+        "doi": "",
+        "year": 2007,
+        "title": "An Investigation of Z-in Distortion in Mononuclear Cu(II) Complex with Terpyridine Ligands, [Cu(terpy)2](PF6)2",
+        "formula": "PF6",
+        "primary_topic": {
+          "display_name": "Inorganic and Organometallic Chemistry",
+          "field": "Chemistry",
+          "subfield": "Organic Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W4243210240",
+        "doi": "10.26434/chemrxiv.12666296",
+        "year": 2020,
+        "title": "The Structure of PAMAM DAB-dendr(NH2)4 – the First Crystal Structure of a PAMAM-Dendrimer",
+        "formula": "NH2",
+        "primary_topic": {
+          "display_name": "Dendrimers and Hyperbranched Polymers",
+          "field": "Materials Science",
+          "subfield": "Polymers and Plastics",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W2110211144",
+        "doi": "10.1002/prot.20281",
+        "year": 2004,
+        "title": "Crystal structure of dehydroquinate synthase from <i>Thermus thermophilus</i> HB8 showing functional importance of the dimeric state",
+        "formula": "HB8",
+        "primary_topic": {
+          "display_name": "Enzyme Structure and Function",
+          "field": "Materials Science",
+          "subfield": "Materials Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W4411542845",
+        "doi": "10.26434/chemrxiv-2025-lkj9t",
+        "year": 2025,
+        "title": "Million-Fold Activation of C¬H Bonds by Fluorinated Non-heme FeIV=O Complexes via Second Sphere Equatorial Sub-stitution and Catalytic Epoxidation to Boot",
+        "formula": "FeIV",
+        "primary_topic": {
+          "display_name": "Metal-Catalyzed Oxygenation Mechanisms",
+          "field": "Chemistry",
+          "subfield": "Inorganic Chemistry",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      },
+      {
+        "openalex_id": "https://openalex.org/W2890395159",
+        "doi": "10.7936/a734-m342",
+        "year": 2018,
+        "title": "Ushering CUP Pilus Assembly: Dissecting the Mechanics of a Bacterial Nanomachine",
+        "formula": "CUP",
+        "primary_topic": {
+          "display_name": "Diatoms and Algae Research",
+          "field": "Materials Science",
+          "subfield": "Biomaterials",
+          "domain": "Physical Sciences"
+        },
+        "cod": {
+          "n": 0,
+          "earliest": null,
+          "refs": []
+        }
+      }
+    ],
+    "UNRESOLVED": []
+  },
+  "manualReview": {
+    "required": 3,
+    "completed": 0,
+    "verdicts": []
+  },
+  "void": false,
+  "voidReasons": [],
+  "caveats": [
+    "OpenAlex 检索可能命中正文而 API 不提供正文；未能在标题或摘要字面复核者按预注册排除。",
+    "COD 空集只记 UNKNOWN，不表示不存在或未合成。",
+    "PRIOR_CANDIDATE 未经逐条人工复核前不得报告为 PRIOR。"
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "preregSha": "2721d218598aa63b4d738c4ce61a82c84690efa7fb4776e2bf595a203e5d6c5f",
+  "counts": {
+    "PRIOR": 5,
+    "SINCE": 1,
+    "UNKNOWN": 24,
+    "UNRESOLVED": 0
+  },
+  "PRIOR": [
+    {
+      "formula": "NaHSeO4",
+      "elements": [
+        "Na",
+        "H",
+        "Se",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "earliest": 1999,
+      "refs": [
+        {
+          "cod": "1522305",
+          "year": 1999,
+          "doi": null,
+          "journal": "Kristallografiya"
+        }
+      ],
+      "cod": 1
+    },
+    {
+      "formula": "SrGaSiH",
+      "elements": [
+        "Sr",
+        "Ga",
+        "Si",
+        "H"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "earliest": 2008,
+      "refs": [
+        {
+          "cod": "4124020",
+          "year": 2008,
+          "doi": null,
+          "journal": "Journal of the American Chemical Society"
+        }
+      ],
+      "cod": 1
+    },
+    {
+      "formula": "Na3HfF7",
+      "elements": [
+        "Na",
+        "Hf",
+        "F"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "earliest": 1959,
+      "refs": [
+        {
+          "cod": "2310862",
+          "year": 1959,
+          "doi": null,
+          "journal": "Acta Crystallographica (1,1948-23,1967)"
+        }
+      ],
+      "cod": 1
+    },
+    {
+      "formula": "KLiZn3O4",
+      "elements": [
+        "K",
+        "Li",
+        "Zn",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "earliest": 1988,
+      "refs": [
+        {
+          "cod": "1530099",
+          "year": 1988,
+          "doi": null,
+          "journal": "Journal of Solid State Chemistry"
+        }
+      ],
+      "cod": 1
+    },
+    {
+      "formula": "Li2ZnGeS4",
+      "elements": [
+        "Li",
+        "Zn",
+        "Ge",
+        "S"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "earliest": 2019,
+      "refs": [
+        {
+          "cod": "7049174",
+          "year": 2019,
+          "doi": "10.1039/c9dt00269c",
+          "journal": "Dalton transactions (Cambridge, England "
+        },
+        {
+          "cod": "4003667",
+          "year": 2020,
+          "doi": "10.1021/acs.chemmater.0c02929",
+          "journal": "Chemistry of Materials"
+        }
+      ],
+      "cod": 2
+    }
+  ],
+  "SINCE": [
+    {
+      "formula": "CsInCl3",
+      "elements": [
+        "Cs",
+        "In",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001",
+      "earliest": 2019,
+      "cod": 2
+    }
+  ],
+  "UNKNOWN": [
+    {
+      "formula": "Ti(SO4)2",
+      "elements": [
+        "Ti",
+        "S",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "NbCl2O",
+      "elements": [
+        "Nb",
+        "Cl",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "RbHgSbTe3",
+      "elements": [
+        "Rb",
+        "Hg",
+        "Sb",
+        "Te"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "K4Ba2SnBi4",
+      "elements": [
+        "K",
+        "Ba",
+        "Sn",
+        "Bi"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "Li2MgGeO4",
+      "elements": [
+        "Li",
+        "Mg",
+        "Ge",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "ClF5",
+      "elements": [
+        "Cl",
+        "F"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "K4Ba2SnSb4",
+      "elements": [
+        "K",
+        "Ba",
+        "Sn",
+        "Sb"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "LiAlS2",
+      "elements": [
+        "Li",
+        "Al",
+        "S"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "GaClO",
+      "elements": [
+        "Ga",
+        "Cl",
+        "O"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "K4Ba2SnAs4",
+      "elements": [
+        "K",
+        "Ba",
+        "Sn",
+        "As"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "Al2CdBr8",
+      "elements": [
+        "Al",
+        "Cd",
+        "Br"
+      ],
+      "year": 2024,
+      "claim": "compounds absent from the ICSD database but predicted likely synthesizable",
+      "page_or_section": "Table 2",
+      "source_doi": "10.1038/s41524-023-01193-3",
+      "cod": 0
+    },
+    {
+      "formula": "LiInF3",
+      "elements": [
+        "Li",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001",
+      "cod": 0
+    },
+    {
+      "formula": "NaInF3",
+      "elements": [
+        "Na",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001",
+      "cod": 0
+    },
+    {
+      "formula": "KInF3",
+      "elements": [
+        "K",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001",
+      "cod": 0
+    },
+    {
+      "formula": "RbInF3",
+      "elements": [
+        "Rb",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001",
+      "cod": 0
+    },
+    {
+      "formula": "CsInF3",
+      "elements": [
+        "Cs",
+        "In",
+        "F"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001",
+      "cod": 0
+    },
+    {
+      "formula": "LiInCl3",
+      "elements": [
+        "Li",
+        "In",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001",
+      "cod": 0
+    },
+    {
+      "formula": "KInCl3",
+      "elements": [
+        "K",
+        "In",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001",
+      "cod": 0
+    },
+    {
+      "formula": "RbInCl3",
+      "elements": [
+        "Rb",
+        "In",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "nine new In based materials in their ground state that are thermodynamically stable but are not reported in ICSD",
+      "page_or_section": "Abstract; Fig. 2; Summary and Conclusions",
+      "source_doi": "10.1103/PhysRevMaterials.3.015001",
+      "cod": 0
+    },
+    {
+      "formula": "AlCu",
+      "elements": [
+        "Al",
+        "Cu"
+      ],
+      "year": 2021,
+      "claim": "AlCu in the Bh structure is dynamically stable, while such a structure has not yet been synthesized",
+      "page_or_section": "Fig. 4 (phonon dispersion, BHC AlCu)",
+      "source_doi": "10.1103/PhysRevB.103.L121403",
+      "cod": 0
+    },
+    {
+      "formula": "Cs2AgSbI6",
+      "elements": [
+        "Cs",
+        "Ag",
+        "Sb",
+        "I"
+      ],
+      "year": 2019,
+      "claim": "the 40 A2BB'X6 new compounds ... all other compounds have not been synthesized to our knowledge",
+      "page_or_section": "Results (band structures, Fig. 4)",
+      "source_doi": "10.1021/acs.chemmater.9b00116",
+      "cod": 0
+    },
+    {
+      "formula": "Cs2AuScI6",
+      "elements": [
+        "Cs",
+        "Au",
+        "Sc",
+        "I"
+      ],
+      "year": 2019,
+      "claim": "the 40 A2BB'X6 new compounds ... all other compounds have not been synthesized to our knowledge",
+      "page_or_section": "Results (band structures, Fig. 4)",
+      "source_doi": "10.1021/acs.chemmater.9b00116",
+      "cod": 0
+    },
+    {
+      "formula": "Rb2InInBr6",
+      "elements": [
+        "Rb",
+        "In",
+        "In",
+        "Br"
+      ],
+      "year": 2019,
+      "claim": "the 40 A2BB'X6 new compounds ... all other compounds have not been synthesized to our knowledge",
+      "page_or_section": "Results (band structures, Fig. 4)",
+      "source_doi": "10.1021/acs.chemmater.9b00116",
+      "cod": 0
+    },
+    {
+      "formula": "Rb2CuScCl6",
+      "elements": [
+        "Rb",
+        "Cu",
+        "Sc",
+        "Cl"
+      ],
+      "year": 2019,
+      "claim": "the 40 A2BB'X6 new compounds ... all other compounds have not been synthesized to our knowledge",
+      "page_or_section": "Results (band structures, Fig. 4)",
+      "source_doi": "10.1021/acs.chemmater.9b00116",
+      "cod": 0
+    }
+  ],
+  "UNRESOLVED": []
+}

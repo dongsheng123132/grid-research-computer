@@ -1,0 +1,480 @@
+{
+ "HD 48915": {
+  "found": true,
+  "main_id": "* alf CMa",
+  "type": "SB*"
+ },
+ "HR 2491": {
+  "found": true,
+  "main_id": "* alf CMa",
+  "type": "SB*"
+ },
+ "alf CMa": {
+  "found": true,
+  "main_id": "* alf CMa",
+  "type": "SB*"
+ },
+ "Alpha Canis Majoris": {
+  "found": true,
+  "main_id": "* alf CMa",
+  "type": "SB*"
+ },
+ "alf Ori": {
+  "found": true,
+  "main_id": "* alf Ori",
+  "type": "s*r"
+ },
+ "HD 39801": {
+  "found": true,
+  "main_id": "* alf Ori",
+  "type": "s*r"
+ },
+ "58 Ori": {
+  "found": true,
+  "main_id": "* alf Ori",
+  "type": "s*r"
+ },
+ "alf UMi": {
+  "found": true,
+  "main_id": "* alf UMi",
+  "type": "cC*"
+ },
+ "HD 8890": {
+  "found": true,
+  "main_id": "* alf UMi",
+  "type": "cC*"
+ },
+ "HR 424": {
+  "found": true,
+  "main_id": "* alf UMi",
+  "type": "cC*"
+ },
+ "alf Lyr": {
+  "found": true,
+  "main_id": "* alf Lyr",
+  "type": "dS*"
+ },
+ "HD 172167": {
+  "found": true,
+  "main_id": "* alf Lyr",
+  "type": "dS*"
+ },
+ "HR 7001": {
+  "found": true,
+  "main_id": "* alf Lyr",
+  "type": "dS*"
+ },
+ "alf Cen C": {
+  "found": true,
+  "main_id": "NAME Proxima Centauri",
+  "type": "PM*"
+ },
+ "GJ 551": {
+  "found": true,
+  "main_id": "NAME Proxima Centauri",
+  "type": "PM*"
+ },
+ "HIP 70890": {
+  "found": true,
+  "main_id": "NAME Proxima Centauri",
+  "type": "PM*"
+ },
+ "GJ 699": {
+  "found": true,
+  "main_id": "NAME Barnard's star",
+  "type": "BY*"
+ },
+ "V2500 Oph": {
+  "found": true,
+  "main_id": "NAME Barnard's star",
+  "type": "BY*"
+ },
+ "HD 58061": {
+  "found": true,
+  "main_id": "V* VY CMa",
+  "type": "s*r"
+ },
+ "IRC -30104": {
+  "found": true,
+  "main_id": "V* ET Pup",
+  "type": "Mi*"
+ },
+ "bet Per": {
+  "found": true,
+  "main_id": "* bet Per",
+  "type": "SB*"
+ },
+ "HD 19356": {
+  "found": true,
+  "main_id": "* bet Per",
+  "type": "SB*"
+ },
+ "26 Per": {
+  "found": true,
+  "main_id": "* bet Per",
+  "type": "SB*"
+ },
+ "Beta Persei": {
+  "found": true,
+  "main_id": "* bet Per",
+  "type": "SB*"
+ },
+ "HD 213306": {
+  "found": true,
+  "main_id": "* del Cep",
+  "type": "cC*"
+ },
+ "27 Cep": {
+  "found": true,
+  "main_id": "* del Cep",
+  "type": "cC*"
+ },
+ "HD 93308": {
+  "found": true,
+  "main_id": "* eta Car",
+  "type": "s*b"
+ },
+ "Eta Carinae": {
+  "found": true,
+  "main_id": "* eta Car",
+  "type": "s*b"
+ },
+ "Crab Nebula": {
+  "found": true,
+  "main_id": "M 1",
+  "type": "SNR"
+ },
+ "NGC 1952": {
+  "found": true,
+  "main_id": "M 1",
+  "type": "SNR"
+ },
+ "Taurus A": {
+  "found": true,
+  "main_id": "M 1",
+  "type": "SNR"
+ },
+ "3C 144": {
+  "found": true,
+  "main_id": "M 1",
+  "type": "SNR"
+ },
+ "NGC 1976": {
+  "found": true,
+  "main_id": "M 42",
+  "type": "HII"
+ },
+ "Orion Nebula": {
+  "found": true,
+  "main_id": "M 42",
+  "type": "HII"
+ },
+ "NGC 6523": {
+  "found": true,
+  "main_id": "NGC 6523",
+  "type": "Cl*"
+ },
+ "Lagoon Nebula": {
+  "found": true,
+  "main_id": "M 8",
+  "type": "OpC"
+ },
+ "NGC 6720": {
+  "found": true,
+  "main_id": "M 57",
+  "type": "PN"
+ },
+ "Ring Nebula": {
+  "found": true,
+  "main_id": "M 57",
+  "type": "PN"
+ },
+ "NGC 6853": {
+  "found": true,
+  "main_id": "M 27",
+  "type": "PN"
+ },
+ "Dumbbell Nebula": {
+  "found": true,
+  "main_id": "M 27",
+  "type": "PN"
+ },
+ "NGC 6611": {
+  "found": true,
+  "main_id": "M 16",
+  "type": "OpC"
+ },
+ "Eagle Nebula": {
+  "found": true,
+  "main_id": "M 16",
+  "type": "OpC"
+ },
+ "Horsehead Nebula": {
+  "found": true,
+  "main_id": "NAME Horsehead Nebula",
+  "type": "DNe"
+ },
+ "LBN 954": {
+  "found": true,
+  "main_id": "NGC 2023",
+  "type": "RNe"
+ },
+ "Helix Nebula": {
+  "found": true,
+  "main_id": "NGC 7293",
+  "type": "PN"
+ },
+ "Caldwell 63": {
+  "found": false
+ },
+ "3C 461": {
+  "found": true,
+  "main_id": "NAME Cas A",
+  "type": "SNR"
+ },
+ "Cassiopeia A": {
+  "found": true,
+  "main_id": "NAME Cas A",
+  "type": "SNR"
+ },
+ "NGC 224": {
+  "found": true,
+  "main_id": "M 31",
+  "type": "AGN"
+ },
+ "Andromeda Galaxy": {
+  "found": true,
+  "main_id": "M 31",
+  "type": "AGN"
+ },
+ "NGC 598": {
+  "found": true,
+  "main_id": "M 33",
+  "type": "GiG"
+ },
+ "Triangulum Galaxy": {
+  "found": true,
+  "main_id": "M 33",
+  "type": "GiG"
+ },
+ "NGC 4486": {
+  "found": true,
+  "main_id": "M 87",
+  "type": "AGN"
+ },
+ "Virgo A": {
+  "found": true,
+  "main_id": "M 87",
+  "type": "AGN"
+ },
+ "3C 274": {
+  "found": true,
+  "main_id": "M 87",
+  "type": "AGN"
+ },
+ "NGC 4594": {
+  "found": true,
+  "main_id": "M 104",
+  "type": "LIN"
+ },
+ "Sombrero Galaxy": {
+  "found": true,
+  "main_id": "M 104",
+  "type": "LIN"
+ },
+ "NGC 5194": {
+  "found": true,
+  "main_id": "M 51",
+  "type": "Sy2"
+ },
+ "Whirlpool Galaxy": {
+  "found": true,
+  "main_id": "M 51",
+  "type": "Sy2"
+ },
+ "NGC 3031": {
+  "found": true,
+  "main_id": "M 81",
+  "type": "Sy2"
+ },
+ "Bode's Galaxy": {
+  "found": true,
+  "main_id": "M 81",
+  "type": "Sy2"
+ },
+ "Sculptor Galaxy": {
+  "found": true,
+  "main_id": "NAME Sculptor Dwarf Galaxy",
+  "type": "G"
+ },
+ "Silver Coin Galaxy": {
+  "found": false,
+  "note": "no Object line"
+ },
+ "Centaurus A": {
+  "found": true,
+  "main_id": "NAME Centaurus A",
+  "type": "BLL"
+ },
+ "Caldwell 77": {
+  "found": false
+ },
+ "Pleiades": {
+  "found": true,
+  "main_id": "Cl Melotte 22",
+  "type": "OpC"
+ },
+ "Mel 22": {
+  "found": true,
+  "main_id": "Cl Melotte 22",
+  "type": "OpC"
+ },
+ "Seven Sisters": {
+  "found": true,
+  "main_id": "Cl Melotte 22",
+  "type": "OpC"
+ },
+ "NGC 6205": {
+  "found": true,
+  "main_id": "M 13",
+  "type": "GlC"
+ },
+ "Hercules Cluster": {
+  "found": true,
+  "main_id": "ACO 2151",
+  "type": "ClG"
+ },
+ "NGC 7078": {
+  "found": true,
+  "main_id": "M 15",
+  "type": "GlC"
+ },
+ "C 169": {
+  "found": false,
+  "note": "no Object line"
+ },
+ "NGC 2632": {
+  "found": true,
+  "main_id": "NGC 2632",
+  "type": "OpC"
+ },
+ "Beehive Cluster": {
+  "found": false,
+  "note": "no Object line"
+ },
+ "Praesepe": {
+  "found": true,
+  "main_id": "NGC 2632",
+  "type": "OpC"
+ },
+ "47 Tuc": {
+  "found": true,
+  "main_id": "NGC 104",
+  "type": "GlC"
+ },
+ "47 Tucanae": {
+  "found": true,
+  "main_id": "NGC 104",
+  "type": "GlC"
+ },
+ "omega Cen": {
+  "found": true,
+  "main_id": "NGC 5139",
+  "type": "GlC"
+ },
+ "Omega Centauri": {
+  "found": true,
+  "main_id": "NGC 5139",
+  "type": "GlC"
+ },
+ "PG 1226+023": {
+  "found": true,
+  "main_id": "3C 273",
+  "type": "BLL"
+ },
+ "QSO J1229+0203": {
+  "found": true,
+  "main_id": "3C 273",
+  "type": "BLL"
+ },
+ "QSO J0137+3309": {
+  "found": true,
+  "main_id": "3C 48",
+  "type": "QSO"
+ },
+ "4C 33.04": {
+  "found": true,
+  "main_id": "4C 33.04",
+  "type": "QSO"
+ },
+ "PSR J0534+2200": {
+  "found": true,
+  "main_id": "V* CM Tau",
+  "type": "Psr"
+ },
+ "CM Tau": {
+  "found": true,
+  "main_id": "V* CM Tau",
+  "type": "Psr"
+ },
+ "Crab Pulsar": {
+  "found": true,
+  "main_id": "V* CM Tau",
+  "type": "Psr"
+ },
+ "HDE 226868": {
+  "found": true,
+  "main_id": "HD 226868",
+  "type": "HXB"
+ },
+ "V1357 Cyg": {
+  "found": true,
+  "main_id": "HD 226868",
+  "type": "HXB"
+ },
+ "Cyg X-1": {
+  "found": true,
+  "main_id": "HD 226868",
+  "type": "HXB"
+ },
+ "V818 Sco": {
+  "found": true,
+  "main_id": "V* V818 Sco",
+  "type": "LXB"
+ },
+ "Sco X-1": {
+  "found": true,
+  "main_id": "V* V818 Sco",
+  "type": "LXB"
+ },
+ "HD 217014": {
+  "found": true,
+  "main_id": "* 51 Peg",
+  "type": "PM*"
+ },
+ "HR 8729": {
+  "found": true,
+  "main_id": "* 51 Peg",
+  "type": "PM*"
+ },
+ "HIP 113357": {
+  "found": true,
+  "main_id": "* 51 Peg",
+  "type": "PM*"
+ },
+ "V376 Peg": {
+  "found": true,
+  "main_id": "HD 209458",
+  "type": "*"
+ },
+ "HIP 108859": {
+  "found": true,
+  "main_id": "HD 209458",
+  "type": "*"
+ },
+ "M 44": {
+  "found": true,
+  "main_id": "NGC 2632",
+  "type": "OpC"
+ }
+}

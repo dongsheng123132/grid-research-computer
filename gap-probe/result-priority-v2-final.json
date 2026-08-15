@@ -1,0 +1,49 @@
+{
+  "spec": "gap-probe/priority-v2/final-1",
+  "preregSha": "28a4c90ea121b20cca366f3096e61f371fae23075b814305bc7fdb2a25a6bc66",
+  "automatic": {
+    "openalex_filtered_population": 1434,
+    "cursor_complete": true,
+    "literal_verified": 279,
+    "automatic_formula_tokens": 15,
+    "prior_candidates": 3,
+    "since_or_same_year": 1,
+    "unknown": 11,
+    "unresolved": 0
+  },
+  "manual_review": {
+    "reviewed": 15,
+    "valid_complete_claim_formulas": 0,
+    "verified_prior": 0,
+    "prior_candidate_verdicts": [
+      {
+        "token": "NiBr2",
+        "doi": "10.1023/a:1007199330939",
+        "verdict": "reject",
+        "reason": "reaction reagent, not the alpha-diimine nickel complex whose first structure is claimed"
+      },
+      {
+        "token": "H2O",
+        "doi": "10.3390/cryst7120377",
+        "verdict": "reject",
+        "reason": "aquo ligand fragment, not iron(III) salicylate"
+      },
+      {
+        "token": "NON",
+        "openalex_id": "W2294653342",
+        "verdict": "reject",
+        "reason": "English NON-HEME token, not a chemical formula"
+      }
+    ]
+  },
+  "void": true,
+  "voidReasons": [
+    "final included and COD-classified unique claims 0 < preregistered minimum 10",
+    "formula token instrument did not identify the complete object of the priority claim"
+  ],
+  "reportable_rate": null,
+  "prohibited_interpretations": [
+    "0/15",
+    "3/15"
+  ]
+}

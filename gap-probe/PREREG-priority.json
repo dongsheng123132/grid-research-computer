@@ -1,0 +1,25 @@
+{
+  "phrase": "the first crystal structure of",
+  "verify": "短语须字面出现在 title 或 abstract",
+  "subset": "只收标题中含化学式 token 的条目（声明过的子集，非全体）",
+  "classify": {
+    "PRIOR": "COD 最早 year < 论文 year",
+    "UNKNOWN": "COD 无",
+    "UNRESOLVED": "查询失败，不并入 UNKNOWN"
+  },
+  "positiveControls": [
+    "BaTiO3",
+    "LiCoO2",
+    "MgAl2O4",
+    "SrTiO3",
+    "CaTiO3",
+    "ZnFe2O4"
+  ],
+  "negativeControls": [
+    "Zq2Xy3O7",
+    "Qw1Er2Ty3",
+    "Xx3Yy4Zz5"
+  ],
+  "voidIf": "对照任一不过；或 UNRESOLVED > 30%",
+  "caveat": "结构上被披露 ≠ 真的被制备表征（MPEP §2121）；只有更早的实验报道算推翻，故用 COD"
+}

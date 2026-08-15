@@ -1,0 +1,45 @@
+{
+  "preregSha": "2c3c99281ce27349ec248e290cf69b50be4e5ff988aea29c93f07154fdaeeac2",
+  "phrase": "the first crystal structure of",
+  "openalexCount": 8044,
+  "fetched": 200,
+  "verified": 74,
+  "withFormula": 2,
+  "tally": {
+    "PRIOR": [
+      {
+        "formula": "UP1",
+        "year": 2015,
+        "doi": "10.1016/j.jmb.2015.05.009",
+        "title": "The First Crystal Structure of the UP1 Domain of hnRNP A1 Bound to RNA Reveals a New Look for an Old RNA Binding Protein",
+        "earliest": 1941,
+        "refs": [
+          {
+            "cod": "1539553",
+            "year": 1941,
+            "doi": null,
+            "journal": "Zeitschrift fuer Anorganische un"
+          },
+          {
+            "cod": "9008759",
+            "year": 1963,
+            "doi": null,
+            "journal": "Crystal Structures"
+          }
+        ]
+      }
+    ],
+    "SINCE": [],
+    "UNKNOWN": [
+      {
+        "formula": "NS5",
+        "year": 2013,
+        "doi": "10.1371/journal.ppat.1003549",
+        "title": "Crystal Structure of the Full-Length Japanese Encephalitis Virus NS5 Reveals a Conserved Methyltransferase-Polymerase Interface",
+        "earliest": null,
+        "refs": []
+      }
+    ],
+    "UNRESOLVED": []
+  }
+}

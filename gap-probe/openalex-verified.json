@@ -1,0 +1,1286 @@
+{
+  "report": [
+    {
+      "phrase": "absent from the ICSD",
+      "searchCount": 7,
+      "fetched": 7,
+      "verified": 0,
+      "precision": "0%"
+    },
+    {
+      "phrase": "not present in the ICSD",
+      "searchCount": 63,
+      "fetched": 63,
+      "verified": 0,
+      "precision": "0%"
+    },
+    {
+      "phrase": "not in the ICSD",
+      "searchCount": 24731,
+      "fetched": 200,
+      "verified": 0,
+      "precision": "0%"
+    },
+    {
+      "phrase": "no ICSD entry",
+      "searchCount": 217,
+      "fetched": 200,
+      "verified": 0,
+      "precision": "0%"
+    },
+    {
+      "phrase": "not reported in the ICSD",
+      "searchCount": 168,
+      "fetched": 168,
+      "verified": 1,
+      "precision": "1%"
+    },
+    {
+      "phrase": "absent from the Materials Project",
+      "searchCount": 5,
+      "fetched": 5,
+      "verified": 1,
+      "precision": "20%"
+    },
+    {
+      "phrase": "not been synthesized",
+      "searchCount": 259884,
+      "fetched": 200,
+      "verified": 2,
+      "precision": "1%"
+    },
+    {
+      "phrase": "hitherto unreported",
+      "searchCount": 6136,
+      "fetched": 200,
+      "verified": 144,
+      "precision": "72%"
+    },
+    {
+      "phrase": "not yet been reported experimentally",
+      "searchCount": 75,
+      "fetched": 75,
+      "verified": 5,
+      "precision": "7%"
+    }
+  ],
+  "works": [
+    {
+      "doi": "10.1021/acs.chemmater.8b01618",
+      "year": 2018,
+      "title": "High-Throughput Screening of Magnetic Antiperovskites",
+      "phrases": [
+        "not reported in the ICSD"
+      ]
+    },
+    {
+      "doi": "10.26434/chemrxiv.15003677/v1",
+      "year": 2026,
+      "title": "AQ-GNoME: an Aqueous Stability Augmentation of the GNoME Database",
+      "phrases": [
+        "absent from the Materials Project"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1461-0248.2010.01518.x",
+      "year": 2010,
+      "title": "Meta‐analysis reveals negative yet variable effects of ocean acidification on marine organisms",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1126/science.add9204",
+      "year": 2023,
+      "title": "Direct synthesis and chemical vapor deposition of 2D carbide and nitride MXenes",
+      "phrases": [
+        "not been synthesized"
+      ]
+    },
+    {
+      "doi": "10.1046/j.1365-2559.2000.00891.x",
+      "year": 2000,
+      "title": "Malignant angiomyolipoma of the liver: a hitherto unreported variant",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1136/bmj.1.4185.427",
+      "year": 1941,
+      "title": "Crush Injuries with Impairment of Renal Function",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1440-1827.1968.tb00048.x",
+      "year": 1968,
+      "title": "A HITHERTO UNREPORTED VASCULAR TUMOR OF THE KIDNEY: A PROPOSAL OF ‘JUXTAGLOMERULAR CELL TUMOR’",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W2416258033",
+      "year": 1979,
+      "title": "A hitherto unreported paramyxovirus of turkeys.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/s0034-5288(18)32817-0",
+      "year": 1979,
+      "title": "A hitherto unreported paramyxovirus of turkeys",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.3127/ajis.v4i1.379",
+      "year": 1996,
+      "title": "A Partial Test and Development of Delone and Mclean's Model of IS Success",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/pro.4519",
+      "year": 2022,
+      "title": "DALI shines a light on remote homologs: One hundred discoveries",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1365-2559.2006.02427.x",
+      "year": 2006,
+      "title": "Invasive growth of hepatic angiomyolipoma; a hitherto unreported ominous histological feature",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W2416344677",
+      "year": 1960,
+      "title": "Arterial embolism with acute massive ischemic myopathy and myoglobinuria: evaluation of a hitherto unreported syndrome with report of two cases.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W1561438196",
+      "year": 1958,
+      "title": "Hitherto Unreported Malignant Melanomas in the Syrian Hamster: An Experimental Counterpart of the Human Malignant Melanomas",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1023/a:1008380208045",
+      "year": 2000,
+      "title": "Gemcitabine-induced atrial fibrillation: A hitherto unreported manifestation of drug toxicity",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W45497666",
+      "year": 1994,
+      "title": "A Partial Test and Development of the DeLone and McLean Model of IS Success.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1046/j.1365-2559.1996.d01-514.x",
+      "year": 1996,
+      "title": "<b>Small cell carcinoma of the liver: a hitherto unreported variant of hepatocellular carcinoma</b>",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1179/030634575790445143",
+      "year": 1975,
+      "title": "The Precipitation of δ′ (Al<sub>3</sub>Li) in Dilute Aluminium–Lithium Alloys",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/s0021-9258(20)70807-0",
+      "year": 1933,
+      "title": "ISOLATION AND IDENTIFICATION OF SOME HITHERTO UNREPORTED FATTY ACIDS IN BUTTER FAT",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1097/pgp.0b013e31817eb796",
+      "year": 2008,
+      "title": "Large Endocervical Polyp With Cartilaginous and Osseous Metaplasia: A Hitherto Unreported Entity",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.2337/diab.29.8.665",
+      "year": 1980,
+      "title": "Insulin-like Effect of Zinc on Adipocytes",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1177/004728757801600302",
+      "year": 1978,
+      "title": "A New Approach to Image Analysis Through Multidimensional Scaling",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W2151982201",
+      "year": 2003,
+      "title": "A hitherto unreported yellow vein clearing disease of citrus in India and its viral etiology",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1128/aem.70.5.2989-3004.2004",
+      "year": 2004,
+      "title": "Survival and Dormancy of<i>Mycobacterium avium</i>subsp.<i>paratuberculosis</i>in theEnvironment",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/s0034-5288(18)33030-3",
+      "year": 1978,
+      "title": "Incidence and preliminary characterisation of a hitherto unreported, serologically distinct, avian paramyxovirus isolated in Hong Kong",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1093/brain/awp174",
+      "year": 2009,
+      "title": "Delayed post-ischaemic neuroprotection following systemic neural stem cell transplantation involves multiple mechanisms",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/s0022-2275(20)40188-9",
+      "year": 1964,
+      "title": "Isolation and characterization of an esterified form of steryl glucoside",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/ic301544q",
+      "year": 2012,
+      "title": "Synthesis, Crystal Structures, and Luminescence Properties of Carboxylate Based Rare-Earth Coordination Polymers",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/ma970098a",
+      "year": 1997,
+      "title": "Novel Amphiphilic Architectures by Ring-Opening Metathesis Polymerization of Macromonomers",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1136/jnnp.52.7.907",
+      "year": 1989,
+      "title": "Clinical features of the exploding head syndrome.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1126/science.6779378",
+      "year": 1981,
+      "title": "Oxidation of Elemental Selenium to Selenite by <i>Bacillus megaterium</i>",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/j.virol.2005.09.051",
+      "year": 2005,
+      "title": "High throughput sequence analysis reveals hitherto unreported recombination in the genus Norovirus",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1038/ncomms14153",
+      "year": 2017,
+      "title": "The ancient CYP716 family is a major contributor to the diversification of eudicot triterpenoid biosynthesis",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1029/98jd02746",
+      "year": 1999,
+      "title": "Short‐lived alkyl iodides and bromides at Mace Head, Ireland: Links to biogenic sources and halogen oxide production",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1039/c6ra09883e",
+      "year": 2016,
+      "title": "Synthesis, antimicrobial, anti-cancer and molecular docking of two novel hitherto unreported thiophenes",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1039/c6dt03852b",
+      "year": 2016,
+      "title": "Synthesis and structure of Zr( <scp>iv</scp> )- and Ce( <scp>iv</scp> )-based CAU-24 with 1,2,4,5-tetrakis(4-carboxyphenyl)benzene",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1007/s12288-012-0156-9",
+      "year": 2012,
+      "title": "Haemolytic Uremic Syndrome a Hitherto Unreported Complication of Humpnosed Viper Envenomation",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.nanolett.8b04368",
+      "year": 2019,
+      "title": "Room-Temperature Spin Hall Effect in Graphene/MoS<sub>2</sub> van der Waals Heterostructures",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/gcc.2870100405",
+      "year": 1994,
+      "title": "<i>TP53</i> mutations are frequent in malignant NFI tumors",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1093/nar/gks666",
+      "year": 2012,
+      "title": "Modelling and simulating generic RNA-Seq experiments with the flux simulator",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1007/s11661-018-5025-1",
+      "year": 2018,
+      "title": "On the Characterization of a Hitherto Unreported Icosahedral Quasicrystal Phase in Additively Manufactured Aluminum Alloy AA7075",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/ja049926n",
+      "year": 2004,
+      "title": "Template Assembled Cyclopeptides as Multimeric System for Integrin Targeting and Endocytosis",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1378/chest.07-0805",
+      "year": 2008,
+      "title": "A Hitherto Unreported Pulmonary Complication in an IV Heroin User",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1007/s13225-013-0243-8",
+      "year": 2013,
+      "title": "Mangrove derived fungal endophytes – a chemical and biological perception",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/anie.201505678",
+      "year": 2015,
+      "title": "A Mechanochemically Triggered “Click” Catalyst",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1151-2916.1954.tb14010.x",
+      "year": 1954,
+      "title": "The Zirconia‐Titania System",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/jp982736c",
+      "year": 1999,
+      "title": "Molecular Simulations of Adsorption Isotherms for Linear and Branched Alkanes and Their Mixtures in Silicalite",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/j.humpath.2007.10.031",
+      "year": 2008,
+      "title": "Biliary neoplasia with extensive intraductal spread associated with liver cirrhosis: a hitherto unreported variant of biliary intraepithelial neoplasia",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1186/s40164-019-0146-9",
+      "year": 2019,
+      "title": "Cabozantinib and apixaban: an hitherto unreported interaction",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pone.0010427",
+      "year": 2010,
+      "title": "Raman Tweezers Spectroscopy of Live, Single Red and White Blood Cells",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/chem.201201645",
+      "year": 2012,
+      "title": "Metal‐Free Arylation of Oxygen Nucleophiles with Diaryliodonium Salts",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1097/00000478-200309000-00006",
+      "year": 2003,
+      "title": "Low-Grade Fibromyxoid Sarcoma and Hyalinizing Spindle Cell Tumor With Giant Rosettes Share a Common t(7;16)(q34;p11) Translocation",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1136/jmg.40.12.896",
+      "year": 2003,
+      "title": "Recurrent <i>de novo</i> mitochondrial DNA mutations in respiratory chain deficiency",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1468-2419.2006.00259.x",
+      "year": 2006,
+      "title": "Transfer of learning from management development programmes: testing the Holton model",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W2470248356",
+      "year": 2010,
+      "title": "Hitherto unreported ethnomedicinal uses of plants of Betul district of Madhya Pradesh.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1177/030089161109700526",
+      "year": 2011,
+      "title": "Primary adrenal gland carcinosarcoma associated with metastatic rectal cancer: A hitherto unreported collision tumor",
+      "phrases": [
+        "hitherto unreported",
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1055/s-2006-957872",
+      "year": 1996,
+      "title": "Antibacterial and Antifungal Polyine Compounds from<i>Glehnia littoralis</i>ssp.<i>leiocarpa</i>",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/s0014-5793(98)01231-9",
+      "year": 1998,
+      "title": "New genotypes of TT virus (TTV) and a genotyping assay based on restriction fragment length polymorphism<sup>1</sup>",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/j.prp.2008.05.007",
+      "year": 2008,
+      "title": "Polypoid angiomyofibroblastoma-like tumor of the oral cavity: a hitherto unreported soft tissue tumor mimicking embryonal rhabdomyosarcoma",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/acsenergylett.7b00731",
+      "year": 2017,
+      "title": "Impact of Rubidium and Cesium Cations on the Moisture Stability of Multiple-Cation Mixed-Halide Perovskites",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1001/archderm.95.5.462",
+      "year": 1967,
+      "title": "Tryptophan metabolism. A hitherto unreported abnormality occurring in a family",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1046/j.1439-0450.2002.00588.x",
+      "year": 2002,
+      "title": "Fox Encephalitozoonosis: Isolation of the Agent from an Outbreak in Farmed Blue Foxes (<i>Alopex lagopus</i>) in Finland and Some Hitherto Unreported Pathologic Lesions",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1080/07268602.2015.1023170",
+      "year": 2015,
+      "title": "Contrastive and Non-contrastive Pre-stopping in Kaytetye",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1107/s0108768186098427",
+      "year": 1986,
+      "title": "Identification of a hitherto unreported Frank–Kasper phase",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/1096-9896(2000)9999:9999<::aid-path635>3.0.co;2-r",
+      "year": 2000,
+      "title": "Myofibroblastoma of the breast: genetic link with spindle cell lipoma",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1097/00000478-198511000-00005",
+      "year": 1985,
+      "title": "Clear cell adenocarcinoma of the bladder and urethra",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1099/vir.0.18660-0",
+      "year": 2003,
+      "title": "The extent of homologous recombination in members of the genus Flavivirus",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1136/jcp.37.5.560",
+      "year": 1984,
+      "title": "Localisation of factor XIII in human tissues using an immunoperoxidase technique.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1080/095008399177390",
+      "year": 1999,
+      "title": "transmission electron microscopy study of a low-angle boundary in plastically deformed Ti3SiC2",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W2429701025",
+      "year": 2002,
+      "title": "Male reproductive toxic effects of carbendazim: hitherto unreported targets in testis.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1365-3040.1992.tb02155.x",
+      "year": 1992,
+      "title": "An abscisic‐acid‐responsive, low temperature barley gene has homology with a maize phospholipid transfer protein",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevlett.111.187204",
+      "year": 2013,
+      "title": "Electric Control of Exchange Bias Training",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.200600011",
+      "year": 2006,
+      "title": "Shotgun proteomic analysis of human‐induced sputum",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/jo101572c",
+      "year": 2010,
+      "title": "Biginelli and Hantzsch-Type Reactions Leading to Highly Functionalized Dihydropyrimidinone, Thiocoumarin, and Pyridopyrimidinone Frameworks via Ring Annulation with β-Oxodithioesters",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/j.compbiolchem.2011.03.004",
+      "year": 2011,
+      "title": "In silico analysis of glutathione S-transferase supergene family revealed hitherto unreported insect specific δ- and ɛ-GSTs and mammalian specific μ-GSTs in Ixodes scapularis (Acari: Ixodidae)",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/ja309460v",
+      "year": 2013,
+      "title": "CO Self-Promoting Oxidation on Nanosized Gold Clusters: Triangular Au<sub>3</sub> Active Site and CO Induced O–O Scission",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/j.humpath.2011.02.029",
+      "year": 2011,
+      "title": "Folliculocentric B-cell–rich follicular dendritic cells sarcoma: a hitherto unreported morphological variant mimicking lymphoproliferative disorders",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1039/a807552b",
+      "year": 1998,
+      "title": "Supramolecular synthons mediated by weak hydrogen bonding: forming linear molecular arrays via CC–H···NC and CC–H···O2N recognition",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1073/pnas.1515614113",
+      "year": 2016,
+      "title": "How faceted liquid droplets grow tails",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/j.anndiagpath.2009.10.005",
+      "year": 2010,
+      "title": "Plasma cell myeloma presenting with diffuse pleural involvement: a hitherto unreported pattern of a new mesothelioma mimicker",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1182/blood.v13.9.835.835",
+      "year": 1958,
+      "title": "A New Hereditary Hemoglobinopathy (the Lepore Trait) and Its Interaction with Thalassemia Trait",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/acs.orglett.7b01594",
+      "year": 2017,
+      "title": "Aminomethylation of Imidazoheterocycles with Morpholine",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/jo200685e",
+      "year": 2011,
+      "title": "One-Pot Two-Component [3 + 2] Cycloaddition/Annulation Protocol for the Synthesis of Highly Functionalized Thiophene Derivatives",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1007/s00428-009-0756-4",
+      "year": 2009,
+      "title": "Leiomyomatous nodules in a cellular angiofibroma: a hitherto unreported finding",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1097/pas.0b013e31815a3ec1",
+      "year": 2008,
+      "title": "Traumatic Neuroma of the Bronchi: Bronchoscopy and Histology of a Hitherto Unreported Lesion",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1039/c7dt01960b",
+      "year": 2017,
+      "title": "Metal-mediated reactions between dialkylcyanamides and acetamidoxime generate unusual (nitrosoguanidinate)nickel( <scp>ii</scp> ) complexes",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/(sici)1098-1136(19990101)25:1<33::aid-glia4>3.0.co;2-j",
+      "year": 1999,
+      "title": "Cerebellar defect and impaired motor coordination in mice lacking vimentin",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.13057/nusbiosci/n030206",
+      "year": 1970,
+      "title": "Six hitherto unreported Basidiomycetic macrofungi from Kashmir Himalayas",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/mds.870070110",
+      "year": 1992,
+      "title": "Tardive tremor",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1017/s0952675715000081",
+      "year": 2015,
+      "title": "Phonological phrasing and ATR vowel harmony in Akan",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/ccd.1083",
+      "year": 2001,
+      "title": "Left main crumpling during left anterior descending angioplasty: Hitherto unreported location for the “accordion effect”",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1097/00000478-200112000-00011",
+      "year": 2001,
+      "title": "Mesonephric Adenocarcinoma of the Uterine Corpus",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.4103/ajns.ajns_17_17",
+      "year": 2018,
+      "title": "Unravelling hitherto unreported masses camouflaged as pituitary macro adenomas",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1177/0956797613484937",
+      "year": 2013,
+      "title": "Fear of Holes",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1136/adc.42.222.208",
+      "year": 1967,
+      "title": "Influence of maternal renal infection on the foetus and infant.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1093/brain/awt166",
+      "year": 2013,
+      "title": "Early brain enlargement and elevated extra-axial fluid in infants who develop autism spectrum disorder",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1365-2354.2009.01118.x",
+      "year": 2010,
+      "title": "‘Swimming against the tide’- the influence of fertility matters on the transition to adulthood or survivorship following adolescent cancer",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1136/jnnp.36.6.921",
+      "year": 1973,
+      "title": "Paroxysmal kinesigenic choreoathetosis: Report of a case relieved by L-dopa",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/acsami.8b20013",
+      "year": 2019,
+      "title": "Guest-Induced Ultrasensitive Detection of Multiple Toxic Organics and Fe<sup>3+</sup> Ions in a Strategically Designed and Regenerative Smart Fluorescent Metal–Organic Framework",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/jm4012033",
+      "year": 2013,
+      "title": "Methyl-Thiazoles: A Novel Mode of Inhibition with the Potential to Develop Novel Inhibitors Targeting InhA in Mycobacterium tuberculosis",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1248/cpb.51.415",
+      "year": 2003,
+      "title": "Tetracyclic Triterpenoids from the Leaves of Azadirachta indica and Their Insecticidal Activities.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1097/pgp.0b013e3181c6a79a",
+      "year": 2010,
+      "title": "Myxoid Change of the Myometrium and Cervical Stroma: Description of a Hitherto Unreported Non-neoplastic Phenomenon With Discussion of Myxoid Uterine Lesions",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1007/bf02627260",
+      "year": 1965,
+      "title": "Pseudopolyps in ulcerative colitis",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1074/jbc.m607614200",
+      "year": 2007,
+      "title": "Clostridium difficile Toxin B Causes Apoptosis in Epithelial Cells by Thrilling Mitochondria",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1159/000075035",
+      "year": 2004,
+      "title": "Optimal Degradation Rate for Collagen Chambers Used for Regeneration of Peripheral Nerves over Long Gaps",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W1952280075",
+      "year": 1999,
+      "title": "Collagenous fibroma (desmoplastic fibroblastoma): genetic link with fibroma of tendon sheath?",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1039/b503106k",
+      "year": 2005,
+      "title": "Homoleptic uranium(iii) imidodiphosphinochalcogenides including the first structurally characterised molecular trivalent actinide–Se bond",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1365-2133.1987.tb05799.x",
+      "year": 1987,
+      "title": "Peeling skin syndrome: a clinical., ultrastructural and biochemical study",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1074/mcp.m800060-mcp200",
+      "year": 2008,
+      "title": "Analysis of Protein Processing by N-terminal Proteomics Reveals Novel Species-specific Substrate Determinants of Granzyme B Orthologs",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.3171/jns.1984.60.3.0572",
+      "year": 1984,
+      "title": "Anomalies of the posterior communicating artery and their potential clinical significance",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1038/s41467-020-17622-6",
+      "year": 2020,
+      "title": "Unzipping of black phosphorus to form zigzag-phosphorene nanobelts",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1039/c3ee43165g",
+      "year": 2014,
+      "title": "A novel composite of TiO2 nanotubes with remarkably high efficiency for hydrogen production in solar-driven water splitting",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1468-3083.2005.01103.x",
+      "year": 2005,
+      "title": "Darier's disease (keratosis follicularis): gynaecomastia unique hitherto unreported association",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/humu.22242",
+      "year": 2012,
+      "title": "A Novel Regulatory Defect in the Branched-Chain α-Keto Acid Dehydrogenase Complex Due to a Mutation in the<i>PPM</i><i>1</i><i>K</i>Gene Causes a Mild Variant Phenotype of Maple Syrup Urine Disease",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevb.101.024508",
+      "year": 2020,
+      "title": "Superconductivity of <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi>LaH</mml:mi><mml:mn>10</mml:mn></mml:msub></mml:math> and <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi>LaH</mml:mi><mml:mn>16</mml:mn></mml:msub></mml:math> polyhydrides",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1365-2141.1983.tb02022.x",
+      "year": 1983,
+      "title": "Fate of senescent megakaryocytes in the bone marrow",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1107/s0021889890012092",
+      "year": 1991,
+      "title": "High-resolution powder diffraction studies of copper(II) oxide",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1097/00000372-199510000-00010",
+      "year": 1995,
+      "title": "Mammary Pagetʼs Disease Confined to the Areola and Associated with Multifocal Toker Cell Hyperplasia",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/jhet.5570290213",
+      "year": 1992,
+      "title": "Synthesis of pyrrolopyridines (azaindoles)",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/ajmg.1320270110",
+      "year": 1987,
+      "title": "Proteus syndrome in Southern Africa: Natural history and clinical manifestations on six individuals",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/jacs.7b04422",
+      "year": 2017,
+      "title": "Chemically Functionalized Phosphorene: Two-Dimensional Multiferroics with Vertical Polarization and Mobile Magnetism",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1128/jvi.00337-07",
+      "year": 2007,
+      "title": "Evidence of Intragenic Recombination in G1 Rotavirus VP7 Genes",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/ana.20359",
+      "year": 2004,
+      "title": "p.S143F mutation in lamin A/C: A new phenotype combining myopathy and progeria",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.2174/156652412798889063",
+      "year": 2012,
+      "title": "Anti-Cancer Activities of Tea Epigallocatechin-3-Gallate in Breast Cancer Patients under Radiotherapy",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.13057/nusbiosci/n020306",
+      "year": 1970,
+      "title": "Hitherto unreported Agaricus species of Central India",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1093/nsr/nwz169",
+      "year": 2019,
+      "title": "Room-temperature multiferroicity and diversified magnetoelectric couplings in 2D materials",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/1098-1004(200006)15:6<580::aid-humu16>3.0.co;2-0",
+      "year": 2000,
+      "title": "Survey of the coding region of the HERG gene in long QT syndrome reveals six novel mutations and an amino acid polymorphism with possible phenotypic effects",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/cctc.201500928",
+      "year": 2016,
+      "title": "DBU and DBU‐Derived Ionic Liquid Synergistic Catalysts for the Conversion of Carbon Dioxide/Carbon Disulfide to 3‐Aryl‐2‐oxazolidinones/[1,3]Dithiolan‐2‐ylidenephenyl‐ amine",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.2042-3306.1993.tb02969.x",
+      "year": 1993,
+      "title": "In‐vitro susceptibility to antimicrobial drugs of bacterial isolates from horses in The Netherlands",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1109/tia.2002.807217",
+      "year": 2003,
+      "title": "Analysis and suppression of high-frequency inverter modulation in sensorless position-controlled induction machine drives",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1007/s00428-004-1075-4",
+      "year": 2004,
+      "title": "Epstein?Barr-positive lymphoepithelial carcinoma and epi-myoepithelial cell carcinoma of the parotid gland: a hitherto unreported example of hybrid tumour",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1086/588834",
+      "year": 2008,
+      "title": "The Transformation of Nesquehonite to Hydromagnesite in the System CaO-MgO-H<sub>2</sub>O-CO<sub>2</sub>: An Experimental Spectroscopic Study",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1017/jfm.2014.315",
+      "year": 2014,
+      "title": "Interplay of inertia and deformability on rheological properties of a suspension of capsules",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1039/b202493d",
+      "year": 2002,
+      "title": "Synthetic transformation of hydroxymatairesinol from Norway spruce (Picea abies) to 7-hydroxysecoisolariciresinol, (+)-lariciresinol and (+)-cyclolariciresinol",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W3102817466",
+      "year": null,
+      "title": "",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1464-410x.1992.tb15800.x",
+      "year": 1992,
+      "title": "Testicular Denervation. A New Surgical Procedure for Intractable Testicular Pain",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/cne.21247",
+      "year": 2007,
+      "title": "Neurons of the ascidian larval nervous system in <i>Ciona intestinalis</i>: II. Peripheral nervous system",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1016/j.prp.2015.08.003",
+      "year": 2015,
+      "title": "Ewing-like sarcoma with CIC-DUX4 gene fusion in a patient with neurofibromatosis type 1. A hitherto unreported association",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1365-2257.1994.tb00436.x",
+      "year": 2008,
+      "title": "A case of intravascular malignant lymphomatosis (angiotropic lymphoma) with raised perinuclear antineutrophil cytoplasmic antibody titres - a hitherto unreported association",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1080/00397918808081317",
+      "year": 1988,
+      "title": "Regioselective Synthesis of 2H - Pyrano [3, 2-c] Benzopyran-5H-One and 3H-Pyrano [2, 3-c] Benzopyran-5H-ONE",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1039/c9cc06780a",
+      "year": 2019,
+      "title": "An unprecedented 2D covalent organic framework with an htb net topology",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/cm3011327",
+      "year": 2012,
+      "title": "Controlling The Activator Site To Tune Europium Valence in Oxyfluoride Phosphors",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1001/archotol.1975.00780370026009",
+      "year": 1975,
+      "title": "Hyoid Syndrome",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1021/np3007149",
+      "year": 2012,
+      "title": "Antimicrobial Phenolics and Unusual Glycerides from <i>Helichrysum italicum</i> subsp. <i>microphyllum</i>",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1093/ajcp/89.4.543",
+      "year": 1988,
+      "title": "Graft-versus-Host Disease in the Central Nervous System: A Real Entity?",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1002/j.1537-2197.1972.tb10143.x",
+      "year": 1972,
+      "title": "ULTRAVIOLET REFLECTANCE CHARACTERISTICS IN FLOWERS OF CRUCIFERS",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "https://openalex.org/W2411647649",
+      "year": 1950,
+      "title": "Two hitherto unreported plant fossils from the Rajmahal Hills, Bihar.",
+      "phrases": [
+        "hitherto unreported"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevlett.101.136406",
+      "year": 2008,
+      "title": "Two Pressure-Induced Transitions in TiOCl: Mott Insulator to Anisotropic Metal",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1088/1367-2630/11/2/025004",
+      "year": 2009,
+      "title": "The delicate electronic and magnetic structure of the LaFePnO system (Pn = pnicogen)",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1109/icems56177.2022.9983182",
+      "year": 2022,
+      "title": "Reduction of Stator Vibration Acceleration Using One-Axis Actively Positioned Single-Drive Bearingless Motor",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.0810.0376",
+      "year": 2008,
+      "title": "The Delicate Electronic and Magnetic Structure of the LaOFePn System (Pn = pnictogen)",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    },
+    {
+      "doi": "10.1016/j.apsusc.2026.166938",
+      "year": 2026,
+      "title": "Structural evolution of γ-antimonene nanoribbons on Ag(110)",
+      "phrases": [
+        "not yet been reported experimentally"
+      ]
+    }
+  ]
+}

@@ -46,7 +46,12 @@ async function lookup(f) {
   return null;
 }
 
-const src = JSON.parse(fs.readFileSync(path.resolve(HERE, '../../.goai/audit4.json'), 'utf8'));
+// 来源文件：包内自带 audit4-input.json（提交包场景），回落到仓库私有工作目录（本机开发场景）。
+// 两条路径同内容；分开是因为 .goai/ 不进发布物，而评委必须能跑起来。
+const SRC = [path.resolve(HERE, 'audit4-input.json'), path.resolve(HERE, '../../.goai/audit4.json')]
+  .find((p) => fs.existsSync(p));
+if (!SRC) { console.error('找不到化学式来源：audit4-input.json'); process.exit(4); }
+const src = JSON.parse(fs.readFileSync(SRC, 'utf8'));
 
 // ── 入选闸门（第一版漏了，代价是差点诬告 4 个教科书物质）────────────────────
 // audit.mjs 里有这道闸，写 audit4.mjs 时没搬过来，于是 BN(1927)/BP(1957)/BAs(1963)

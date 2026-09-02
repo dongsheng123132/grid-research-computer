@@ -29,4 +29,4 @@ JSON 数组，40 条：
 - 只输出 JSON 数组，不要解释文字。
 
 ## 输出
-写到：<仓库根>/gene-probe/controls-raw.json
+写到：D:/uking编程/ShadowOS = Harness OS/demo/gene-probe/controls-raw.json

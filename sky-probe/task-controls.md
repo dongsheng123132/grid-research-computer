@@ -35,4 +35,4 @@
 
 ## 输出
 直接把 JSON 数组写到文件：
-<仓库根>/sky-probe/controls-raw.json
+D:/uking编程/ShadowOS = Harness OS/demo/sky-probe/controls-raw.json

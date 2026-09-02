@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="492" viewBox="0 0 960 492" font-family="Source Han Sans SC, Microsoft YaHei, Segoe UI, sans-serif">
+<rect width="960" height="492" fill="#ffffff"/>
+<text x="88" y="42" font-size="21" font-weight="700" fill="#1a1a1a">被声称「数据库中不存在」，而结构其实早已发表</text>
+<text x="88" y="66" font-size="13.5" fill="#6b7280">7 / 38 个化合物（18%）在论文发表前已有公开晶体结构　·　线段长度 = 相隔年数</text>
+<g font-size="12" fill="#6b7280">
+<circle cx="538" cy="76" r="4.5" fill="#0f766e"/><text x="550" y="80">已发表结构（最早）</text>
+<circle cx="686" cy="76" r="4.5" fill="#b91c1c"/><text x="698" y="80">声称「不存在」</text>
+</g>
+<line x1="132.0" y1="82" x2="132.0" y2="426" stroke="#e5e7eb" stroke-width="1"/>
+<text x="132.0" y="446" font-size="12" fill="#6b7280" text-anchor="middle">1950</text>
+<line x1="301.5" y1="82" x2="301.5" y2="426" stroke="#e5e7eb" stroke-width="1"/>
+<text x="301.5" y="446" font-size="12" fill="#6b7280" text-anchor="middle">1970</text>
+<line x1="471.0" y1="82" x2="471.0" y2="426" stroke="#e5e7eb" stroke-width="1"/>
+<text x="471.0" y="446" font-size="12" fill="#6b7280" text-anchor="middle">1990</text>
+<line x1="640.5" y1="82" x2="640.5" y2="426" stroke="#e5e7eb" stroke-width="1"/>
+<text x="640.5" y="446" font-size="12" fill="#6b7280" text-anchor="middle">2010</text>
+<line x1="810.0" y1="82" x2="810.0" y2="426" stroke="#e5e7eb" stroke-width="1"/>
+<text x="810.0" y="446" font-size="12" fill="#6b7280" text-anchor="middle">2030</text>
+<text x="116" y="124" font-size="14.5" fill="#1a1a1a" text-anchor="end" font-weight="700">Na₃HfF₇</text>
+<line x1="208.3" y1="119" x2="759.1" y2="119" stroke="#b91c1c" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<circle cx="208.3" cy="119" r="5" fill="#0f766e"/>
+<circle cx="759.1" cy="119" r="5" fill="#b91c1c"/>
+<text x="198.3" y="123.5" font-size="11.5" fill="#6b7280" text-anchor="end">1959</text>
+<text x="771.1" y="123.5" font-size="13" fill="#b91c1c" font-weight="700">相隔 65 年</text>
+<text x="771.1" y="138" font-size="10.5" fill="#6b7280">npj Comput. Mater. 2024</text>
+<text x="116" y="170" font-size="14.5" fill="#1a1a1a" text-anchor="end" font-weight="400">KLiZn₃O₄</text>
+<line x1="454.1" y1="165" x2="759.1" y2="165" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+<circle cx="454.1" cy="165" r="5" fill="#0f766e"/>
+<circle cx="759.1" cy="165" r="5" fill="#b91c1c"/>
+<text x="444.1" y="169.5" font-size="11.5" fill="#6b7280" text-anchor="end">1988</text>
+<text x="771.1" y="169.5" font-size="13" fill="#1a1a1a" font-weight="600">相隔 36 年</text>
+<text x="771.1" y="184" font-size="10.5" fill="#6b7280">npj Comput. Mater. 2024</text>
+<text x="116" y="216" font-size="14.5" fill="#1a1a1a" text-anchor="end" font-weight="400">NaHSeO₄</text>
+<line x1="547.3" y1="211" x2="759.1" y2="211" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+<circle cx="547.3" cy="211" r="5" fill="#0f766e"/>
+<circle cx="759.1" cy="211" r="5" fill="#b91c1c"/>
+<text x="537.3" y="215.5" font-size="11.5" fill="#6b7280" text-anchor="end">1999</text>
+<text x="771.1" y="215.5" font-size="13" fill="#1a1a1a" font-weight="600">相隔 25 年</text>
+<text x="771.1" y="230" font-size="10.5" fill="#6b7280">npj Comput. Mater. 2024</text>
+<text x="116" y="262" font-size="14.5" fill="#1a1a1a" text-anchor="end" font-weight="400">BaTi(IO₃)₆</text>
+<line x1="598.1" y1="257" x2="759.1" y2="257" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+<circle cx="598.1" cy="257" r="5" fill="#0f766e"/>
+<circle cx="759.1" cy="257" r="5" fill="#b91c1c"/>
+<text x="588.1" y="261.5" font-size="11.5" fill="#6b7280" text-anchor="end">2005</text>
+<text x="771.1" y="261.5" font-size="13" fill="#1a1a1a" font-weight="600">相隔 19 年</text>
+<text x="771.1" y="276" font-size="10.5" fill="#6b7280">npj Comput. Mater. 2024</text>
+<text x="116" y="308" font-size="14.5" fill="#1a1a1a" text-anchor="end" font-weight="400">C₃N₄</text>
+<line x1="581.2" y1="303" x2="733.7" y2="303" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+<circle cx="581.2" cy="303" r="5" fill="#0f766e"/>
+<circle cx="733.7" cy="303" r="5" fill="#b91c1c"/>
+<text x="571.2" y="307.5" font-size="11.5" fill="#6b7280" text-anchor="end">2003</text>
+<text x="745.7" y="307.5" font-size="13" fill="#1a1a1a" font-weight="600">相隔 18 年</text>
+<text x="745.7" y="322" font-size="10.5" fill="#6b7280">Energy Environ. Sci. 2021</text>
+<text x="116" y="354" font-size="14.5" fill="#1a1a1a" text-anchor="end" font-weight="400">SrGaSiH</text>
+<line x1="623.5" y1="349" x2="759.1" y2="349" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+<circle cx="623.5" cy="349" r="5" fill="#0f766e"/>
+<circle cx="759.1" cy="349" r="5" fill="#b91c1c"/>
+<text x="613.5" y="353.5" font-size="11.5" fill="#6b7280" text-anchor="end">2008</text>
+<text x="771.1" y="353.5" font-size="13" fill="#1a1a1a" font-weight="600">相隔 16 年</text>
+<text x="771.1" y="368" font-size="10.5" fill="#6b7280">npj Comput. Mater. 2024</text>
+<text x="116" y="400" font-size="14.5" fill="#1a1a1a" text-anchor="end" font-weight="400">Li₂ZnGeS₄</text>
+<line x1="716.8" y1="395" x2="759.1" y2="395" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+<circle cx="716.8" cy="395" r="5" fill="#0f766e"/>
+<circle cx="759.1" cy="395" r="5" fill="#b91c1c"/>
+<text x="706.8" y="399.5" font-size="11.5" fill="#6b7280" text-anchor="end">2019</text>
+<text x="771.1" y="399.5" font-size="13" fill="#1a1a1a" font-weight="600">相隔 5 年</text>
+<text x="771.1" y="414" font-size="10.5" fill="#6b7280">npj Comput. Mater. 2024</text>
+<text x="88" y="476" font-size="11" fill="#6b7280">口径：COD 最早条目年份 vs 论文发表年份　·　总体 = OpenAlex 检索确切措辞 “absent from ICSD” 的全部 5 篇（38 个具名化合物）　·　可由 demo/gap-probe/ 重跑</text>
+</svg>

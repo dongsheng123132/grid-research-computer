@@ -2,7 +2,15 @@
 // 查两件事：(1) DOI 是否真实存在；(2) 它给的标题与 Crossref 的真标题是否对得上
 //（「绰号当标题」是本仓库记录过的坑，今天我自己也踩过一次）。
 import fs from 'node:fs';
-const md = fs.readFileSync('.goai/litsearch-result.md', 'utf8');
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+// 原来写死 '.goai/litsearch-result.md'，是相对 cwd 的路径——只有在仓库根跑才成立，
+// 从本目录或从发布包里跑一律 ENOENT。两处同内容，按可用性挑一个。
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const SRC = [path.resolve(HERE, 'litsearch-result.md'), path.resolve('.goai/litsearch-result.md')]
+  .find((p) => fs.existsSync(p));
+if (!SRC) { console.error('找不到 litsearch-result.md'); process.exit(4); }
+const md = fs.readFileSync(SRC, 'utf8');
 const seen = new Map();
 for (const m of md.matchAll(/10\.\d{4,9}\/[A-Za-z0-9._;()\/:<>-]+/g)) {
   const doi = m[0].replace(/[.,;)]+$/, '');

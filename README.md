@@ -30,24 +30,30 @@ node gap-probe/verify-gap-probe.mjs
 
 ---
 
-## 五个学科，同一个操作化错误
+## 九个学科，同一个操作化错误
+
+> 2026-09-02 更正：本节此前写「五个学科」并称基因/化学缺判据脚本——那是旧状态。
+> `d0df8e2`（tag `goai-round2-20260902`）已补齐九学科判据套件，本节随本次提交同步修正。
 
 | 学科 | 目录 | 复跑命令 | 实跑结果 |
 |---|---|---|---|
 | 材料 | `gap-probe/` | `node gap-probe/verify-gap-probe.mjs` | 判决 13/16，**退出码 2**；12 个阳性对照红 3 |
 | 天文 | `sky-probe/` | `node sky-probe/verify-sky-probe.mjs` | 判决 6/14，**退出码 2**；8/8 教科书天体被判「未编目」 |
 | 组合 | `sidon-probe/` | `node sidon-probe/verify-sidon-probe.mjs` | **退出码 2**；输出全是合法 Sidon 集，却不如随机重启 |
-| 基因 | `gene-probe/` | `node gene-probe/probe.mjs` | 退出码 0；假空 22/28（78.6%），由 mygene 裁决 |
-| 化学 | `chem-probe/` | `node chem-probe/probe.mjs` | 退出码 0；假空 38/39（97.4%），由 PubChem 裁决 |
+| 基因 | `gene-probe/` | `node gene-probe/verify-gene-probe.mjs` | 8/8，**退出码 0** |
+| 化学 | `chem-probe/` | `node chem-probe/verify-chem-probe.mjs` | 8/8，**退出码 0** |
+| 文献连接 | `lbd-probe/` | `node lbd-probe/verify-lbd-probe.mjs` | 9/9，**退出码 0** |
+| 趋势口径 | `trend-probe/` | `node trend-probe/verify-trend-probe.mjs` | 6/6，**退出码 0**；`scale/` 子集 30/30 |
+| 文献复核 | `lit-recheck/` | `node lit-recheck/verify-lit-recheck.mjs` | 5/5，**退出码 0** |
+| 领域测绘 | `field-map/` | `node field-map/verify-field-map.mjs` | 8/8，**退出码 0** |
 
 复刻的是同一个操作化错误，不是同一段代码。
 
-### 三条必须说清楚的口径
+### 必须说清楚的口径
 
-1. **五个学科里只有三个带独立判据套件**（材料 / 天文 / 组合）。基因与化学目前只有探针与结果，
-   没有 `verify-*.mjs`，所以它们报的是假空率，不是「退出码 2 的整轮作废」。
+1. **九学科合计 44 条实跑判据全绿**（六学科）+ **材料/天文/组合三学科各自的阳性对照判死自己**（设计如此，退出码 2 不是故障）。**44 条全绿 ≠ 44 项科学发现**：除材料（gap-probe）与趋势口径（trend-probe/scale）外，其余学科目前是同一方法论的横向健壮性证据，不是独立科学发现，这条界线主动画出来。
 2. **假空率不可外推。** 对照不是随机抽样，是特意挑的教科书级实体。
-   3/12、22/28、38/39 只对各自那批对照成立。
+   3/12（材料）等数字只对各自那批对照成立。
 3. **`sky-probe/probe.mjs` 会打印「假空率 = 90/93 = 96.8%」——不要引用这个数。**
    我们自己的事故记录已判它无效：查询串按构造全部取自别名，**分母是自己造的**。
    该学科可引用的是判据套件给的 8/8 击穿 + 退出码 2。
@@ -100,7 +106,9 @@ Node.js，无第三方运行时依赖，**无 GPU**，普通笔记本分钟级�
 
 - `gap-probe/REPORT2.md` 第 17 行写「假空率 12 个里 4 个」，**实跑是 3 个**。
   以 `node gap-probe/verify-gap-probe.mjs` 的判决行为准。
-- 基因 / 化学两个学科缺 `verify-*.mjs`，见上文口径第 1 条。
+- `trend-probe/trend.mjs`（原始数据抓取脚本，非判据脚本）无 `.secrets/apikeys.env` 时会直接报错退出——
+  这是刻意的：抓新数据必须显式配置 key，不允许静默用旧缓存冒充新查询。**评委复现不需要跑这个脚本**，
+  `verify-trend-probe.mjs` 只读已落盘的 `result.json`，不依赖它。
 
 ## 许可证
 

@@ -1,0 +1,282 @@
+[
+  {
+    "a": "aspirin",
+    "c": "headache",
+    "relation": "aspirin relieves headache",
+    "why_textbook": "解热镇痛的教科书首例；1899 年拜耳上市，任何药理学入门教材第一章",
+    "established_before": 1899
+  },
+  {
+    "a": "penicillin",
+    "c": "syphilis",
+    "relation": "penicillin treats syphilis",
+    "why_textbook": "青霉素治疗梅毒是抗生素药理学与性病学教材的经典章节，1943 年 Mahoney 首次证实",
+    "established_before": 1943
+  },
+  {
+    "a": "insulin",
+    "c": "diabetes mellitus",
+    "relation": "insulin treats diabetes mellitus",
+    "why_textbook": "1922 年 Banting 与 Best 首例应用；糖尿病内分泌教材开篇即胰岛素发现史",
+    "established_before": 1922
+  },
+  {
+    "a": "digoxin",
+    "c": "heart failure",
+    "relation": "digoxin treats heart failure",
+    "why_textbook": "1785 年 Withering 记载洋地黄治疗水肿；强心苷-心力衰竭是心血管药理最古老条目",
+    "established_before": 1785
+  },
+  {
+    "a": "nitroglycerin",
+    "c": "angina pectoris",
+    "relation": "nitroglycerin relieves angina pectoris",
+    "why_textbook": "1879 年 Murrell 确立硝酸甘油舌下缓解心绞痛，抗心绞痛药章节首药",
+    "established_before": 1879
+  },
+  {
+    "a": "quinine",
+    "c": "malaria",
+    "relation": "quinine treats malaria",
+    "why_textbook": "金鸡纳树皮治疟疾自 17 世纪沿用，1820 年分离出奎宁；抗疟药章节必讲",
+    "established_before": 1820
+  },
+  {
+    "a": "levodopa",
+    "c": "Parkinson's disease",
+    "relation": "levodopa treats Parkinson's disease",
+    "why_textbook": "1967 年 Cotzias 证实左旋多巴疗效，帕金森病药物治疗的第一选择，神经药理教材核心",
+    "established_before": 1967
+  },
+  {
+    "a": "warfarin",
+    "c": "atrial fibrillation",
+    "relation": "warfarin reduces stroke risk in atrial fibrillation",
+    "why_textbook": "1990 年代 BAATAF/SPAF 试验确立房颤抗凝指征，心血管内科教材抗凝章节金标准",
+    "established_before": 1990
+  },
+  {
+    "a": "metformin",
+    "c": "type 2 diabetes mellitus",
+    "relation": "metformin treats type 2 diabetes mellitus",
+    "why_textbook": "1957 年 Jean Sterne 报道二甲双胍降糖，现为 2 型糖尿病一线首药，内分泌教材共识",
+    "established_before": 1957
+  },
+  {
+    "a": "isoniazid",
+    "c": "tuberculosis",
+    "relation": "isoniazid treats tuberculosis",
+    "why_textbook": "1952 年异烟肼问世，化疗抗结核三大一线药之一，呼吸/感染病教材标准方案",
+    "established_before": 1952
+  },
+  {
+    "a": "chlorpromazine",
+    "c": "schizophrenia",
+    "relation": "chlorpromazine treats schizophrenia",
+    "why_textbook": "1952 年 Delay 与 Deniker 首报，抗精神病药史的开端，精神药理学教材第一章",
+    "established_before": 1952
+  },
+  {
+    "a": "lithium",
+    "c": "bipolar disorder",
+    "relation": "lithium treats bipolar disorder",
+    "why_textbook": "1949 年 Cade 发现锂盐抗躁狂，心境稳定剂金标准，精神科教材必备条目",
+    "established_before": 1949
+  },
+  {
+    "a": "vitamin C",
+    "c": "scurvy",
+    "relation": "vitamin C deficiency causes scurvy",
+    "why_textbook": "坏血病-维生素 C 是营养学教材的经典缺失症，1932 年分离纯化定论",
+    "established_before": 1932
+  },
+  {
+    "a": "vitamin D",
+    "c": "rickets",
+    "relation": "vitamin D deficiency causes rickets",
+    "why_textbook": "1919 年发现紫外线/鱼肝油治佝偻病，维生素 D 缺乏症的代表，儿科营养教材首章",
+    "established_before": 1919
+  },
+  {
+    "a": "vitamin A",
+    "c": "night blindness",
+    "relation": "vitamin A deficiency causes night blindness",
+    "why_textbook": "1913 年发现维生素 A，夜盲症为其特征性缺乏表现，眼科/营养学教材标准内容",
+    "established_before": 1913
+  },
+  {
+    "a": "niacin",
+    "c": "pellagra",
+    "relation": "niacin deficiency causes pellagra",
+    "why_textbook": "1937 年 Elvehjem 证实烟酸治糙皮病，糙皮病是营养缺乏症教材必讲案例",
+    "established_before": 1937
+  },
+  {
+    "a": "thiamine",
+    "c": "beriberi",
+    "relation": "thiamine deficiency causes beriberi",
+    "why_textbook": "1911 年 Funk 从米糠中提取抗脚气因子，脚气病-硫胺素是维生素史起点",
+    "established_before": 1911
+  },
+  {
+    "a": "vitamin B12",
+    "c": "pernicious anemia",
+    "relation": "vitamin B12 deficiency causes pernicious anemia",
+    "why_textbook": "1948 年分离出维生素 B12，恶性贫血病因学是血液病与营养学教材共同章节",
+    "established_before": 1948
+  },
+  {
+    "a": "iron",
+    "c": "iron deficiency anemia",
+    "relation": "iron deficiency causes iron deficiency anemia",
+    "why_textbook": "缺铁性贫血是最常见的营养性贫血，贫血病因学教材第一病因",
+    "established_before": 1932
+  },
+  {
+    "a": "iodine",
+    "c": "goiter",
+    "relation": "iodine deficiency causes goiter",
+    "why_textbook": "碘缺乏致地方性甲状腺肿，1924 年加碘盐推广；内分泌/公共卫生教材必讲",
+    "established_before": 1924
+  },
+  {
+    "a": "oxytocin",
+    "c": "labor",
+    "relation": "oxytocin induces labor",
+    "why_textbook": "1906 年 Dale 发现催产素促子宫收缩，产科学教材引产药物的首选",
+    "established_before": 1906
+  },
+  {
+    "a": "melatonin",
+    "c": "sleep",
+    "relation": "melatonin regulates sleep",
+    "why_textbook": "褪黑素被称为睡眠激素，1958 年分离，生理学睡眠章节的标准内容",
+    "established_before": 1980
+  },
+  {
+    "a": "prolactin",
+    "c": "lactation",
+    "relation": "prolactin stimulates lactation",
+    "why_textbook": "1928 年 Stricker 与 Grueter 证实催乳素促泌乳，内分泌生理教材必讲",
+    "established_before": 1928
+  },
+  {
+    "a": "thyroxine",
+    "c": "basal metabolic rate",
+    "relation": "thyroxine increases basal metabolic rate",
+    "why_textbook": "1914 年 Kendall 分离甲状腺素，甲状腺激素调节基础代谢是生理学教材经典",
+    "established_before": 1914
+  },
+  {
+    "a": "cortisol",
+    "c": "stress response",
+    "relation": "cortisol mediates the stress response",
+    "why_textbook": "1936 年 Selye 提出应激学说，糖皮质激素-应激轴是生理学/内分泌学核心",
+    "established_before": 1936
+  },
+  {
+    "a": "glucagon",
+    "c": "hyperglycemia",
+    "relation": "glucagon induces hyperglycemia",
+    "why_textbook": "1923 年命名胰高血糖素，升血糖激素与胰岛素拮抗，血糖调节章节标准内容",
+    "established_before": 1923
+  },
+  {
+    "a": "Mycobacterium tuberculosis",
+    "c": "tuberculosis",
+    "relation": "Mycobacterium tuberculosis causes tuberculosis",
+    "why_textbook": "1882 年 Koch 发现结核分枝杆菌，医学微生物学教材的病原-疾病对应范例",
+    "established_before": 1882
+  },
+  {
+    "a": "Vibrio cholerae",
+    "c": "cholera",
+    "relation": "Vibrio cholerae causes cholera",
+    "why_textbook": "1883 年 Koch 分离霍乱弧菌，传染病学与微生物学教材经典病原",
+    "established_before": 1883
+  },
+  {
+    "a": "Yersinia pestis",
+    "c": "plague",
+    "relation": "Yersinia pestis causes plague",
+    "why_textbook": "1894 年 Yersin 与 Kitasato 发现鼠疫杆菌，鼠疫-鼠疫耶尔森菌写入所有微生物教材",
+    "established_before": 1894
+  },
+  {
+    "a": "Treponema pallidum",
+    "c": "syphilis",
+    "relation": "Treponema pallidum causes syphilis",
+    "why_textbook": "1905 年 Schaudinn 与 Hoffmann 发现梅毒螺旋体，性传播疾病章节必讲",
+    "established_before": 1905
+  },
+  {
+    "a": "Helicobacter pylori",
+    "c": "peptic ulcer",
+    "relation": "Helicobacter pylori causes peptic ulcer",
+    "why_textbook": "1983 年 Marshall 与 Warren 提出并获 2005 年诺奖，消化病学教材消化性溃疡病因首条",
+    "established_before": 1994
+  },
+  {
+    "a": "asbestos",
+    "c": "mesothelioma",
+    "relation": "asbestos exposure causes mesothelioma",
+    "why_textbook": "1960 年 Wagner 证实石棉与间皮瘤关联，职业医学/肿瘤病因学教材经典",
+    "established_before": 1960
+  },
+  {
+    "a": "tobacco smoke",
+    "c": "lung cancer",
+    "relation": "tobacco smoke causes lung cancer",
+    "why_textbook": "1950 年 Doll 与 Hill 的吸烟-肺癌队列研究，流行病学教材因果推断的范例",
+    "established_before": 1950
+  },
+  {
+    "a": "ethanol",
+    "c": "liver cirrhosis",
+    "relation": "ethanol causes liver cirrhosis",
+    "why_textbook": "酒精性肝硬化是消化病学教材肝病章节的经典病因，因果早已确立",
+    "established_before": 1940
+  },
+  {
+    "a": "fluoride",
+    "c": "dental caries",
+    "relation": "fluoride prevents dental caries",
+    "why_textbook": "1945 年 Grand Rapids 加氟试验确立防龋效果，口腔预防医学教材核心证据",
+    "established_before": 1945
+  },
+  {
+    "a": "folic acid",
+    "c": "neural tube defects",
+    "relation": "folic acid prevents neural tube defects",
+    "why_textbook": "1991 年 MRC 试验证实孕期补充叶酸预防神经管缺陷，围产医学教材标准建议",
+    "established_before": 1991
+  },
+  {
+    "a": "selenium",
+    "c": "Keshan disease",
+    "relation": "selenium deficiency causes Keshan disease",
+    "why_textbook": "1979 年中国学者证实克山病与缺硒关联，营养学教材微量元素缺乏的经典案例",
+    "established_before": 1979
+  },
+  {
+    "a": "dietary fiber",
+    "c": "constipation",
+    "relation": "dietary fiber relieves constipation",
+    "why_textbook": "膳食纤维促排便自 1970 年代 Burkitt 假说起即为营养学与消化科教材常规建议",
+    "established_before": 1980
+  },
+  {
+    "a": "benzene",
+    "c": "acute myeloid leukemia",
+    "relation": "benzene exposure causes acute myeloid leukemia",
+    "why_textbook": "苯致白血病 1928 年首报、1982 年 IARC 列为 1 类致癌物，职业毒理学教材标准内容",
+    "established_before": 1982
+  },
+  {
+    "a": "Streptococcus pyogenes",
+    "c": "rheumatic fever",
+    "relation": "Streptococcus pyogenes causes rheumatic fever",
+    "why_textbook": "A 族链球菌感染后风湿热，1944 年 Jones 标准确立，儿科/心血管教材经典",
+    "established_before": 1944
+  }
+]

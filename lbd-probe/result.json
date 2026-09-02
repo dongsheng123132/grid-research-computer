@@ -1,0 +1,202 @@
+{
+ "spec": "lbd-probe/0.1",
+ "prereg_sha": "12f72396d5ebcd2809c1207f54f1da801075698f112faf35ab165f5719d298b9",
+ "smoke": 8,
+ "used_api_key": false,
+ "question": "ABC 模型「A-C 查不到 → 未被发现的连接」在教科书级已知关系上的假阳性率",
+ "counts": {
+  "co_occurs": 9,
+  "no_co_occurrence": 0,
+  "unresolved": 1,
+  "error": 0
+ },
+ "false_empty_rate": 0,
+ "denominator_note": "分母只含成功解析的（co_occurs + no_co_occurrence）；unresolved 与 error 不进分母",
+ "reverse_cases": {
+  "R2_fabricated_pair": "unresolved",
+  "R2_ok": true,
+  "R3_swanson": "co_occurs"
+ },
+ "failures": [],
+ "rows": [
+  {
+   "a": "aspirin",
+   "c": "headache",
+   "relation": "aspirin relieves headache",
+   "why_textbook": "解热镇痛的教科书首例；1899 年拜耳上市，任何药理学入门教材第一章",
+   "established_before": 1899,
+   "verdict": "co_occurs",
+   "total": 20202,
+   "sample": [
+    {
+     "t": "Antithrombotic treatment for migraine in patients with patent foramen ovale: multicentre, randomised, active controlled, open label trial.",
+     "y": "2026"
+    },
+    {
+     "t": "Acephalgic retinal migraine: A 6-year follow-up case report and literature review.",
+     "y": "2026"
+    }
+   ]
+  },
+  {
+   "a": "penicillin",
+   "c": "syphilis",
+   "relation": "penicillin treats syphilis",
+   "why_textbook": "青霉素治疗梅毒是抗生素药理学与性病学教材的经典章节，1943 年 Mahoney 首次证实",
+   "established_before": 1943,
+   "verdict": "co_occurs",
+   "total": 15427,
+   "sample": [
+    {
+     "t": "Impact of standardized penicillin therapy on pregnancy outcomes in maternal syphilis: a retrospective cohort study (2013-2023).",
+     "y": "2026"
+    },
+    {
+     "t": "Single versus three doses of benzathine penicillin G for early syphilis in pregnancy: no added benefit in serological response or neonatal outcomes.",
+     "y": "2026"
+    }
+   ]
+  },
+  {
+   "a": "insulin",
+   "c": "diabetes mellitus",
+   "relation": "insulin treats diabetes mellitus",
+   "why_textbook": "1922 年 Banting 与 Best 首例应用；糖尿病内分泌教材开篇即胰岛素发现史",
+   "established_before": 1922,
+   "verdict": "co_occurs",
+   "total": 671496,
+   "sample": [
+    {
+     "t": "[THE CHARACTERISTICS OF COURSE OF PREGNANCY RESULTED FROM EXTRA-CORPOREAL IMPREGNATION AGAINST THE BACKGROUND OF GESTATIONAL DIABETES MELLITUS DEPENDING ON TERMS OF MANIFESTATION].",
+     "y": "2026"
+    },
+    {
+     "t": "Pharmacological strategies for slowing the rise of creatinine and urea nitrogen in diabetic kidney disease: A scoping review.",
+     "y": "2026"
+    }
+   ]
+  },
+  {
+   "a": "digoxin",
+   "c": "heart failure",
+   "relation": "digoxin treats heart failure",
+   "why_textbook": "1785 年 Withering 记载洋地黄治疗水肿；强心苷-心力衰竭是心血管药理最古老条目",
+   "established_before": 1785,
+   "verdict": "co_occurs",
+   "total": 21443,
+   "sample": [
+    {
+     "t": "[Digitalis for heart failure: welcome back?]",
+     "y": "2026"
+    },
+    {
+     "t": "BRASH Syndrome Unmasked: Digoxin Toxicity in the Setting of Cardiogenic Shock and Multiorgan Dysfunction.",
+     "y": "2026"
+    }
+   ]
+  },
+  {
+   "a": "nitroglycerin",
+   "c": "angina pectoris",
+   "relation": "nitroglycerin relieves angina pectoris",
+   "why_textbook": "1879 年 Murrell 确立硝酸甘油舌下缓解心绞痛，抗心绞痛药章节首药",
+   "established_before": 1879,
+   "verdict": "co_occurs",
+   "total": 6220,
+   "sample": [
+    {
+     "t": "Stable Angina",
+     "y": "2026"
+    },
+    {
+     "t": "Effect of Sublingual Nitroglycerin on Absolute Coronary Blood Flow: A Randomized Double-Blind Placebo-Controlled Mechanistic Study.",
+     "y": "2026"
+    }
+   ]
+  },
+  {
+   "a": "quinine",
+   "c": "malaria",
+   "relation": "quinine treats malaria",
+   "why_textbook": "金鸡纳树皮治疟疾自 17 世纪沿用，1820 年分离出奎宁；抗疟药章节必讲",
+   "established_before": 1820,
+   "verdict": "co_occurs",
+   "total": 18276,
+   "sample": [
+    {
+     "t": "Development of a Disease-Specific Virtual Malaria Population for Physiologically-Based Pharmacokinetic Modeling.",
+     "y": "2026"
+    },
+    {
+     "t": "Green-Synthesized Copper Oxide Nanoparticles as an Adjuvant to Quinine in Experimental Cerebral Malaria: Mechanistic and Safety Evaluation in Mice.",
+     "y": "2026"
+    }
+   ]
+  },
+  {
+   "a": "levodopa",
+   "c": "Parkinson's disease",
+   "relation": "levodopa treats Parkinson's disease",
+   "why_textbook": "1967 年 Cotzias 证实左旋多巴疗效，帕金森病药物治疗的第一选择，神经药理教材核心",
+   "established_before": 1967,
+   "verdict": "co_occurs",
+   "total": 31776,
+   "sample": [
+    {
+     "t": "Improvement in Quality of Life and Non-Motor Symptoms Associated With OFF Episodes in People With Parkinson's Disease Treated With Inhaled Levodopa.",
+     "y": "2026"
+    },
+    {
+     "t": "Freezing of Gait Levodopa Response Pattern in Parkinson's Disease Provides Clues to Pathophysiology.",
+     "y": "2026"
+    }
+   ]
+  },
+  {
+   "a": "warfarin",
+   "c": "atrial fibrillation",
+   "relation": "warfarin reduces stroke risk in atrial fibrillation",
+   "why_textbook": "1990 年代 BAATAF/SPAF 试验确立房颤抗凝指征，心血管内科教材抗凝章节金标准",
+   "established_before": 1990,
+   "verdict": "co_occurs",
+   "total": 33779,
+   "sample": [
+    {
+     "t": "Real-world comparative safety and effectiveness of rivaroxaban versus warfarin in patients with non-valvular atrial fibrillation: a prospective cohort study.",
+     "y": "2026"
+    },
+    {
+     "t": "Comparative outcomes of direct oral anticoagulants versus warfarin in patients with atrial fibrillation and liver cirrhosis: A propensity score matched TriNetX analysis.",
+     "y": "2026"
+    }
+   ]
+  },
+  {
+   "a": "fish oil",
+   "c": "Raynaud's syndrome",
+   "relation": "Swanson 1986 · 已被临床证实",
+   "_r3": true,
+   "verdict": "co_occurs",
+   "total": 24,
+   "sample": [
+    {
+     "t": "Platelet-derived extracellular vesicles in cardiovascular disease and treatment - from maintaining homeostasis to targeted drug delivery.",
+     "y": "2025"
+    },
+    {
+     "t": "Out of the Blue: A Case of Blue Subungual Discoloration Associated with Prolonged Tetracycline Use.",
+     "y": "2020"
+    }
+   ]
+  },
+  {
+   "a": "Zorbaxine",
+   "c": "Kleptophagia",
+   "relation": "故意编造，用于反向判据",
+   "_r2": true,
+   "verdict": "unresolved",
+   "total": 0,
+   "sample": []
+  }
+ ]
+}

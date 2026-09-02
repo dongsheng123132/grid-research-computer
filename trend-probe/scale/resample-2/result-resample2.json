@@ -1,0 +1,31 @@
+{
+ "spec": "trend-scale/resample-2.0",
+ "run_status": "blocked_before_dataset",
+ "source": "OpenAlex",
+ "retrieval_attempt_date": "2026-09-02",
+ "prereg_sha256": "00f043984d88c8d729e8e4450a83aeaed8e4f1275d224e9d2980682e8796c700",
+ "planned_sampling": {
+  "seed": "trend-scale-resample2-20260902",
+  "frame": "../topics.json",
+  "frame_sha256": "7df1bf6f2a819bbbc9c22483894188e61384bcb69b63f6ce8802a2b29b2b15c9",
+  "population_size": 4516,
+  "sample_size": 500,
+  "time_slice": "publication_year:2015-2024"
+ },
+ "api_attempts": {
+  "sample_queries_sent": 0,
+  "successful_sample_queries": 0,
+  "failure_reason": "The execution sandbox could not establish an HTTPS connection to api.openalex.org. Direct Node fetch and Node fetch with HTTPS_PROXY=http://127.0.0.1:7897 both returned TypeError: fetch failed. curl via that proxy returned curl (35) schannel AcquireCredentialsHandle failed: SEC_E_NO_CREDENTIALS. The available web reader could retrieve only the base endpoint and rejected parameterized OpenAlex API URLs as unsafe, so it cannot substitute for the reproducible query script.",
+  "network_probe_results": [
+   {"method": "node fetch, direct", "result": "TypeError: fetch failed"},
+   {"method": "node fetch, NODE_USE_ENV_PROXY=1 and HTTPS_PROXY=http://127.0.0.1:7897", "result": "TypeError: fetch failed"},
+   {"method": "curl through http://127.0.0.1:7897", "result": "curl (35): SEC_E_NO_CREDENTIALS"}
+  ]
+ },
+ "states": null,
+ "stats": null,
+ "ci": null,
+ "prediction_outcomes": null,
+ "rows": [],
+ "interpretation": "No resample statistics exist. This file is an honest blocked-run record, not a zero-result dataset; it must not be compared numerically with the original experiment."
+}

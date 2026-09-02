@@ -1,0 +1,155 @@
+{
+ "\"aspirin\" AND \"headache\"": {
+  "status": "ok",
+  "total": 20202,
+  "synonym_expansion": false,
+  "sample": [
+   {
+    "t": "Antithrombotic treatment for migraine in patients with patent foramen ovale: multicentre, randomised, active controlled, open label trial.",
+    "y": "2026"
+   },
+   {
+    "t": "Acephalgic retinal migraine: A 6-year follow-up case report and literature review.",
+    "y": "2026"
+   }
+  ]
+ },
+ "\"penicillin\" AND \"syphilis\"": {
+  "status": "ok",
+  "total": 15427,
+  "synonym_expansion": false,
+  "sample": [
+   {
+    "t": "Impact of standardized penicillin therapy on pregnancy outcomes in maternal syphilis: a retrospective cohort study (2013-2023).",
+    "y": "2026"
+   },
+   {
+    "t": "Single versus three doses of benzathine penicillin G for early syphilis in pregnancy: no added benefit in serological response or neonatal outcomes.",
+    "y": "2026"
+   }
+  ]
+ },
+ "\"insulin\" AND \"diabetes mellitus\"": {
+  "status": "ok",
+  "total": 671496,
+  "synonym_expansion": false,
+  "sample": [
+   {
+    "t": "[THE CHARACTERISTICS OF COURSE OF PREGNANCY RESULTED FROM EXTRA-CORPOREAL IMPREGNATION AGAINST THE BACKGROUND OF GESTATIONAL DIABETES MELLITUS DEPENDING ON TERMS OF MANIFESTATION].",
+    "y": "2026"
+   },
+   {
+    "t": "Pharmacological strategies for slowing the rise of creatinine and urea nitrogen in diabetic kidney disease: A scoping review.",
+    "y": "2026"
+   }
+  ]
+ },
+ "\"digoxin\" AND \"heart failure\"": {
+  "status": "ok",
+  "total": 21443,
+  "synonym_expansion": false,
+  "sample": [
+   {
+    "t": "[Digitalis for heart failure: welcome back?]",
+    "y": "2026"
+   },
+   {
+    "t": "BRASH Syndrome Unmasked: Digoxin Toxicity in the Setting of Cardiogenic Shock and Multiorgan Dysfunction.",
+    "y": "2026"
+   }
+  ]
+ },
+ "\"nitroglycerin\" AND \"angina pectoris\"": {
+  "status": "ok",
+  "total": 6220,
+  "synonym_expansion": false,
+  "sample": [
+   {
+    "t": "Stable Angina",
+    "y": "2026"
+   },
+   {
+    "t": "Effect of Sublingual Nitroglycerin on Absolute Coronary Blood Flow: A Randomized Double-Blind Placebo-Controlled Mechanistic Study.",
+    "y": "2026"
+   }
+  ]
+ },
+ "\"quinine\" AND \"malaria\"": {
+  "status": "ok",
+  "total": 18276,
+  "synonym_expansion": false,
+  "sample": [
+   {
+    "t": "Development of a Disease-Specific Virtual Malaria Population for Physiologically-Based Pharmacokinetic Modeling.",
+    "y": "2026"
+   },
+   {
+    "t": "Green-Synthesized Copper Oxide Nanoparticles as an Adjuvant to Quinine in Experimental Cerebral Malaria: Mechanistic and Safety Evaluation in Mice.",
+    "y": "2026"
+   }
+  ]
+ },
+ "\"levodopa\" AND \"Parkinson's disease\"": {
+  "status": "ok",
+  "total": 31776,
+  "synonym_expansion": false,
+  "sample": [
+   {
+    "t": "Improvement in Quality of Life and Non-Motor Symptoms Associated With OFF Episodes in People With Parkinson's Disease Treated With Inhaled Levodopa.",
+    "y": "2026"
+   },
+   {
+    "t": "Freezing of Gait Levodopa Response Pattern in Parkinson's Disease Provides Clues to Pathophysiology.",
+    "y": "2026"
+   }
+  ]
+ },
+ "\"warfarin\" AND \"atrial fibrillation\"": {
+  "status": "ok",
+  "total": 33779,
+  "synonym_expansion": false,
+  "sample": [
+   {
+    "t": "Real-world comparative safety and effectiveness of rivaroxaban versus warfarin in patients with non-valvular atrial fibrillation: a prospective cohort study.",
+    "y": "2026"
+   },
+   {
+    "t": "Comparative outcomes of direct oral anticoagulants versus warfarin in patients with atrial fibrillation and liver cirrhosis: A propensity score matched TriNetX analysis.",
+    "y": "2026"
+   }
+  ]
+ },
+ "\"fish oil\" AND \"Raynaud's syndrome\"": {
+  "status": "ok",
+  "total": 24,
+  "synonym_expansion": false,
+  "sample": [
+   {
+    "t": "Platelet-derived extracellular vesicles in cardiovascular disease and treatment - from maintaining homeostasis to targeted drug delivery.",
+    "y": "2025"
+   },
+   {
+    "t": "Out of the Blue: A Case of Blue Subungual Discoloration Associated with Prolonged Tetracycline Use.",
+    "y": "2020"
+   }
+  ]
+ },
+ "\"Zorbaxine\" AND \"Kleptophagia\"": {
+  "status": "ok",
+  "total": 0,
+  "synonym_expansion": false,
+  "sample": []
+ },
+ "\"Zorbaxine\"": {
+  "status": "ok",
+  "total": 0,
+  "synonym_expansion": false,
+  "sample": []
+ },
+ "\"Kleptophagia\"": {
+  "status": "ok",
+  "total": 0,
+  "synonym_expansion": false,
+  "sample": []
+ }
+}

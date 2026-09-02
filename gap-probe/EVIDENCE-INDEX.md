@@ -159,7 +159,7 @@ node demo/gap-probe/verify-gap-probe.mjs   # 退出码 2 = 该轮作废
 
 ### 4.3 复现与开源计划
 
-- 公开仓库：`github.com/dongsheng123132/self-attesting-evaluation`，Apache-2.0
+- 公开仓库：`github.com/dongsheng123132/grid-research-computer`，Apache-2.0（2026-09-02 更正：此前误写为 self-attesting-evaluation，那是另一无关项目）
 - 数据源全部免费公开：COD（无密钥）、Crossref（无密钥）、arXiv、OpenAlex（付费键仅用于提速，
   免费额度亦可跑，须披露）
 - 依赖：Node.js ≥ 20，核心零依赖

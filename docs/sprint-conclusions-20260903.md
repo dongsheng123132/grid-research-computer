@@ -89,3 +89,10 @@ cat D:/tmp/quxiang-longtask/events.jsonl
 - 定案报告/动作单/答辩卡：`D:\tmp\quxiang-longtask\branches\`
 - 会审原始产物：`D:\tmp\quxiang-longtask\gates\`（sol-plan-r1 / opus-final / sol-final / opus-coldjudge）
 - 判据脚本：`D:\tmp\quxiang-longtask\_tools\`（与协作文档仓 05-台账/frontier-track/sprint-20260903/ 同步存档）
+
+## 附录补：pi 独立核验记录（2026-09-03 凌晨）
+
+pi (glm-5.3-flash) 对 tag `goai-round2-20260902` 的独立核验：九个探针目录顶层 verify-*.mjs
+**九行全部为「有」**，`trend-probe/scale/result.json` 在 tag 树中存在（历史 commit 留下，
+d0df8e2 快照未改动）。这从公开仓角度证实了披露节的核心主张：tag 内判据脚本齐全，
+README 曾滞后只是文字问题。核验记录：任务包 gates/pi-tag-recon.txt。

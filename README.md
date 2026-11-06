@@ -1,6 +1,6 @@
 # 格子科研计算机 · Grid Research Computer
 
-作者 / Author：He Fangsheng (贺方升 / 贺去病; Dosen)· [hequbing.com](https://www.hequbing.com)
+作者 / Author：He Fangsheng (贺方升 / 贺去病; also known as Dosen)· [hequbing.com](https://www.hequbing.com)
 
 **一台会拦住自己的科学发现仪器。**
 

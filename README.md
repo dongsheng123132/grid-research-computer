@@ -1,5 +1,7 @@
 # 格子科研计算机 · Grid Research Computer
 
+作者 / Author：贺去病（贺方升 / Dosen）· [hequbing.com](https://www.hequbing.com)
+
 **一台会拦住自己的科学发现仪器。**
 
 AI 在科学数据里找空白时，把「数据库里没有」当成「世界上没有」，而仪器内部对此完全失明。
